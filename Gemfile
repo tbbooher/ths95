@@ -3,10 +3,9 @@ group :development do
   gem 'rake'
   gem 'guard'
   gem 'coffee-script'
-  gem 'rb-fsevent'
   gem 'rb-inotify'
-  gem 'compass', '0.11.5'
-  gem 'sass', '3.1.5'
+  gem 'compass'
+  gem 'sass', '3.4.8'
   gem 'guard-compass'
   gem 'guard-process'
   gem 'guard-livereload'
@@ -14,4 +13,6 @@ group :development do
   gem 'juicer'
   gem 'guard-uglify'
   gem 'therubyracer' # v8 engine
+  gem 'rb-readline'
+  gem 'bootstrap-sass'
 end

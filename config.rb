@@ -1,3 +1,5 @@
+require 'bootstrap-sass'
+
 http_path   = "/"         #root level target path
 css_dir     = "."           #targets our default style.css file at the root level of our theme
 sass_dir    = "sass"       #targets our sass directory

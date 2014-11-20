@@ -15,15 +15,27 @@
 # Like usual, the Compass configuration path are relative to the :project_path
 
 # guard 'compass', project_path: 'not_current_dir', configuration_file: 'path/to/my/compass_config.rb'
-guard :compass, configuration_file: 'config.rb'
+# guard :compass, configuration_file: 'config.rb'
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # tim adding stuff
 
 # Compile stylesheets
-#guard 'compass', :configuration_file => "config.rb" do
-#  watch(/^assets\/sass\/(.*)\.scss/)
+
+#guard 'compass', :configuration_file => "config.rb", compile_on_start: true do
+#  watch(/^sass\/(.*)\.scss/)
 #end
+
+puts "Using default guard file."
+
+  if File.exists?("./config.rb")
+    # Compile on start.
+    puts `compass compile --time --quiet`
+    # https://github.com/guard/guard-compass
+    guard :compass do
+      watch(%r{(.*)\.s[ac]ss$})
+    end
+  end
  
 #guard 'process', :name => 'Minify CSS', :command => 'juicer merge stylesheets/application.css --force -c none' do
 #  watch %r{stylesheets/application\.css}
@@ -39,8 +51,12 @@ guard :compass, configuration_file: 'config.rb'
  
 # Watch for modifications in application.css and application.js 
 # and reload the browser if so
-guard 'livereload', :apply_js_live => true, :apply_css_live => true do
-  watch(%r{.+\.css})
-  watch(%r{.+\.js})
-  watch(%r{.+\.php})
+#guard 'livereload', :apply_js_live => true, :apply_css_live => true do
+#  watch(%r{.+\.css})
+#  watch(%r{.+\.js})
+#  watch(%r{.+\.php})
+#end
+
+guard :livereload do
+    watch(%r{.+\.(css|js|html?|php|inc|theme)$})
 end
