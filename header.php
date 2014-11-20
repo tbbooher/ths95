@@ -26,24 +26,6 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<div id='mk-boxed-layout'>
-<header id="mk-header" data-height="100" data-sticky-height="55" class="modern-style-nav mk-video-holder">
-  <div class="mk-header-toolbar">
-    <div class="mk-grid header-grid"><span class="header-toolbar-contact"><i class="mk-moon-phone-3"></i>703.625.2672</span><span class="header-toolbar-contact"><i class="mk-moon-envelop"></i><a href="mailto:info@crossfitcentral.com">info@crossfitadaptation.com</a></span>
-      <div id="mk-header-social">
-        <ul>
-          <li><a class="facebook-hover" target="_blank" href="http://facebook.com/crossfitcentral"><i class="mk-jupiter-icon-facebook" alt="facebook" title="facebook"></i></a></li>
-          <li><a class="twitter-hover" target="_blank" href="http://twitter.com/crossfitcentral"><i class="mk-jupiter-icon-twitter" alt="twitter" title="twitter"></i></a></li>
-          <li><a class="vimeo-hover" target="_blank" href="https://vimeo.com/crossfitcentral"><i class="mk-jupiter-icon-vimeo" alt="vimeo" title="vimeo"></i></a></li>
-          <li><a class="youtube-hover" target="_blank" href="http://www.youtube.com/user/CrossFitCentral"><i class="mk-jupiter-icon-youtube" alt="youtube" title="youtube"></i></a></li>
-        </ul>
-        <div class="clearboth"></div>
-      </div>
-    </div>
-    <div class="clearboth"></div>
-  </div>
-</header>
-</div>
 <!--[if lt IE 8]>
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->

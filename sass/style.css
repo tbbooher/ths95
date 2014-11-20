@@ -15,41 +15,41 @@ This theme built with Twitter Bootstrap v.3. It is basic theme with basic style 
 /*
 Required WordPress CSS
 */
-
 /* @import "compass/reset"; */
-@import "bootstrap-compass";
-@import "bootstrap-variables";
-@import "bootstrap";
-
+/* line 21, sass/style.scss */
 .alignleft {
-        display: inline;
-        float: left;
-        margin-right: 1.5em;
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
 }
+
+/* line 26, sass/style.scss */
 .alignright {
-        display: inline;
-        float: right;
-        margin-left: 1.5em;
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
 }
-.bypostauthor {
-}
-.gallery-caption {
-}
-.sticky {
-}
+
+/* line 37, sass/style.scss */
 .wp-caption {
-        border: 1px solid #ccc;
-        margin-bottom: 1.5em;
-        max-width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 1.5em;
+  max-width: 100%;
 }
+
+/* line 42, sass/style.scss */
 .wp-caption img[class*="wp-image-"] {
-        display: block;
-        margin: 1.2% auto 0;
-        max-width: 98%;
+  display: block;
+  margin: 1.2% auto 0;
+  max-width: 98%;
 }
+
+/* line 47, sass/style.scss */
 .wp-caption-text {
-        text-align: center;
+  text-align: center;
 }
+
+/* line 50, sass/style.scss */
 .wp-caption .wp-caption-text {
-        margin: 0.8075em 0;
+  margin: 0.8075em 0;
 }
