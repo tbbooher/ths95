@@ -131,6 +131,7 @@ function bootstrapBasicEnqueueScripts()
 */    
 
     wp_enqueue_style('main-style', get_template_directory_uri() . '/style.css');
+    wp_enqueue_style('fontawesome-style', get_template_directory_uri() . '/font-awesome/font-awesome.min.css');    
 	wp_enqueue_script('modernizr-script', get_template_directory_uri() . '/js/vendor/modernizr.min.js');
 	wp_enqueue_script('respond-script', get_template_directory_uri() . '/js/vendor/respond.min.js');
 	wp_enqueue_script('html5-shiv-script', get_template_directory_uri() . '/js/vendor/html5shiv.js');
