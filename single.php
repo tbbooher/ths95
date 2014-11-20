@@ -1,3 +1,4 @@
+/** this is for displaying a single post page -- most likely a workout */
 <?php
 /**
  * Template for dispalying single post (read full post page).

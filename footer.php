@@ -5,12 +5,13 @@
  * @package bootstrap-basic
  */
 ?>
-
+                </div><!-- row -->
 			</div><!--.site-content-->
 			
 			
-			<footer id="site-footer" role="contentinfo">
+			<footer id="site-footer" role="contentinfo" style="background-color:red;">
 				<div id="footer-row" class="row site-footer">
+                    yeah -- tim update
 					<div class="col-md-6 footer-left">
 						<?php 
 						if (!dynamic_sidebar('footer-left')) {

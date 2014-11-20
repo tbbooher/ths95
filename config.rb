@@ -20,4 +20,3 @@ line_comments = true
 
 # Obviously
 preferred_syntax = :scss
-
