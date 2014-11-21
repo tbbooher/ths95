@@ -10881,15 +10881,14 @@ button.close {
 /* line 32, sass/_partials/_from_carousel.scss */
 .marketing .col-lg-4 {
   margin-bottom: 20px;
-  text-align: center;
 }
 
-/* line 36, sass/_partials/_from_carousel.scss */
+/* line 35, sass/_partials/_from_carousel.scss */
 .marketing h2 {
   font-weight: normal;
 }
 
-/* line 39, sass/_partials/_from_carousel.scss */
+/* line 38, sass/_partials/_from_carousel.scss */
 .marketing .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
@@ -10897,14 +10896,14 @@ button.close {
 
 /* Featurettes
 ------------------------- */
-/* line 48, sass/_partials/_from_carousel.scss */
+/* line 47, sass/_partials/_from_carousel.scss */
 .featurette-divider {
   margin: 80px 0;
   /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
-/* line 53, sass/_partials/_from_carousel.scss */
+/* line 52, sass/_partials/_from_carousel.scss */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -10915,44 +10914,44 @@ button.close {
 -------------------------------------------------- */
 @media (min-width: 768px) {
   /* Navbar positioning foo */
-  /* line 65, sass/_partials/_from_carousel.scss */
+  /* line 64, sass/_partials/_from_carousel.scss */
   .navbar-wrapper {
     margin-top: 20px;
   }
 
-  /* line 68, sass/_partials/_from_carousel.scss */
+  /* line 67, sass/_partials/_from_carousel.scss */
   .navbar-wrapper .container {
     padding-right: 15px;
     padding-left: 15px;
   }
 
-  /* line 72, sass/_partials/_from_carousel.scss */
+  /* line 71, sass/_partials/_from_carousel.scss */
   .navbar-wrapper .navbar {
     padding-right: 0;
     padding-left: 0;
   }
 
   /* The navbar becomes detached from the top, so we round the corners */
-  /* line 78, sass/_partials/_from_carousel.scss */
+  /* line 77, sass/_partials/_from_carousel.scss */
   .navbar-wrapper .navbar {
     border-radius: 4px;
   }
 
   /* Bump up size of carousel content */
-  /* line 83, sass/_partials/_from_carousel.scss */
+  /* line 82, sass/_partials/_from_carousel.scss */
   .carousel-caption p {
     margin-bottom: 20px;
     font-size: 21px;
     line-height: 1.4;
   }
 
-  /* line 89, sass/_partials/_from_carousel.scss */
+  /* line 88, sass/_partials/_from_carousel.scss */
   .featurette-heading {
     font-size: 50px;
   }
 }
 @media (min-width: 992px) {
-  /* line 95, sass/_partials/_from_carousel.scss */
+  /* line 94, sass/_partials/_from_carousel.scss */
   .featurette-heading {
     margin-top: 120px;
   }
