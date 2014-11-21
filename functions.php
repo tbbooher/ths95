@@ -174,3 +174,18 @@ require get_template_directory() . '/inc/template-functions.php';
 require get_template_directory() . '/inc/widgets/BootstrapBasicSearchWidget.php';
 require get_template_directory() . '/inc/template-widgets-hook.php';
 
+
+///**
+// * --------------------------------------------------------------
+// * Custom Posts Display
+// * --------------------------------------------------------------
+// */
+//add_filter( 'pre_get_posts', 'my_get_posts' );
+//
+//function my_get_posts( $query ) {
+//
+//	if ( is_home() && $query->is_main_query() )
+//		$query->set( 'post_type', array( 'post', 'page', 'wod', 'news_item', 'business_item' ) );
+//
+//	return $query;
+//}

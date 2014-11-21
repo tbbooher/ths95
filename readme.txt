@@ -1,7 +1,7 @@
-===Bootstrap Basic===
-Author: Vee Winch
-Author URI: http://okvee.net
-Description: Bootstrap v.3 basic theme. For build new theme based on Bootstrap.
+===Bootstrap CFA===
+Author: Tim Booher
+Author URI: http://www.theboohers.org/
+Description: Bootstrap v.3 basic theme for CrossFit Adaptation
 Text Domain: bootstrap-basic
 Domain Path: /languages/
 Tags: white, gray, light, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, front-page-post-form, post-formats, threaded-comments, translation-ready

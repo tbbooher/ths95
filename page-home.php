@@ -85,16 +85,41 @@ get_header();
 				<div class="container marketing">
                     <div class="row">
                         <div class="col-lg-4" style="background-color: green;">
-                            <h4>Workout of the Day</h4>
-                            <p>show here</p>
+                            <h3>Workout of the Day</h3>
+                            <?php
+                            $args = array( 'post_type' => 'wod', 'posts_per_page' => 1 );
+                            $loop = new WP_Query( $args );
+                            while ( $loop->have_posts() ) : $loop->the_post();
+                              the_title( '<h4>', '</h4>');
+                              echo '<div class="entry-content">';
+                              the_content();
+                              echo '</div>';
+                            endwhile;
+                            ?>
                         </div>
                         <div class="col-lg-4">
-                            <h4>Elements Program and Memberships</h4>
-                            <p>Post elements data here</p>
+                            <?php
+                            $args = array( 'post_type' => 'business_item', 'posts_per_page' => 1 );
+                            $loop = new WP_Query( $args );
+                            while ( $loop->have_posts() ) : $loop->the_post();
+                              the_title( '<h3>', '</h3>' );
+                              echo '<div class="entry-content">';
+                              the_content();
+                              echo '</div>';
+                            endwhile;
+                            ?>
                         </div>
                         <div class="col-lg-4">
-                            <h4>Latest news</h4>
-                            <p>Display latest news here</p>
+                            <?php
+                            $args = array( 'post_type' => 'news_item', 'posts_per_page' => 1 );
+                            $loop = new WP_Query( $args );
+                            while ( $loop->have_posts() ) : $loop->the_post();
+                              the_title( '<h3>', '</h3>' );
+                              echo '<div class="entry-content">';
+                              the_content();
+                              echo '</div>';
+                            endwhile;
+                            ?>
                         </div>                        
                     </div>
                 </div>
