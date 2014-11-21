@@ -12,7 +12,7 @@
 	</div><!-- .entry-content -->
 	
 	<footer class="entry-meta">
-        Email <a href="<?php get_post_meta(the_ID(), 'email', true) ?>"><?php the_title(); ?></a>
+        Email <a href="<?php get_post_meta(get_the_ID(), 'email', true) ?>"><?php the_title(); ?></a>
         <?php bootstrapBasicEditPostLink(); ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->
