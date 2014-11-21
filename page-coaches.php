@@ -33,6 +33,16 @@ get_header();
 						} //endwhile;
 						?> 
 					</main>
+                    <!-- now display coaches -->
+                    <div id="coach-list">
+                        <?php
+                        $args = array( 'post_type' => 'coach', 'posts_per_page' => 20 );
+                        $loop = new WP_Query( $args );
+                        while ( $loop->have_posts() ) : $loop->the_post();
+                            get_template_part('content', 'coach');
+                        endwhile;
+                        ?>
+                    </div>
 				</div>
                 <div class="col-md-4 content-area" id="main-column">
                     <h3>Upcoming Events</h3>
