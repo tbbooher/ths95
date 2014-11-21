@@ -25,7 +25,7 @@ get_header();
                         <div class="carousel-caption">
                           <h1>Cool Picture and Content</h1>
                           <p>This is where awesome happens!</p>
-                          <p><a class="btn btn-lg btn-primary" href="/getting-started/" role="button">Sign up today</a></p>
+                          <p><a class="btn btn-lg btn-primary" href="<?php echo site_url('getting-started'); ?>" role="button">Sign up today</a></p>
                         </div>
                       </div>
                     </div>
@@ -35,7 +35,7 @@ get_header();
                         <div class="carousel-caption">
                           <h1>Another example headline.</h1>
                           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                          <p><a class="btn btn-lg btn-primary" href="/getting-started/" role="button">Learn more</a></p>
+                          <p><a class="btn btn-lg btn-primary" href="<?php echo site_url('getting-started'); ?>" role="button">Learn more</a></p>
                         </div>
                       </div>
                     </div>
@@ -45,7 +45,7 @@ get_header();
                         <div class="carousel-caption">
                           <h1>One more for good measure.</h1>
                           <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                          <p><a class="btn btn-lg btn-primary" href="/getting-started/" role="button">Browse gallery</a></p>
+                          <p><a class="btn btn-lg btn-primary" href="<?php echo site_url('getting-started'); ?>" role="button">Browse gallery</a></p>
                         </div>
                       </div>
                     </div>
@@ -65,14 +65,6 @@ get_header();
                             <img src="http://placehold.it/300x300" />
                         </div>
                         <div class="col-lg-8">
-                            <h2>Free Workout</h2>
-                            <p>Every saturday at noon . . .</p>
-                        </div>                      
-                    </div>
-                </div>
-				<div class="container marketing">
-                    <div class="row">
-                        <div class="col-lg-4" style="background-color: green;">
                                 <?php 
                                 while (have_posts()) {
                                     the_post();
@@ -87,6 +79,14 @@ get_header();
                                     echo "\n\n";
                                 } //endwhile;
                                 ?>
+                        </div>                      
+                    </div>
+                </div>
+				<div class="container marketing">
+                    <div class="row">
+                        <div class="col-lg-4" style="background-color: green;">
+                            <h4>Workout of the Day</h4>
+                            <p>show here</p>
                         </div>
                         <div class="col-lg-4">
                             <h4>Elements Program and Memberships</h4>
