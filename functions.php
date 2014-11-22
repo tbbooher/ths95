@@ -36,6 +36,7 @@ function bootstrapBasicSetup()
 	// add support menu
 	register_nav_menus(array(
 		'primary' => __('Primary Menu', 'bootstrap-basic'),
+        'member_menu' => __('Member Menu', 'bootstrap-basic')
 	));
 	
 	// add post formats support

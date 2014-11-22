@@ -42,16 +42,7 @@
             <a href="support@fifothemes.com"><i class="fa fa-envelope"></i> Email : info@crossfitadaptation.com</a>
          </div>
          <div class="follow-us pull-right">
-            <ul class="social pull-left">
-               <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li class="rss"><a href="#"><i class="fa fa-rss"></i></a></li>
-            </ul>
-            <div id="search-form" class="pull-right">
-               <form action="#" method="get">
-                  <input type="text" class="search-text-box" placeholder="Search...">
-               </form>
-            </div>
+             <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
          </div>
       </div>
    </div>
