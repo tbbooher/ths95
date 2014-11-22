@@ -11077,38 +11077,48 @@ button.close {
 }
 
 /* line 29, sass/style.scss */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 33, sass/style.scss */
+h1, h2, h3, h4, h5 {
+  font-family: 'Lora', serif;
+}
+
+/* line 37, sass/style.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-/* line 35, sass/style.scss */
+/* line 43, sass/style.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-/* line 43, sass/style.scss */
+/* line 51, sass/style.scss */
 .wp-caption {
   border: 1px solid #ccc;
   margin-bottom: 1.5em;
   max-width: 100%;
 }
-/* line 47, sass/style.scss */
+/* line 55, sass/style.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 1.2% auto 0;
   max-width: 98%;
 }
 
-/* line 54, sass/style.scss */
+/* line 62, sass/style.scss */
 .wp-caption-text {
   text-align: center;
 }
 
-/* line 58, sass/style.scss */
+/* line 66, sass/style.scss */
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }

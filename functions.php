@@ -167,6 +167,10 @@ require get_template_directory() . '/inc/BootstrapBasicMyWalkerNavMenu.php';
  */
 require get_template_directory() . '/inc/template-functions.php';
 
+/**
+ * Sub-page functions
+ */
+/* ?? */
 
 /**
  * --------------------------------------------------------------

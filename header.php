@@ -24,6 +24,8 @@
 <meta name="viewport" content="width=device-width">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+    
+<link href='http://fonts.googleapis.com/css?family=Lato:400,900|Lora:400,700' rel='stylesheet' type='text/css'>    
 
 <!--wordpress head-->
 <?php wp_head(); ?>

@@ -26,6 +26,14 @@ Required WordPress CSS
 @import "_partials/_from_carousel";
 @import "_partials/_header_and_footer";
 
+body {    
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Lora', serif;
+}
+
 .alignleft {
   display: inline;
   float: left;
