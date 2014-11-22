@@ -10956,12 +10956,7 @@ button.close {
     margin-top: 120px;
   }
 }
-/* line 1, sass/_partials/_footer.scss */
-#site-footer {
-  background-color: black;
-}
-
-/* line 1, sass/_partials/_header.scss */
+/* line 1, sass/_partials/_header_and_footer.scss */
 .top-bar {
   width: 100%;
   min-height: 30px;
@@ -10969,12 +10964,25 @@ button.close {
   border-bottom: 1px solid #414f5a;
   padding: 7px 0;
   line-height: 38px;
+  font-size: 14px;
 }
-/* line 8, sass/_partials/_header.scss */
+/* line 9, sass/_partials/_header_and_footer.scss */
+.top-bar .phone-email {
+  padding: 3px 0;
+}
+/* line 11, sass/_partials/_header_and_footer.scss */
+.top-bar .phone-email i {
+  margin-right: 7px;
+}
+/* line 14, sass/_partials/_header_and_footer.scss */
+.top-bar .phone-email a {
+  margin-right: 20px;
+}
+/* line 18, sass/_partials/_header_and_footer.scss */
 .top-bar a {
   color: white;
 }
-/* line 10, sass/_partials/_header.scss */
+/* line 20, sass/_partials/_header_and_footer.scss */
 .top-bar a .fa {
   display: inline-block;
   font-family: FontAwesome;
@@ -10984,34 +10992,21 @@ button.close {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* line 19, sass/_partials/_header.scss */
+/* line 29, sass/_partials/_header_and_footer.scss */
 .top-bar a .fa-phone:before {
   content: "\f095";
 }
-/* line 22, sass/_partials/_header.scss */
+/* line 32, sass/_partials/_header_and_footer.scss */
 .top-bar a .fa-envelope:before {
   content: "\f0e0";
 }
 
-/* line 43, sass/_partials/_header.scss */
-.phone-email {
-  padding: 3px 0;
-}
-/* line 45, sass/_partials/_header.scss */
-.phone-email i {
-  margin-right: 7px;
-}
-/* line 48, sass/_partials/_header.scss */
-.phone-email a {
-  margin-right: 20px;
-}
-
-/* line 54, sass/_partials/_header.scss */
+/* line 54, sass/_partials/_header_and_footer.scss */
 .follow-us .social {
   margin-right: 4px;
   line-height: 44px;
 }
-/* line 57, sass/_partials/_header.scss */
+/* line 57, sass/_partials/_header_and_footer.scss */
 .follow-us .social li {
   background-color: transparent;
   border: 2px solid #fafafa;
@@ -11032,39 +11027,39 @@ button.close {
   cursor: pointer;
 }
 
-/* line 30, sass/style.scss */
+/* line 29, sass/style.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-/* line 36, sass/style.scss */
+/* line 35, sass/style.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-/* line 44, sass/style.scss */
+/* line 43, sass/style.scss */
 .wp-caption {
   border: 1px solid #ccc;
   margin-bottom: 1.5em;
   max-width: 100%;
 }
-/* line 48, sass/style.scss */
+/* line 47, sass/style.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 1.2% auto 0;
   max-width: 98%;
 }
 
-/* line 55, sass/style.scss */
+/* line 54, sass/style.scss */
 .wp-caption-text {
   text-align: center;
 }
 
-/* line 59, sass/style.scss */
+/* line 58, sass/style.scss */
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
