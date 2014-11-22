@@ -24,6 +24,8 @@ Required WordPress CSS
 @import "font-awesome-compass";
 @import "font-awesome";
 @import "_partials/_from_carousel";
+@import "_partials/_footer";
+@import "_partials/_header";
 
 .alignleft {
   display: inline;
@@ -37,7 +39,7 @@ Required WordPress CSS
   margin-left: 1.5em;
 }
 
-.bypostauthor!, .gallery-caption!, .sticky! {}
+.bypostauthor, .gallery-caption, .sticky! {}
 
 .wp-caption {
   border: 1px solid #ccc;

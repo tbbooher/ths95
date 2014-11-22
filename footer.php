@@ -9,7 +9,7 @@
 			</div><!--.site-content-->
 			
 			
-			<footer id="site-footer" role="contentinfo" style="background-color:red;">
+			<footer id="site-footer" role="contentinfo">
 				<div id="footer-row" class="row site-footer">
                     yeah -- tim update
 					<div class="col-md-6 footer-left">

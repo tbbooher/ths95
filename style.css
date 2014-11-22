@@ -10956,39 +10956,115 @@ button.close {
     margin-top: 120px;
   }
 }
-/* line 28, sass/style.scss */
+/* line 1, sass/_partials/_footer.scss */
+#site-footer {
+  background-color: black;
+}
+
+/* line 1, sass/_partials/_header.scss */
+.top-bar {
+  width: 100%;
+  min-height: 30px;
+  background: #272727;
+  border-bottom: 1px solid #414f5a;
+  padding: 7px 0;
+  line-height: 38px;
+}
+/* line 8, sass/_partials/_header.scss */
+.top-bar a {
+  color: white;
+}
+/* line 10, sass/_partials/_header.scss */
+.top-bar a .fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 19, sass/_partials/_header.scss */
+.top-bar a .fa-phone:before {
+  content: "\f095";
+}
+/* line 22, sass/_partials/_header.scss */
+.top-bar a .fa-envelope:before {
+  content: "\f0e0";
+}
+
+/* line 43, sass/_partials/_header.scss */
+.phone-email {
+  padding: 3px 0;
+}
+/* line 45, sass/_partials/_header.scss */
+.phone-email i {
+  margin-right: 7px;
+}
+/* line 48, sass/_partials/_header.scss */
+.phone-email a {
+  margin-right: 20px;
+}
+
+/* line 54, sass/_partials/_header.scss */
+.follow-us .social {
+  margin-right: 4px;
+  line-height: 44px;
+}
+/* line 57, sass/_partials/_header.scss */
+.follow-us .social li {
+  background-color: transparent;
+  border: 2px solid #fafafa;
+  border-radius: 100% 100% 100% 100%;
+  display: inline-block;
+  height: 35px;
+  margin-right: 5px;
+  width: 35px;
+  line-height: 30px;
+  text-align: center;
+  background: transparent;
+  -webkit-transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -o-transition: background .5s ease-in-out;
+  -ms-transition: background .5s ease-in-out;
+  transition: background .5s ease-in-out;
+  padding: 1px;
+  cursor: pointer;
+}
+
+/* line 30, sass/style.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-/* line 34, sass/style.scss */
+/* line 36, sass/style.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-/* line 42, sass/style.scss */
+/* line 44, sass/style.scss */
 .wp-caption {
   border: 1px solid #ccc;
   margin-bottom: 1.5em;
   max-width: 100%;
 }
-/* line 46, sass/style.scss */
+/* line 48, sass/style.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 1.2% auto 0;
   max-width: 98%;
 }
 
-/* line 53, sass/style.scss */
+/* line 55, sass/style.scss */
 .wp-caption-text {
   text-align: center;
 }
 
-/* line 57, sass/style.scss */
+/* line 59, sass/style.scss */
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }

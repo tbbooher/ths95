@@ -35,6 +35,9 @@ get_header();
 					</main>
 				</div>
                 <div class="col-md-4 content-area" id="main-column">
+                    <div class="the_image">
+                        <?php the_post_thumbnail('medium'); ?>
+                    </div>
                     <h3>Upcoming Events</h3>
                     <div style="background-color: orange">
                     <?php

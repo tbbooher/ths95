@@ -59,7 +59,7 @@ get_header();
                     <span class="sr-only">Next</span>
                   </a>
                 </div>
-				<div class="container" style="background-color: gray;">
+				<div class="container">
                     <div class="row">
                         <div class="col-lg-4">
                             <img src="http://placehold.it/300x300" />
@@ -84,7 +84,7 @@ get_header();
                 </div>
 				<div class="container marketing">
                     <div class="row">
-                        <div class="col-lg-4" style="background-color: green;">
+                        <div class="col-lg-4"> 
                             <h3>Workout of the Day</h3>
                             <?php
                             $args = array( 'post_type' => 'wod', 'posts_per_page' => 1 );
