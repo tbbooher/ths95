@@ -62,13 +62,13 @@
           <div class="footer-bottom">
             <div class="container">
               <div class="row">
-                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 "> © Copyright 2014 by <a style="cursor: pointer;">CFA</a>. All Rights Reserved. </div>
+                <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">
+                    © Copyright 2014 by <a style="cursor: pointer;">CFA</a>. All Rights Reserved.
+                </div>
                 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">
                   <ul class="social social-icons-footer-bottom">
                     <li class="facebook"><a data-toggle="tooltip" title="" style="cursor: pointer;" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
                     <li class="twitter"><a data-toggle="tooltip" title="" style="cursor: pointer;" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li class="dribbble"><a data-toggle="tooltip" title="" style="cursor: pointer;" data-original-title="Dribble"><i class="fa fa-dribbble"></i></a></li>
-                    <li class="linkedin"><a data-toggle="tooltip" title="" style="cursor: pointer;" data-original-title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
                     <li class="rss"><a data-toggle="tooltip" title="" style="cursor: pointer;" data-original-title="Rss"><i class="fa fa-rss"></i></a></li>
                   </ul>
                 </div>

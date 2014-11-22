@@ -48,23 +48,20 @@
     margin: 4px 0 0;
 }
 
-
-
-//@media (min-width: 980px) {
-//    .top-bar .collapse {
-//        display: block !important;
-//        height: auto !important;
-//        overflow: visible !important;
-//        padding-bottom: 0;
-//    }
-//}
-
-//@media (min-width: 1200px) {
-//    .container {
-//        width: 1170px;
-//    }
-//}
 /* %%%%% FOOTER WORK %%%%% */
+
+#footer {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    padding: 0;
+    margin: 0;
+  }
+}
+
 .footer-top {
     background: #252C34;
     border-bottom: 1px solid #414f5a;
@@ -94,11 +91,80 @@
     }
 }
 
-.follow-us {
+.footer-bottom {
+    background: #272727;
+    color: #888;
+    line-height: 38px;
+    padding: 15px;
+    a {
+        color: #fff;
+    }
+    .our-clients ul {
+      list-style: none;
+    }
+
     .social {
-        margin-right: 4px;
-        line-height: 44px;   
+      margin-right: 4px;
+      line-height: 44px;
+      li:last-child {
+        margin-right: 0 !important;
+      }
+      margin-right: 0 !important;
+      li {
+          background-color: transparent;
+          border: 2px solid #fafafa;
+          border-radius: 100% 100% 100% 100%;
+          display: inline-block;
+          height: 35px;
+          margin-right: 5px;
+          width: 35px;
+          line-height: 30px;
+          text-align: center;
+          background: transparent;
+          -webkit-transition: background .5s ease-in-out;
+          -moz-transition: background .5s ease-in-out;
+          -o-transition: background .5s ease-in-out;
+          -ms-transition: background .5s ease-in-out;
+          transition: background .5s ease-in-out;
+          padding: 1px;
+          cursor: pointer;
+        }
+    }
+
+    .social-icons-footer-bottom {
+      float: right;
+      margin: 6px 0 0;
         li {
+            display: inline;
+            float: left;
+            margin-right: 7px !important;
+            list-style: none;
+            -webkit-transition: all .2s ease-in-out 0;
+            -moz-transition: all .2s ease-in-out 0;
+            -o-transition: all .2s ease-in-out 0;
+            -ms-transition: all .2s ease-in-out 0;
+            transition: all .2s ease-in-out 0;
+            i {
+                display: inline-block;
+                font-family: FontAwesome;
+                font-size: 13px;
+                font-style: normal;
+                font-variant: normal;
+                font-weight: 400;
+                line-height: 16px;
+                padding-top: 0;
+                text-align: center;
+                text-decoration: inherit;
+                text-transform: none;
+            }
+        }
+    }
+}
+
+.social {
+    margin-right: 4px;
+    line-height: 44px;   
+    li {
         background-color: transparent;
         border: 2px solid #fafafa;
         border-radius: 100% 100% 100% 100%;
@@ -116,10 +182,5 @@
         transition: background .5s ease-in-out;
         padding: 1px;
         cursor: pointer;
-        }
     }
 }
-
-
-
-#search-form {}

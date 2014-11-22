@@ -11015,48 +11015,137 @@ button.close {
 }
 
 /* %%%%% FOOTER WORK %%%%% */
-/* line 68, sass/_partials/_header_and_footer.scss */
+/* line 54, sass/_partials/_header_and_footer.scss */
+#footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 59, sass/_partials/_header_and_footer.scss */
+#footer li {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 65, sass/_partials/_header_and_footer.scss */
 .footer-top {
   background: #252C34;
   border-bottom: 1px solid #414f5a;
   color: #A1A1A1;
   padding: 50px 0;
 }
-/* line 73, sass/_partials/_header_and_footer.scss */
+/* line 70, sass/_partials/_header_and_footer.scss */
 .footer-top h3, .footer-top a {
   color: white;
 }
-/* line 76, sass/_partials/_header_and_footer.scss */
+/* line 73, sass/_partials/_header_and_footer.scss */
 .footer-top ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 81, sass/_partials/_header_and_footer.scss */
+/* line 78, sass/_partials/_header_and_footer.scss */
 .footer-top .contact-us {
   margin: 15px 0 0;
   background: url("img/contact-map.png") no-repeat center bottom;
 }
-/* line 84, sass/_partials/_header_and_footer.scss */
+/* line 81, sass/_partials/_header_and_footer.scss */
 .footer-top .contact-us p {
   line-height: 24px;
   margin-left: 20px;
   margin-top: -2px;
 }
-/* line 89, sass/_partials/_header_and_footer.scss */
+/* line 86, sass/_partials/_header_and_footer.scss */
 .footer-top .contact-us li i {
   color: #777777;
   float: left;
   margin: 4px 0 0;
 }
 
-/* line 98, sass/_partials/_header_and_footer.scss */
-.follow-us .social {
+/* line 94, sass/_partials/_header_and_footer.scss */
+.footer-bottom {
+  background: #272727;
+  color: #888;
+  line-height: 38px;
+  padding: 15px;
+}
+/* line 99, sass/_partials/_header_and_footer.scss */
+.footer-bottom a {
+  color: #fff;
+}
+/* line 102, sass/_partials/_header_and_footer.scss */
+.footer-bottom .our-clients ul {
+  list-style: none;
+}
+/* line 106, sass/_partials/_header_and_footer.scss */
+.footer-bottom .social {
+  margin-right: 4px;
+  line-height: 44px;
+  margin-right: 0 !important;
+}
+/* line 109, sass/_partials/_header_and_footer.scss */
+.footer-bottom .social li:last-child {
+  margin-right: 0 !important;
+}
+/* line 113, sass/_partials/_header_and_footer.scss */
+.footer-bottom .social li {
+  background-color: transparent;
+  border: 2px solid #fafafa;
+  border-radius: 100% 100% 100% 100%;
+  display: inline-block;
+  height: 35px;
+  margin-right: 5px;
+  width: 35px;
+  line-height: 30px;
+  text-align: center;
+  background: transparent;
+  -webkit-transition: background .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out;
+  -o-transition: background .5s ease-in-out;
+  -ms-transition: background .5s ease-in-out;
+  transition: background .5s ease-in-out;
+  padding: 1px;
+  cursor: pointer;
+}
+/* line 134, sass/_partials/_header_and_footer.scss */
+.footer-bottom .social-icons-footer-bottom {
+  float: right;
+  margin: 6px 0 0;
+}
+/* line 137, sass/_partials/_header_and_footer.scss */
+.footer-bottom .social-icons-footer-bottom li {
+  display: inline;
+  float: left;
+  margin-right: 7px !important;
+  list-style: none;
+  -webkit-transition: all .2s ease-in-out 0;
+  -moz-transition: all .2s ease-in-out 0;
+  -o-transition: all .2s ease-in-out 0;
+  -ms-transition: all .2s ease-in-out 0;
+  transition: all .2s ease-in-out 0;
+}
+/* line 147, sass/_partials/_header_and_footer.scss */
+.footer-bottom .social-icons-footer-bottom li i {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 16px;
+  padding-top: 0;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+}
+
+/* line 164, sass/_partials/_header_and_footer.scss */
+.social {
   margin-right: 4px;
   line-height: 44px;
 }
-/* line 101, sass/_partials/_header_and_footer.scss */
-.follow-us .social li {
+/* line 167, sass/_partials/_header_and_footer.scss */
+.social li {
   background-color: transparent;
   border: 2px solid #fafafa;
   border-radius: 100% 100% 100% 100%;
