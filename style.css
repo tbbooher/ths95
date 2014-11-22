@@ -10956,7 +10956,8 @@ button.close {
     margin-top: 120px;
   }
 }
-/* line 1, sass/_partials/_header_and_footer.scss */
+/* %%%%% FOOTER WORK %%%%% */
+/* line 2, sass/_partials/_header_and_footer.scss */
 .top-bar {
   width: 100%;
   min-height: 30px;
@@ -10966,24 +10967,25 @@ button.close {
   line-height: 38px;
   font-size: 14px;
 }
-/* line 9, sass/_partials/_header_and_footer.scss */
+/* line 10, sass/_partials/_header_and_footer.scss */
 .top-bar .phone-email {
   padding: 3px 0;
 }
-/* line 11, sass/_partials/_header_and_footer.scss */
+/* line 12, sass/_partials/_header_and_footer.scss */
 .top-bar .phone-email i {
   margin-right: 7px;
 }
-/* line 14, sass/_partials/_header_and_footer.scss */
+/* line 15, sass/_partials/_header_and_footer.scss */
 .top-bar .phone-email a {
   margin-right: 20px;
 }
-/* line 18, sass/_partials/_header_and_footer.scss */
-.top-bar a {
+
+/* line 22, sass/_partials/_header_and_footer.scss */
+.footer-top a, .top-bar a {
   color: white;
 }
-/* line 20, sass/_partials/_header_and_footer.scss */
-.top-bar a .fa {
+/* line 24, sass/_partials/_header_and_footer.scss */
+.footer-top a .fa, .top-bar a .fa {
   display: inline-block;
   font-family: FontAwesome;
   font-style: normal;
@@ -10992,21 +10994,68 @@ button.close {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* line 29, sass/_partials/_header_and_footer.scss */
-.top-bar a .fa-phone:before {
+/* line 33, sass/_partials/_header_and_footer.scss */
+.footer-top a .fa-phone:before, .top-bar a .fa-phone:before {
   content: "\f095";
 }
-/* line 32, sass/_partials/_header_and_footer.scss */
-.top-bar a .fa-envelope:before {
+/* line 36, sass/_partials/_header_and_footer.scss */
+.footer-top a .fa-envelope:before, .top-bar a .fa-envelope:before {
   content: "\f0e0";
 }
+/* line 39, sass/_partials/_header_and_footer.scss */
+.footer-top a .fa-map-marker:before, .top-bar a .fa-map-marker:before {
+  content: "\f041";
+}
 
-/* line 54, sass/_partials/_header_and_footer.scss */
+/* line 45, sass/_partials/_header_and_footer.scss */
+.contact-us li i {
+  color: #777777;
+  float: left;
+  margin: 4px 0 0;
+}
+
+/* %%%%% FOOTER WORK %%%%% */
+/* line 68, sass/_partials/_header_and_footer.scss */
+.footer-top {
+  background: #252C34;
+  border-bottom: 1px solid #414f5a;
+  color: #A1A1A1;
+  padding: 50px 0;
+}
+/* line 73, sass/_partials/_header_and_footer.scss */
+.footer-top h3, .footer-top a {
+  color: white;
+}
+/* line 76, sass/_partials/_header_and_footer.scss */
+.footer-top ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 81, sass/_partials/_header_and_footer.scss */
+.footer-top .contact-us {
+  margin: 15px 0 0;
+  background: url("img/contact-map.png") no-repeat center bottom;
+}
+/* line 84, sass/_partials/_header_and_footer.scss */
+.footer-top .contact-us p {
+  line-height: 24px;
+  margin-left: 20px;
+  margin-top: -2px;
+}
+/* line 89, sass/_partials/_header_and_footer.scss */
+.footer-top .contact-us li i {
+  color: #777777;
+  float: left;
+  margin: 4px 0 0;
+}
+
+/* line 98, sass/_partials/_header_and_footer.scss */
 .follow-us .social {
   margin-right: 4px;
   line-height: 44px;
 }
-/* line 57, sass/_partials/_header_and_footer.scss */
+/* line 101, sass/_partials/_header_and_footer.scss */
 .follow-us .social li {
   background-color: transparent;
   border: 2px solid #fafafa;
