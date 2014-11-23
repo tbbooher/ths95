@@ -16,11 +16,19 @@ This theme built with Twitter Bootstrap v.3. It is basic theme with basic style 
 Required WordPress CSS
 */
 
+/* ---------------------------------- Typography and Colors ---------------------------------- */
+// fonts in logo: BITSUMISHI and MICROGRAMMA
 $background-color: #F1F2F7;
 $heading-font-color: #777777;
 $heading-font: 'Jura', sans-serif;
 $body-font: 'Lato', sans-serif;
 $logo-red: #da1f26;
+$accent: #A99588;
+$cream: #F5F2ED;
+$dark: #213440;
+$very-dark: #272727;
+$line: #CCD6D9;
+$font-on_dark: #A1A1A1;
 
 /* @import "compass/reset"; */
 @import "bootstrap-compass";

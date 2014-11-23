@@ -8,7 +8,7 @@
     width: 100%;
     min-height: 30px;
     background: #272727;
-    border-bottom: 1px solid #414f5a;
+    border-bottom: 1px solid $line;
     padding: 7px 0;
     line-height: 38px;
     font-size: 14px;
@@ -48,7 +48,7 @@
 }
 
 .contact-us li i {
-    color: #777777;
+    color: $font-on-dark;
     float: left;
     margin: 4px 0 0;
 }
@@ -68,9 +68,9 @@
 }
 
 .footer-top {
-    background: #252C34;
-    border-bottom: 1px solid #414f5a;
-    color: #A1A1A1;
+    background: $dark;
+    border-bottom: 1px solid $line;
+    color: $font-on-dark;
     padding: 50px 0;
     h3, a {
         color: white;   
@@ -97,7 +97,7 @@
 }
 
 .footer-bottom {
-    background: #272727;
+    background: $very-dark;
     color: #888;
     line-height: 38px;
     padding: 15px;

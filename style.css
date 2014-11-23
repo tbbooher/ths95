@@ -16,6 +16,7 @@ This theme built with Twitter Bootstrap v.3. It is basic theme with basic style 
 /*
 Required WordPress CSS
 */
+/* ---------------------------------- Typography and Colors ---------------------------------- */
 /* @import "compass/reset"; */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /* line 9, ../../../.rvm/gems/ruby-2.1.5@new_cfa/gems/bootstrap-sass-3.3.1.0/assets/stylesheets/bootstrap/_normalize.scss */
@@ -10968,7 +10969,7 @@ button.close {
   width: 100%;
   min-height: 30px;
   background: #272727;
-  border-bottom: 1px solid #414f5a;
+  border-bottom: 1px solid #CCD6D9;
   padding: 7px 0;
   line-height: 38px;
   font-size: 14px;
@@ -11015,7 +11016,7 @@ button.close {
 
 /* line 50, sass/_partials/_header_and_footer.scss */
 .contact-us li i {
-  color: #777777;
+  color: #A1A1A1;
   float: left;
   margin: 4px 0 0;
 }
@@ -11035,8 +11036,8 @@ button.close {
 
 /* line 70, sass/_partials/_header_and_footer.scss */
 .footer-top {
-  background: #252C34;
-  border-bottom: 1px solid #414f5a;
+  background: #213440;
+  border-bottom: 1px solid #CCD6D9;
   color: #A1A1A1;
   padding: 50px 0;
 }
@@ -11171,19 +11172,19 @@ button.close {
   cursor: pointer;
 }
 
-/* line 35, sass/style.scss */
+/* line 43, sass/style.scss */
 body {
   font-family: "Lato", sans-serif;
   background: #F1F2F7;
 }
 
-/* line 40, sass/style.scss */
+/* line 48, sass/style.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Jura", sans-serif;
   color: #777777;
 }
 
-/* line 45, sass/style.scss */
+/* line 53, sass/style.scss */
 .ch-item {
   width: 100%;
   height: 100%;
@@ -11191,16 +11192,16 @@ h1, h2, h3, h4, h5 {
   cursor: default;
 }
 
-/* line 52, sass/style.scss */
+/* line 60, sass/style.scss */
 .pad-above {
   padding-top: 40px;
 }
 
-/* line 56, sass/style.scss */
+/* line 64, sass/style.scss */
 div.content-box {
   clear: both;
 }
-/* line 58, sass/style.scss */
+/* line 66, sass/style.scss */
 div.content-box.big {
   min-height: 300px;
   border-style: solid;
@@ -11217,50 +11218,50 @@ div.content-box.big {
   -ms-transition: background .5s ease-in-out;
   transition: background .5s ease-in-out;
 }
-/* line 74, sass/style.scss */
+/* line 82, sass/style.scss */
 div.content-box .box_content {
   margin: 25px 0 0;
   padding-left: 0;
 }
 
-/* line 80, sass/style.scss */
+/* line 88, sass/style.scss */
 .bottom-pad-small {
   margin-bottom: 30px;
 }
 
-/* line 84, sass/style.scss */
+/* line 92, sass/style.scss */
 .alignleft {
   display: inline;
   float: left;
   margin-right: 1.5em;
 }
 
-/* line 90, sass/style.scss */
+/* line 98, sass/style.scss */
 .alignright {
   display: inline;
   float: right;
   margin-left: 1.5em;
 }
 
-/* line 98, sass/style.scss */
+/* line 106, sass/style.scss */
 .wp-caption {
   border: 1px solid #ccc;
   margin-bottom: 1.5em;
   max-width: 100%;
 }
-/* line 102, sass/style.scss */
+/* line 110, sass/style.scss */
 .wp-caption img[class*="wp-image-"] {
   display: block;
   margin: 1.2% auto 0;
   max-width: 98%;
 }
 
-/* line 109, sass/style.scss */
+/* line 117, sass/style.scss */
 .wp-caption-text {
   text-align: center;
 }
 
-/* line 113, sass/style.scss */
+/* line 121, sass/style.scss */
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
