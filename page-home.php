@@ -10,7 +10,7 @@ get_header();
 ?> 
 
             <!-- see http://bootstrapbay.com/blog/bootstrap-3-carousel-tutorial/ -->
-    
+            <?php /* 
             <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                   <!-- Indicators -->
                   <ol class="carousel-indicators">
@@ -59,6 +59,8 @@ get_header();
                     <span class="sr-only">Next</span>
                   </a>
                 </div>
+                */ ?>
+                <!-- end carousel -->
 				<div class="container">
                     <div class="row">
                         <div class="col-lg-4">

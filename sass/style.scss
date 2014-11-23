@@ -16,6 +16,11 @@ This theme built with Twitter Bootstrap v.3. It is basic theme with basic style 
 Required WordPress CSS
 */
 
+$background-color: #F1F2F7;
+$heading-font-color: #777777;
+$heading-font: 'Lora', serif;
+$body-font: 'Lato', sans-serif;
+
 /* @import "compass/reset"; */
 @import "bootstrap-compass";
 @import "bootstrap-variables";
@@ -27,11 +32,13 @@ Required WordPress CSS
 @import "_partials/_header_and_footer";
 
 body {    
-    font-family: 'Lato', sans-serif;
+    font-family: $body-font;
+    background: $background-color;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Lora', serif;
+    font-family: $heading-font;
+    color: $heading-font-color;
 }
 
 .alignleft {
