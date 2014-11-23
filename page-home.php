@@ -62,7 +62,20 @@ get_header();
 				<div class="container">
                     <div class="row">
                         <div class="col-lg-4">
-                            <img src="http://placehold.it/300x300" />
+                            <?php
+                                $args = array( 'post_type' => 'wod', 'posts_per_page' => 1 );
+                                $loop = new WP_Query( $args );
+                                while ( $loop->have_posts() ) :
+                                  $loop->the_post();
+                                  $title = get_the_title();
+                                  $content = get_the_content();
+                                  $image = get_the_post_thumbnail(get_the_ID(), 'medium');
+                                endwhile;
+                                if ($image == '') {
+                                    $image = '<img src="'.get_bloginfo('template_directory').'/img/Cookies.jpg">';
+                                };
+                            ?>
+                            <?php echo $image; ?>
                         </div>
                         <div class="col-lg-8">
                                 <?php 
@@ -86,16 +99,10 @@ get_header();
                     <div class="row">
                         <div class="col-lg-4"> 
                             <h3>Workout of the Day</h3>
-                            <?php
-                            $args = array( 'post_type' => 'wod', 'posts_per_page' => 1 );
-                            $loop = new WP_Query( $args );
-                            while ( $loop->have_posts() ) : $loop->the_post();
-                              the_title( '<h4>', '</h4>');
-                              echo '<div class="entry-content">';
-                              the_content();
-                              echo '</div>';
-                            endwhile;
-                            ?>
+                            <h4><?php echo $title; ?></h4>
+                            <div class="entry-content">
+                                <?php echo $content; ?>
+                            </div>
                         </div>
                         <div class="col-lg-4">
                             <?php
