@@ -1,9 +1,7 @@
 <?php
-/**
- * Template for displaying static pages
- * 
- * @package bootstrap-basic
- */
+/*
+Template Name: Program Page
+*/
 
 get_header();
 
@@ -18,7 +16,7 @@ get_header();
 						while (have_posts()) {
 							the_post();
 
-							get_template_part('content', 'page');
+							get_template_part('content', 'program');
 
 							echo "\n\n";
 							
@@ -33,18 +31,26 @@ get_header();
 						} //endwhile;
 						?> 
 					</main>
-                    <!-- now display coaches -->
-                    <div id="coach-list">
-                        <?php
-                        $args = array( 'post_type' => 'coach', 'posts_per_page' => 20 );
-                        $loop = new WP_Query( $args );
-                        while ( $loop->have_posts() ) : $loop->the_post();
-                            get_template_part('content', 'coach');
-                        endwhile;
-                        ?>
-                    </div>
 				</div>
                 <div class="col-md-4 content-area" id="main-column">
+                    <h3>Other CFA Programs</h3>
+                    <ul class="nav nav-pills nav-stacked">
+                      <?php
+                        $id = get_the_ID();
+                        $parent_id = wp_get_post_parent_id($id);
+                        $args = array(
+                            'child_of'     => $parent_id,
+                            'date_format'  => get_option('date_format'),
+                            'exclude'      => $id,
+                            'title_li'     => ''
+                        );                        
+                      ?>
+                      <?php wp_list_pages( $args ); ?>
+                      <li><a href="<?php echo get_permalink($parent_id); ?>">All Programs</a></li>
+                    </ul>
+                    <div class="the_image">
+                        <?php the_post_thumbnail('medium'); ?>
+                    </div>
                     <h3>Upcoming Events</h3>
                     <div class="content-box big ch-item bottom-pad-small">
                         <?php
@@ -60,16 +66,16 @@ get_header();
                     </div>
                     <div class="content-box big ch-item bottom-pad-small">
                     <h3>Latest News</h3>
-                    <?php
-                    $args = array( 'post_type' => 'business_item', 'posts_per_page' => 1 );
-                    $loop = new WP_Query( $args );
-                    while ( $loop->have_posts() ) : $loop->the_post();
-                      the_title( '<h4>', '</h4>' );
-                      echo '<div class="entry-content">';
-                      the_content();
-                      echo '</div>';
-                    endwhile;
-                    ?>    
+                        <?php
+                        $args = array( 'post_type' => 'business_item', 'posts_per_page' => 1 );
+                        $loop = new WP_Query( $args );
+                        while ( $loop->have_posts() ) : $loop->the_post();
+                          the_title( '<h4>', '</h4>' );
+                          echo '<div class="entry-content">';
+                          the_content();
+                          echo '</div>';
+                        endwhile;
+                        ?>    
                     </div>
                 </div>
 

@@ -10,7 +10,6 @@ get_header();
 ?> 
 
             <!-- see http://bootstrapbay.com/blog/bootstrap-3-carousel-tutorial/ -->
-    
             <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
                   <!-- Indicators -->
                   <ol class="carousel-indicators">
@@ -59,12 +58,26 @@ get_header();
                     <span class="sr-only">Next</span>
                   </a>
                 </div>
+                <!-- end carousel -->
 				<div class="container">
                     <div class="row">
-                        <div class="col-lg-4">
-                            <img src="http://placehold.it/300x300" />
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <?php
+                                $args = array( 'post_type' => 'wod', 'posts_per_page' => 1 );
+                                $loop = new WP_Query( $args );
+                                while ( $loop->have_posts() ) :
+                                  $loop->the_post();
+                                  $title = get_the_title();
+                                  $content = get_the_content();
+                                  $image = get_the_post_thumbnail(get_the_ID(), 'medium');
+                                endwhile;
+                                if ($image == '') {
+                                    $image = '<img src="'.get_bloginfo('template_directory').'/img/Cookies.jpg">';
+                                };
+                            ?>
+                            <?php echo $image; ?>
                         </div>
-                        <div class="col-lg-8">
+                        <div class="col-lg-8 col-md-8 col-sm-8">
                                 <?php 
                                 while (have_posts()) {
                                     the_post();
@@ -83,43 +96,49 @@ get_header();
                     </div>
                 </div>
 				<div class="container marketing">
-                    <div class="row">
-                        <div class="col-lg-4"> 
-                            <h3>Workout of the Day</h3>
-                            <?php
-                            $args = array( 'post_type' => 'wod', 'posts_per_page' => 1 );
-                            $loop = new WP_Query( $args );
-                            while ( $loop->have_posts() ) : $loop->the_post();
-                              the_title( '<h4>', '</h4>');
-                              echo '<div class="entry-content">';
-                              the_content();
-                              echo '</div>';
-                            endwhile;
-                            ?>
+                    <div class="row pad-above">
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="content-box big ch-item bottom-pad-small">
+                                <div class="box_content">
+                                    <h3>Workout of the Day</h3>
+                                    <h4><?php echo $title; ?></h4>
+                                    <div class="entry-content">
+                                        <?php echo $content; ?>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-4">
-                            <?php
-                            $args = array( 'post_type' => 'business_item', 'posts_per_page' => 1 );
-                            $loop = new WP_Query( $args );
-                            while ( $loop->have_posts() ) : $loop->the_post();
-                              the_title( '<h3>', '</h3>' );
-                              echo '<div class="entry-content">';
-                              the_content();
-                              echo '</div>';
-                            endwhile;
-                            ?>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="content-box big ch-item bottom-pad-small">
+                                <div class="box_content">
+                                    <?php
+                                    $args = array( 'post_type' => 'business_item', 'posts_per_page' => 1 );
+                                    $loop = new WP_Query( $args );
+                                    while ( $loop->have_posts() ) : $loop->the_post();
+                                      the_title( '<h3>', '</h3>' );
+                                      echo '<div class="entry-content">';
+                                      the_content();
+                                      echo '</div>';
+                                    endwhile;
+                                    ?>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-4">
-                            <?php
-                            $args = array( 'post_type' => 'news_item', 'posts_per_page' => 1 );
-                            $loop = new WP_Query( $args );
-                            while ( $loop->have_posts() ) : $loop->the_post();
-                              the_title( '<h3>', '</h3>' );
-                              echo '<div class="entry-content">';
-                              the_content();
-                              echo '</div>';
-                            endwhile;
-                            ?>
+                        <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="content-box big ch-item bottom-pad-small">
+                                <div class="box_content">
+                                    <?php
+                                    $args = array( 'post_type' => 'news_item', 'posts_per_page' => 1 );
+                                    $loop = new WP_Query( $args );
+                                    while ( $loop->have_posts() ) : $loop->the_post();
+                                      the_title( '<h3>', '</h3>' );
+                                      echo '<div class="entry-content">';
+                                      the_content();
+                                      echo '</div>';
+                                    endwhile;
+                                    ?>
+                                </div>>
+                            </div>
                         </div>                        
                     </div>
                 </div>

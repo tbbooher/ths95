@@ -24,6 +24,9 @@
 <meta name="viewport" content="width=device-width">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
+    
+<link href='http://fonts.googleapis.com/css?family=Lato:400,900|Lora:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
 
 <!--wordpress head-->
 <?php wp_head(); ?>
@@ -42,16 +45,7 @@
             <a href="support@fifothemes.com"><i class="fa fa-envelope"></i> Email : info@crossfitadaptation.com</a>
          </div>
          <div class="follow-us pull-right">
-            <ul class="social pull-left">
-               <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li class="rss"><a href="#"><i class="fa fa-rss"></i></a></li>
-            </ul>
-            <div id="search-form" class="pull-right">
-               <form action="#" method="get">
-                  <input type="text" class="search-text-box" placeholder="Search...">
-               </form>
-            </div>
+             <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
          </div>
       </div>
    </div>
@@ -69,7 +63,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">CrossFit Adaptation</a>
+              <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
+                  <img src="<?php echo get_bloginfo('template_directory') ?>/img/logo.png">
+              </a>
             </div>
 
             <nav class="collapse navbar-collapse navbar-primary-collapse" role="navigation">

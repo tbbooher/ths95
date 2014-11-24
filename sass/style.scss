@@ -16,6 +16,20 @@ This theme built with Twitter Bootstrap v.3. It is basic theme with basic style 
 Required WordPress CSS
 */
 
+/* ---------------------------------- Typography and Colors ---------------------------------- */
+// fonts in logo: BITSUMISHI and MICROGRAMMA
+$background-color: #F1F2F7;
+$heading-font-color: #777777;
+$heading-font: 'Jura', sans-serif;
+$body-font: 'Lato', sans-serif;
+$logo-red: #da1f26;
+$accent: #A99588;
+$cream: #F5F2ED;
+$dark: #213440;
+$very-dark: #272727;
+$line: #CCD6D9;
+$font-on_dark: #A1A1A1;
+
 /* @import "compass/reset"; */
 @import "bootstrap-compass";
 @import "bootstrap-variables";
@@ -25,6 +39,55 @@ Required WordPress CSS
 @import "font-awesome";
 @import "_partials/_from_carousel";
 @import "_partials/_header_and_footer";
+
+body {    
+    font-family: $body-font;
+    background: $background-color;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: $heading-font;
+    color: $heading-font-color;
+}
+
+.ch-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: default;
+}
+
+.pad-above {
+ padding-top: 40px;   
+}
+
+div.content-box {
+  clear: both;
+  &.big {
+    min-height: 300px;
+    border-style: solid;
+    border-width: 1px 1px 3px;
+    background: #fff;
+    border-color: transparent;
+    border-bottom-color: $logo-red;
+    padding: 0 20px 30px;
+    border-radius: 5px;
+    background: #fff;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    -ms-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+  }
+  .box_content {
+    margin: 25px 0 0;
+    padding-left: 0;
+  }
+}
+
+.bottom-pad-small {
+    margin-bottom: 30px;
+}
 
 .alignleft {
   display: inline;
