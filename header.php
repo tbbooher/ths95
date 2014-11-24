@@ -37,21 +37,21 @@
 		<![endif]-->
 
 <!-- Header Top Bar Start -->
-<div class="top-bar">
-   <div class="slidedown">
-      <div class="container">
-         <div class="phone-email pull-left">
-            <a><i class="fa fa-phone"></i> Call Us : 703.123.1234</a>
-            <a href="support@fifothemes.com"><i class="fa fa-envelope"></i> Email : info@crossfitadaptation.com</a>
-         </div>
-         <div class="follow-us pull-right">
-             <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
-         </div>
-      </div>
-   </div>
-</div>
+    <div class="top-bar">
+       <div class="slidedown">
+          <div class="container">
+             <div class="phone-email pull-left">
+                <a><i class="fa fa-phone"></i> Call Us : 703.123.1234</a>
+                <a href="info@crossfitadaptation.com"><i class="fa fa-envelope"></i> Email : info@crossfitadaptation.com</a>
+             </div>
+             <div class="follow-us pull-right">
+                 <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
+             </div>
+          </div>
+       </div>
+    </div>
 <!-- Header Top Bar End -->       
-    <div class="container page-container">
+    <div class="container page-container sticky-wrapper">
         <?php do_action('before'); ?>
 
         <header class="navbar navbar-static-top" id="top" role="banner">
@@ -63,9 +63,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
-                  <img src="<?php echo get_bloginfo('template_directory') ?>/img/logo.png">
-              </a>
+            </div>
+            <div class="logo pull-left">
+                <h1>
+                    <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
+                      <img src="<?php echo get_bloginfo('template_directory') ?>/img/logo.png">
+                    </a>
+                </h1>  
             </div>
 
             <nav class="collapse navbar-collapse navbar-primary-collapse" role="navigation">

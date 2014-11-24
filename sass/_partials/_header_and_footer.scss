@@ -1,8 +1,5 @@
 /* %%%%% FOOTER WORK %%%%% */
-#top {
- margin: 20px 0 40px;
- height: 62px;
-}
+
 
 .top-bar {
     width: 100%;
@@ -27,6 +24,52 @@
         }
     }
 }
+
+// menu styling
+
+#top {
+ margin: 20px 0 40px;
+ height: 62px;
+}
+
+/* formatting for menu nav */
+
+// this should all be cleaned up!!! -- tim
+
+.logo {
+ height: 62px;
+ h1 {
+  margin: 13px 0;   
+ }
+}
+
+.navbar-header {
+  text-align: left;
+}
+
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#current, .menu ul li a:hover, .menu ul>li:hover>a {
+    background-color: #323B44;
+}
+
+#menu-mainmenu {
+    float: right !important;
+    a {
+        color: $very-dark;
+        font-weight: 800;
+        border-top: 3px solid transparent;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;        
+    }
+}
+
+// end menu styling
 
 .footer-top, .top-bar {
     a {
