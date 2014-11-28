@@ -18,8 +18,17 @@
               <!-- Tab panes -->
               <div class="tab-content">
                 <div role="tabpanel" class="tab-pane fade in active" id="elements">
-                  <p>These classes last about one hour and are made up of two to three new skills that will be foaised on each session_ There will also be a WOD for the second portion of the class. We need to know that you can demonstrate a basic level of technical proficiency in these movements, before moving on to our membership status. This designed curriculum is necessary for all new members to our program. Mandatory completion is required, before signing up for a membership These classes teach movements for optimal safety and performance in our program. </p>
-                  
+                  <p>
+                      These classes last about one hour and are made up of two to three
+                      new skills that will be focused on each session. There will also
+                      be a WOD for the second portion of the class. We need to know that
+                      you can demonstrate a basic level of technical proficiency in these
+                      movements, before moving on to our membership status. This designed
+                      curriculum is necessary for all new members to our program.
+                      Mandatory completion is required, before signing up for a membership.
+                      These classes teach movements for optimal safety and performance
+                      in our program.
+                  </p>                  
                 </div>
                 <div role="tabpanel" class="tab-pane fade " id="membership">
                   <p>derick please update membership info</p>

@@ -14,6 +14,6 @@ group :development do
   gem 'guard-uglify'
   gem 'therubyracer' # v8 engine
   gem 'rb-readline'
-  gem 'bootstrap-sass'
-  gem 'font-awesome-sass'
+#  gem 'bootstrap-sass'
+#  gem 'font-awesome-sass'
 end

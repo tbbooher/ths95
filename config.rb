@@ -1,5 +1,5 @@
-require 'bootstrap-sass'
-require 'font-awesome-sass'
+#require 'bootstrap-sass'
+#require 'font-awesome-sass'
 
 http_path   = "/"         #root level target path
 css_dir     = "."           #targets our default style.css file at the root level of our theme
