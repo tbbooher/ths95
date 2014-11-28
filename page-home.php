@@ -110,6 +110,7 @@ get_header();
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="content-box big ch-item bottom-pad-small">
+                                <!-- BUSINESS ITEM -->
                                 <div class="box_content">
                                     <?php
                                     $args = array( 'post_type' => 'business_item', 'posts_per_page' => 1 );
@@ -126,6 +127,7 @@ get_header();
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-4">
                             <div class="content-box big ch-item bottom-pad-small">
+                                <!-- NEWS ITEM -->
                                 <div class="box_content">
                                     <?php
                                     $args = array( 'post_type' => 'news_item', 'posts_per_page' => 1 );
@@ -137,7 +139,7 @@ get_header();
                                       echo '</div>';
                                     endwhile;
                                     ?>
-                                </div>>
+                                </div>
                             </div>
                         </div>                        
                     </div>
