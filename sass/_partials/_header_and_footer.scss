@@ -4,13 +4,8 @@
 .top-bar {
     width: 100%;
     min-height: 30px;
-<<<<<<< HEAD
-    background: #c91e20;
-    border-bottom: 1px solid #414f5a;
-=======
-    background: #272727;
-    border-bottom: 1px solid $line;
->>>>>>> origin/master
+    background: $red;
+    border-bottom: 1px solid $dark-blue;
     padding: 7px 0;
     line-height: 38px;
     font-size: 14px;
@@ -47,30 +42,33 @@
   text-align: left;
 }
 
+// necessary ?
 .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
     margin-right: 0;
     margin-left: 0;
-}
-
-#current, .menu ul li a:hover, .menu ul>li:hover>a {
-    background-color: #323B44;
 }
 
 #menu-mainmenu {
     float: right !important;
     a {
         color: $very-dark;
-        font-weight: 800;
+        font-weight: 300;
         border-top: 3px solid transparent;
         display: block;
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;        
     }
+    a:hover {
+     background-color: transparent;
+     border-bottom: 2px solid $red;
+     color: $red;
+    }
 }
 
 // end menu styling
 
+// this is the user menu
 .footer-top, .top-bar {
     a {
         color: white;
@@ -92,7 +90,12 @@
         .fa-map-marker:before {
             content: "\f041";
         }
-    }    
+    }
+    .nav > li > a:hover, .nav > li > a:focus {
+        background-color: transparent;
+//     border-bottom: 1px solid white;
+        color: $line;
+    }
 }
 
 .contact-us li i {
