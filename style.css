@@ -5179,7 +5179,7 @@ tbody.collapse.in {
 @media (min-width: 768px) {
   /* line 50, sass/bootstrap/_navbar.scss */
   .navbar-collapse {
-    width: auto;
+   /* width: auto; *** removed since it is creating issues with nav bar layout; */
     border-top: 0;
     box-shadow: none;
   }
@@ -5344,6 +5344,7 @@ tbody.collapse.in {
   line-height: 20px;
 }
 @media (max-width: 767px) {
+
   /* line 244, sass/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -5371,7 +5372,7 @@ tbody.collapse.in {
 @media (min-width: 768px) {
   /* line 233, sass/bootstrap/_navbar.scss */
   .navbar-nav {
-    float: left;
+   /* float: left; *** NOt sure the purpose of this??? ***/
     margin: 0;
   }
   /* line 271, sass/bootstrap/_navbar.scss */
@@ -10987,18 +10988,30 @@ button.close {
 
 /* line 28, sass/_partials/_header_and_footer.scss */
 #top {
+  /*  **** not needed ****
   margin: 20px 0 40px;
   height: 62px;
+  */
 }
 
 /* formatting for menu nav */
 /* line 37, sass/_partials/_header_and_footer.scss */
+header {
+  margin: 2em 0;
+}
+
 .logo {
-  height: 62px;
+  margin: 0;
+  /* height: 62px; *** Not sure why? ***/
 }
 /* line 39, sass/_partials/_header_and_footer.scss */
 .logo h1 {
-  margin: 13px 0;
+  /* margin: 13px 0; **** Why? ***/
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* line 44, sass/_partials/_header_and_footer.scss */
@@ -11012,25 +11025,26 @@ button.close {
   margin-left: 0;
 }
 
-/* line 54, sass/_partials/_header_and_footer.scss */
 #menu-primary {
-   float: right;
-   margin-top: 1.5em;
-   width: 62%;
+  margin-top: .25em;
 }
 
-#menu-primary li {
-  margin-left: .25em;
-  width: 23%;
-}
+ #menu-primary li {
+    margin-left: 1%;
+    width: auto;
+  }
+
+  #menu-primary a {
+    padding: .5em;
+  }
+
 
 /* line 56, sass/_partials/_header_and_footer.scss */
 #menu-primary a {
   background: #fff;
-  
   color: #272727;
   display: block;
-  padding: .75em 1em!important;
+  padding: .5em 1em;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
@@ -11051,6 +11065,21 @@ button.close {
 /* line 65, sass/_partials/_header_and_footer.scss */
 #menu-primary.navbar-nav .menu-item:hover {
   border-bottom-color: #c91e20;
+}
+
+/* line 54, sass/_partials/_header_and_footer.scss */
+@media(min-width: 1000px) {
+  #menu-primary {
+     margin-top: .5em;
+  }
+
+  #menu-primary li {
+    width: 24%;
+  }
+
+  #menu-primary a {
+    padding: .75em 1em;
+  }
 }
 
 /* line 76, sass/_partials/_header_and_footer.scss */

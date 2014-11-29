@@ -55,7 +55,7 @@
         <?php do_action('before'); ?>
 
         <header class="navbar navbar-static-top" id="top" role="banner">
-          <div class="container">           
+          <div class="row">           
             <div class="navbar-header">
               <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -64,15 +64,13 @@
                 <span class="icon-bar"></span>
               </button>
             </div>
-            <div class="logo pull-left">
-                <h1>
-                    <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
-                      <img src="<?php echo get_bloginfo('template_directory') ?>/img/logo.png">
-                    </a>
-                </h1>  
-            </div>
+            <h1 class="col-sm-3 col-md-3 col-lg-5 logo">
+                <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
+                  <img src="<?php echo get_bloginfo('template_directory') ?>/img/logo.png" alt="Crossfit Adaptation">
+                </a>
+            </h1>  
 
-            <nav class="collapse navbar-collapse navbar-primary-collapse" role="navigation">
+            <nav class="col-sm-9 col-md-9 col-lg-7 collapse navbar-collapse navbar-primary-collapse" role="navigation">
               <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
               <?php dynamic_sidebar('navbar-right'); ?>
             </nav>
