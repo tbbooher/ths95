@@ -11013,19 +11013,19 @@ button.close {
 }
 
 /* line 54, sass/_partials/_header_and_footer.scss */
-#menu-mainmenu {
+#menu-primary {
    float: right;
    margin-top: 1.5em;
    width: 62%;
 }
 
-#menu-mainmenu li {
+#menu-primary li {
   margin-left: .25em;
   width: 23%;
 }
 
 /* line 56, sass/_partials/_header_and_footer.scss */
-#menu-mainmenu a {
+#menu-primary a {
   background: #fff;
   
   color: #272727;
@@ -11036,11 +11036,11 @@ button.close {
   text-transform: uppercase;
 }
 
-#menu-mainmenu.navbar-nav .menu-item {
+#menu-primary.navbar-nav .menu-item {
   border-bottom: 3px solid #d8dad9;
 }
 
-#menu-mainmenu.navbar-nav .current-menu-item, #menu-mainmenu.navbar-nav .current_page_item, #menu-mainmenu.navbar-nav .active {
+#menu-primary.navbar-nav .current-menu-item, #menu-primary.navbar-nav .current_page_item, #menu-primary.navbar-nav .active {
   border-bottom: 3px solid #c91e20;
 }
 
@@ -11049,7 +11049,7 @@ button.close {
 }
 
 /* line 65, sass/_partials/_header_and_footer.scss */
-#menu-mainmenu.navbar-nav .menu-item:hover {
+#menu-primary.navbar-nav .menu-item:hover {
   border-bottom-color: #c91e20;
 }
 
