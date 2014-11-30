@@ -51,6 +51,21 @@
     margin-left: 0;
 }
 
+/* line 54, sass/_partials/_header_and_footer.scss */
+@media(min-width: 1000px) {
+  #menu-primary {
+     margin-top: .5em;
+  }
+
+  #menu-primary li {
+    width: 24%;
+  }
+
+  #menu-primary a {
+    padding: .75em 1em;
+  }
+}
+
 #menu-mainmenu {
     float: right !important;
     a {
