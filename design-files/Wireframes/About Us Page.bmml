@@ -1,0 +1,164 @@
+<mockup version="1.0" skin="sketch" measuredW="1070" measuredH="1078" mockupW="1024" mockupH="1078">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="76" y="147" w="-1" h="-1" measuredW="188" measuredH="40" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//corporate.crossfitadaptation.com/media/logo.jpg</src>
+        <text>Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::LinkBar" x="307" y="157" w="-1" h="-1" measuredW="373" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>%2C%2CGetting%20Started%20Page%26bm%3BGetting%20Started%20Page.bmml%26bm%3BGetting%20Started%20Page.bmml%26bm%3BGetting%20Started%20Page.bmml%2COur%20Prorams%20Page%26bm%3BOur%20Prorams%20Page.bmml%26bm%3BOur%20Prorams%20Page.bmml%26bm%3BOur%20Prorams%20Page.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22450%2C157%2C536%2C178%22%20href%3D%22Getting%2520Started%2520Page.bmml%22%20alt%3D%22Getting%20Started%20Page%22%20id%3D%221_0%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22554%2C157%2C634%2C178%22%20href%3D%22Our%2520Prorams%2520Page.bmml%22%20alt%3D%22Our%20Prorams%20Page%22%20id%3D%221_1%22/%3E%0A</map>
+        <selectedIndex>0</selectedIndex>
+        <text>About%20Us%2C%20Getting%20Started%2C%20Our%20Programs%2C%20Our%20Coaches</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="__group__" x="416" y="106" w="285" h="24" measuredW="285" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="0" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="0" locked="false" isInGroup="2">
+          <controlProperties>
+            <icon>WorldIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="31" y="2" w="-1" h="-1" measuredW="254" measuredH="21" zOrder="1" locked="false" isInGroup="2">
+          <controlProperties>
+            <text>4144%20S%204%20Mile%20Run%20Dr%2C%20Arlington%2C%20VA%2022206</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::LinkBar" x="709" y="108" w="-1" h="-1" measuredW="257" measuredH="21" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Work%20Out%20Schedule%20Page%26bm%3BWork%20Out%20Schedule%20Page.bmml%26bm%3BWork%20Out%20Schedule%20Page.bmml%26bm%3BWork%20Out%20Schedule%20Page.bmml%2CUpcoming%20Events%20Page%26bm%3BUpcoming%20Events%20Page.bmml%26bm%3BUpcoming%20Events%20Page.bmml%26bm%3BUpcoming%20Events%20Page.bmml%2CContact%20Info%20Page%26bm%3BContact%20Info%20Page.bmml%26bm%3BContact%20Info%20Page.bmml%26bm%3BContact%20Info%20Page.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22663%2C108%2C775%2C129%22%20href%3D%22Work%2520Out%2520Schedule%2520Page.bmml%22%20alt%3D%22Work%20Out%20Schedule%20Page%22%20id%3D%226_0%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22793%2C108%2C828%2C129%22%20href%3D%22Upcoming%2520Events%2520Page.bmml%22%20alt%3D%22Upcoming%20Events%20Page%22%20id%3D%226_1%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22846%2C108%2C920%2C129%22%20href%3D%22Contact%2520Info%2520Page.bmml%22%20alt%3D%22Contact%20Info%20Page%22%20id%3D%226_2%22/%3E%0A</map>
+        <text>Work%20out%20Schedule%2C%20WOD%2C%20Contact%20Info</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="__group__" x="883" y="995" w="152" h="32" measuredW="152" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="0" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="7">
+          <controlProperties>
+            <icon>FacebookIcon%7Cmedium</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="120" y="0" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="1" locked="false" isInGroup="7">
+          <controlProperties>
+            <icon>RSSIcon%7Cmedium</icon>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="40" y="0" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="2" locked="false" isInGroup="7">
+          <controlProperties>
+            <icon>FlickrIcon%7Cmedium</icon>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="80" y="0" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="3" locked="false" isInGroup="7">
+          <controlProperties>
+            <icon>YouTubeIcon%7Cmedium</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="46" y="0" w="1024" h="1078" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//www.crossfitadaptation.com/about</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="__group__" x="83" y="296" w="692" h="218" measuredW="692" measuredH="218" zOrder="6" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="__group__" x="315" y="0" w="377" h="218" measuredW="377" measuredH="218" zOrder="0" locked="false" isInGroup="12">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="0" w="377" h="218" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="0">
+              <controlProperties>
+                <size>16</size>
+                <text>CrossFit%20Adaptation%20%28CFA%29%20is%20a%206%2C000%20square%20foot%20fitness%20coaching%20facility%20and%20dynamic%20fitness%20community%20located%20in%20the%20heart%20of%20Shirlington%20in%20Arlington%2C%20VA.%20We%20offer%20group%20and%20individual%20coaching%20via%20the%20CrossFit%20methodology.%20%0A%20%0ACrossFit%20workouts%20are%20comprised%20of%20constantly%20varied%2C%20functional%20movements%2C%20performed%20at%20a%20high%20intensity.%20Our%20natural%2C%20primal%20movements%20largely%20influence%20the%20movements%20we%20perform%20in%20our%20workouts.%20</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="0" y="0" w="-1" h="-1" measuredW="300" measuredH="200" zOrder="1" locked="false" isInGroup="12"/>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Title" x="83" y="223" w="-1" h="-1" measuredW="453" measuredH="50" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>About%20Crossfit%20Adaptation</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="__group__" x="815" y="223" w="220" h="123" measuredW="220" measuredH="123" zOrder="8" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="199" h="-1" measuredW="185" measuredH="33" zOrder="0" locked="false" isInGroup="24">
+          <controlProperties>
+            <text>Upcoming%20Events</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="40" w="220" h="83" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="24">
+          <controlProperties>
+            <text>*%5BHandstand%20Walks%20Workshop%5D*%0A%20%0A*When*%3A%20November%2015th%20from%201-2pm%0A*Where*%3A%20CFFC</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="25" controlTypeID="__group__" x="815" y="380" w="220" h="256" measuredW="220" measuredH="256" zOrder="9" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="199" h="-1" measuredW="148" measuredH="33" zOrder="0" locked="false" isInGroup="25">
+          <controlProperties>
+            <text>Recent%20News</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="__group__" x="0" y="46" w="220" h="210" measuredW="220" measuredH="210" zOrder="1" locked="false" isInGroup="25">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="69" w="220" h="141" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="5">
+              <controlProperties>
+                <text>Now%20available%20in%20the%20fridge%21%0A%20%0ASingle%20Bar%20%3D%20%244.00%0ABox%20of%20Bars%20%3D%20%2422.00%0A%20%0AReally%20tasty%21%0A%20%0A%5BFind%20out%20more%5D</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="2" y="0" w="188" h="60" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="5">
+              <controlProperties>
+                <text>Best%20bar%20ever</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="86" y="184" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="2" locked="false" isInGroup="5">
+              <controlProperties>
+                <icon>JumpOutIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="44" controlTypeID="__group__" x="445" y="546" w="345" h="213" measuredW="345" measuredH="213" zOrder="11" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="16" y="0" w="309" h="-1" measuredW="239" measuredH="33" zOrder="0" locked="false" isInGroup="44">
+          <controlProperties>
+            <text>CFA%20is%20for%20people%20who</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="33" w="345" h="180" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="44">
+          <controlProperties>
+            <text>-%20Want%20to%20get%20in%20shape%20but%20don%u2019t%20know%20how%20to%20design%20a%20fitness%20program%0A-%20Dislike%20the%20impersonal%20%u201CGloboGym%u201D%20environment%0A-%20Have%20lost%20interest%20in%20your%20gym%20routine%20or%20get%20bored%20with%20your%20workouts%0A-%20Think%20you%20don%u2019t%20have%20time%20to%20exercise%20%28our%20workouts%20are%20short%20and%20intense%29%0A-%20Are%20looking%20to%20get%20faster%20or%20stronger%20for%20your%20sport%0A-%20Are%20no%20longer%20seeing%20results%20with%20your%20current%20training%20regimen</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="45" controlTypeID="__group__" x="67" y="546" w="345" h="261" measuredW="345" measuredH="261" zOrder="10" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="21" y="0" w="-1" h="-1" measuredW="263" measuredH="33" zOrder="0" locked="false" isInGroup="45">
+          <controlProperties>
+            <text>What%20CFA%20can%20offer%20you</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="33" w="345" h="228" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="45">
+          <controlProperties>
+            <text>-%20Broad%20and%20constantly%20varied%20workouts%2C%20infusing%20multiple%20functional%20movements%20performed%20at%20a%20high%20intensity%0A-%20Exercises%20that%20mimic%20movements%20performed%20in%20day-to-day%20life%20or%20sports%0A-%20Workouts%20that%20are%20easily%20scalable%20to%20your%20fitness%20level%0A-%20Comprehensive%20fitness%20and%20restored%20vitality%20through%20sessions%20that%20fit%20easily%20into%20even%20the%20busiest%20of%20schedules%0A-%20A%20professional%20environment%20and%20a%20knowledgeable%20staff%20dedicated%20to%20helping%20you%20reach%20your%20fitness%20goals%0A-%20To%20always%20challenge%20you%20so%20that%20you%20never%20get%20bored%20and%20to%20create%20a%20community%20that%20will%20inspire%20and%20motivate%20you</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Image" x="401" y="822" w="283" h="79" measuredW="77" measuredH="79" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>View%20Plans%20and%20Sign%20up</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

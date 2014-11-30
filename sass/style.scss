@@ -1,0 +1,130 @@
+/*
+Theme Name: CFA Theme
+Theme URI: 
+Author: Tim Booher and Derick Montague
+Author URI: http://www.beyondhyper.com/
+Description: Basic Good Looking Theme
+Version: 0.01
+License: MIT
+License URI: http://opensource.org/licenses/MIT
+Text Domain: bootstrap-basic
+Domain Path: /languages/
+Tags: white, gray, light, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, front-page-post-form, post-formats, threaded-comments, translation-ready
+This theme built with Twitter Bootstrap v.3. It is basic theme with basic style for build new theme with Bootstrap.
+*/
+/*
+Required WordPress CSS
+*/
+
+/* ---------------------------------- Typography and Colors ---------------------------------- */
+// fonts in logo: BITSUMISHI and MICROGRAMMA
+$background-color: #F1F2F7;
+$heading-font-color: #777777;
+$heading-font: 'Jura', sans-serif;
+$body-font: 'Lato', sans-serif;
+$logo-red: #da1f26;
+$accent: #A99588;
+$cream: #F5F2ED;
+$dark: #213440;
+$very-dark: #272727;
+$dark-blue: #414f5a;
+$red: #c91e20;
+$line: #CCD6D9;
+$font-on_dark: #A1A1A1;
+
+/* @import "compass/reset"; */
+@import "bootstrap-compass";
+//@import "bootstrap-variables";
+@import "bootstrap";
+
+@import "font-awesome-compass";
+@import "font-awesome";
+@import "_partials/_from_carousel";
+@import "_partials/_header_and_footer";
+@import "_partials/_schedule";
+
+body {    
+    font-family: $body-font;
+    background: $background-color;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: $heading-font;
+    color: $heading-font-color;
+}
+
+.ch-item {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: default;
+}
+
+.pad-above {
+ padding-top: 40px;   
+}
+
+div.content-box {
+  clear: both;
+  &.big {
+    min-height: 300px;
+    border-style: solid;
+    border-width: 1px 1px 3px;
+    background: #fff;
+    border-color: transparent;
+    border-bottom-color: $logo-red;
+    padding: 0 20px 30px;
+    border-radius: 5px;
+    background: #fff;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    -ms-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+  }
+  .box_content {
+    margin: 25px 0 0;
+    padding-left: 0;
+  }
+}
+
+.bottom-pad-small {
+    margin-bottom: 30px;
+}
+
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 1.5em;
+}
+
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 1.5em;
+}
+
+.bypostauthor, .gallery-caption, .sticky! {}
+
+.wp-caption {
+  border: 1px solid #ccc;
+  margin-bottom: 1.5em;
+  max-width: 100%;
+  img[class*="wp-image-"] {
+    display: block;
+    margin: 1.2% auto 0;
+    max-width: 98%;
+  }
+}
+
+.wp-caption-text {
+  text-align: center;
+}
+
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+}

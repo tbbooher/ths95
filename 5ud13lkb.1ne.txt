@@ -1,0 +1,77 @@
+﻿Merge branch 'master' of https://github.com/tbbooher/new_cfa
+
+Conflicts:
+	style.css
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 1 different commit each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	new file:   style.css
+#
+# Untracked files:
+#	.gitignore
+#	.ruby-gemset
+#	.ruby-version
+#	404.php
+#	Gemfile
+#	Gemfile.lock
+#	Guardfile
+#	LICENSE
+#	README.md
+#	archive.php
+#	comments.php
+#	config.rb
+#	content-aside.php
+#	content-coach.php
+#	content-link.php
+#	content-page.php
+#	content-program.php
+#	content-quote.php
+#	content-single.php
+#	content-start.php
+#	content.php
+#	design-files/
+#	document/
+#	font-awesome.css
+#	fonts/
+#	footer.php
+#	from_derick.css
+#	functions.php
+#	header.php
+#	image.php
+#	img/
+#	inc/
+#	index.html
+#	index.php
+#	js/
+#	languages/
+#	my-templates/
+#	no-results.php
+#	page-coaches.php
+#	page-getting-started.php
+#	page-home.php
+#	page-our-programs.php
+#	page.php
+#	readme.txt
+#	sass/
+#	screenshot.png
+#	search.php
+#	searchform.php
+#	sidebar-left.php
+#	sidebar-right.php
+#	single.php
+#
+

@@ -1,0 +1,111 @@
+<mockup version="1.0" skin="sketch" measuredW="1091" measuredH="1398" mockupW="1024" mockupH="1367">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="67" y="31" w="1024" h="1367" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//www.crossfitadaptation.com/programs/olympic-lifting</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="90" y="154" w="-1" h="-1" measuredW="188" measuredH="40" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//corporate.crossfitadaptation.com/media/logo.jpg</src>
+        <text>Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::LinkBar" x="321" y="164" w="-1" h="-1" measuredW="236" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Home%20Page%20Large%20Screen%26bm%3BHome%20Page%20Large%20Screen.bmml%26bm%3BHome%20Page%20Large%20Screen.bmml%26bm%3BHome%20Page%20Large%20Screen.bmml%2CAbout%20Us%20Page%26bm%3BAbout%20Us%20Page.bmml%26bm%3BAbout%20Us%20Page.bmml%26bm%3BAbout%20Us%20Page.bmml%2CGetting%20Started%20Page%26bm%3BGetting%20Started%20Page.bmml%26bm%3BGetting%20Started%20Page.bmml%26bm%3BGetting%20Started%20Page.bmml%2COur%20Prorams%20Page%26bm%3BOur%20Prorams%20Page.bmml%26bm%3BOur%20Prorams%20Page.bmml%26bm%3BOur%20Prorams%20Page.bmml%2CIndividual%20Program%20Page%26bm%3BIndividual%20Program%20Page.bmml%26bm%3BIndividual%20Program%20Page.bmml%26bm%3BIndividual%20Program%20Page.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22254%2C133%2C292%2C154%22%20href%3D%22Home%2520Page%2520Large%2520Screen.bmml%22%20alt%3D%22Home%20Page%20Large%20Screen%22%20id%3D%222_0%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22310%2C133%2C366%2C154%22%20href%3D%22About%2520Us%2520Page.bmml%22%20alt%3D%22About%20Us%20Page%22%20id%3D%222_1%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22384%2C133%2C442%2C154%22%20href%3D%22Getting%2520Started%2520Page.bmml%22%20alt%3D%22Getting%20Started%20Page%22%20id%3D%222_2%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22460%2C133%2C490%2C154%22%20href%3D%22Our%2520Prorams%2520Page.bmml%22%20alt%3D%22Our%20Prorams%20Page%22%20id%3D%222_3%22/%3E%0A</map>
+        <selectedIndex>3</selectedIndex>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="__group__" x="430" y="113" w="285" h="24" measuredW="285" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="0" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="0" locked="false" isInGroup="3">
+          <controlProperties>
+            <icon>WorldIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="31" y="2" w="-1" h="-1" measuredW="254" measuredH="21" zOrder="1" locked="false" isInGroup="3">
+          <controlProperties>
+            <text>4144%20S%204%20Mile%20Run%20Dr%2C%20Arlington%2C%20VA%2022206</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Title" x="90" y="259" w="-1" h="-1" measuredW="256" measuredH="50" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Olympic%20Lifting</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="__group__" x="829" y="259" w="220" h="123" measuredW="220" measuredH="123" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="199" h="-1" measuredW="185" measuredH="33" zOrder="0" locked="false" isInGroup="5">
+          <controlProperties>
+            <text>Upcoming%20Events</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="40" w="220" h="83" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="5">
+          <controlProperties>
+            <text>*%5BHandstand%20Walks%20Workshop%5D*%0A%20%0A*When*%3A%20November%2015th%20from%201-2pm%0A*Where*%3A%20CFFC</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="6" controlTypeID="__group__" x="829" y="416" w="220" h="256" measuredW="220" measuredH="256" zOrder="6" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="199" h="-1" measuredW="148" measuredH="33" zOrder="0" locked="false" isInGroup="6">
+          <controlProperties>
+            <text>Recent%20News</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="__group__" x="0" y="46" w="220" h="210" measuredW="220" measuredH="210" zOrder="1" locked="false" isInGroup="6">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="69" w="220" h="141" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="5">
+              <controlProperties>
+                <text>Now%20available%20in%20the%20fridge%21%0A%20%0ASingle%20Bar%20%3D%20%244.00%0ABox%20of%20Bars%20%3D%20%2422.00%0A%20%0AReally%20tasty%21%0A%20%0A%5BFind%20out%20more%5D</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="2" y="0" w="188" h="60" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="5">
+              <controlProperties>
+                <text>Best%20bar%20ever</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="86" y="184" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="2" locked="false" isInGroup="5">
+              <controlProperties>
+                <icon>JumpOutIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="90" y="220" w="-1" h="-1" measuredW="218" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Home%20Page%20Large%20Screen%26bm%3BHome%20Page%20Large%20Screen.bmml%26bm%3BHome%20Page%20Large%20Screen.bmml%26bm%3BHome%20Page%20Large%20Screen.bmml%2COur%20Prorams%20Page%26bm%3BOur%20Prorams%20Page.bmml%26bm%3BOur%20Prorams%20Page.bmml%26bm%3BOur%20Prorams%20Page.bmml%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2223%2C192%2C65%2C213%22%20href%3D%22Home%2520Page%2520Large%2520Screen.bmml%22%20alt%3D%22Home%20Page%20Large%20Screen%22%20id%3D%2211_0%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%2277%2C192%2C143%2C213%22%20href%3D%22Our%2520Prorams%2520Page.bmml%22%20alt%3D%22Our%20Prorams%20Page%22%20id%3D%2211_1%22/%3E%0A</map>
+        <text>Home%2C%20Programs%2C%20Olympic%20Lifting</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Paragraph" x="322" y="324" w="419" h="237" measuredW="200" measuredH="80" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Both%20the%20snatch%20and%20the%20clean%20and%20jerk%20bring%20speed%2C%20power%2C%20coordination%2C%20and%20balance%20to%20your%20overall%20training%20while%20increasing%20explosive%20strength%20and%20explosive%20output.%20These%20lifts%20are%20an%20integral%20part%20of%20the%20CrossFit%20program.%20We%20provide%20you%20with%20the%20coaching%20of%20these%20lifts%20under%20World%20Masters%20Champion%20Rick%20Bucinell%20every%20Sunday%20at%201%3A00%20PM%2C%20generally%20lasting%20two%20hours.%0A%20%0A*THIS%20IS%20ABSOLUTELY%20FREE%20TO%20ALL%20OF%20OUR%20MEMBERS.*%0A%20%0AIf%20you%20are%20not%20a%20member%20but%20have%20questions%20about%20our%20Olympic%20Lifting%20program%20then%20email%20us%20at%20info@crossfitadaptation.com.%0A%20%0AThe%20drop%20in%20fee%20for%20this%20class%20is%20%2420%20for%20non-members.</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Image" x="90" y="324" w="203" h="203" measuredW="77" measuredH="79" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="17" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="93" y="573" w="332" h="200" measuredW="300" measuredH="200" zOrder="10" locked="false" isInGroup="-1"/>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="433" y="573" w="332" h="200" measuredW="300" measuredH="200" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::LinkBar" x="723" y="115" w="-1" h="-1" measuredW="257" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Work%20Out%20Schedule%20Page%26bm%3BWork%20Out%20Schedule%20Page.bmml%26bm%3BWork%20Out%20Schedule%20Page.bmml%26bm%3BWork%20Out%20Schedule%20Page.bmml%2CUpcoming%20Events%20Page%26bm%3BUpcoming%20Events%20Page.bmml%26bm%3BUpcoming%20Events%20Page.bmml%26bm%3BUpcoming%20Events%20Page.bmml%2CContact%20Info%20Page%26bm%3BContact%20Info%20Page.bmml%26bm%3BContact%20Info%20Page.bmml%26bm%3BContact%20Info%20Page.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22656%2C84%2C768%2C105%22%20href%3D%22Work%2520Out%2520Schedule%2520Page.bmml%22%20alt%3D%22Work%20Out%20Schedule%20Page%22%20id%3D%2219_0%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22786%2C84%2C821%2C105%22%20href%3D%22Upcoming%2520Events%2520Page.bmml%22%20alt%3D%22Upcoming%20Events%20Page%22%20id%3D%2219_1%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22839%2C84%2C913%2C105%22%20href%3D%22Contact%2520Info%2520Page.bmml%22%20alt%3D%22Contact%20Info%20Page%22%20id%3D%2219_2%22/%3E%0A</map>
+        <text>Work%20out%20Schedule%2C%20WOD%2C%20Contact%20Info</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

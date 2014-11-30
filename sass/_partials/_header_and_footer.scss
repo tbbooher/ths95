@@ -1,0 +1,260 @@
+/* %%%%% FOOTER WORK %%%%% */
+
+
+.top-bar {
+    width: 100%;
+    min-height: 30px;
+    background: $red;
+    border-bottom: 1px solid $dark-blue;
+    padding: 3px 0;
+    line-height: 30px;
+    font-size: 14px;
+    .navbar {
+     display: none;
+    }
+    .phone-email {
+        padding: 3px 0;
+        i {
+            margin-right: 7px;
+        }    
+        a {
+            margin-right: 20px;
+        }
+    }
+}
+
+// menu styling
+
+#top {
+ margin: 20px 0 40px;
+ height: 62px;
+}
+
+/* formatting for menu nav */
+
+// this should all be cleaned up!!! -- tim
+
+.logo {
+ height: 62px;
+ h1 {
+  margin: 13px 0;   
+ }
+}
+
+.navbar-header {
+  text-align: left;
+}
+
+// necessary ?
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* line 54, sass/_partials/_header_and_footer.scss */
+@media(min-width: 1000px) {
+  #menu-primary {
+     margin-top: .5em;
+  }
+
+  #menu-primary li {
+    width: 24%;
+  }
+
+  #menu-primary a {
+    padding: .75em 1em;
+  }
+}
+
+#menu-mainmenu {
+    float: right !important;
+    a {
+        color: $very-dark;
+        font-weight: 300;
+        border-top: 3px solid transparent;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;        
+    }
+    a:hover {
+     background-color: transparent;
+     border-bottom: 2px solid $red;
+     color: $red;
+    }
+}
+
+// end menu styling
+
+// this is the user menu
+.footer-top, .top-bar {
+    a {
+        color: white;
+        .fa {
+            display: inline-block;            
+            font-family: FontAwesome;
+            font-style: normal;
+            font-weight: normal;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .fa-phone:before {
+            content: "\f095";
+        }
+        .fa-envelope:before {
+            content: "\f0e0";
+        }
+        .fa-map-marker:before {
+            content: "\f041";
+        }
+    }
+    .nav > li > a:hover, .nav > li > a:focus {
+        background-color: transparent;
+//     border-bottom: 1px solid white;
+        color: $line;
+    }
+}
+
+.contact-us li i {
+    color: $font-on-dark;
+    float: left;
+    margin: 4px 0 0;
+}
+
+/* %%%%% FOOTER WORK %%%%% */
+
+#footer {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.footer-top {
+    background: $dark;
+    border-bottom: 1px solid $line;
+    color: $font-on-dark;
+    padding: 50px 0;
+    h3, a {
+        color: white;   
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }   
+    .contact-us {
+        margin: 15px 0 0;
+        background: url("img/contact-map.png") no-repeat center bottom;
+        p {
+            line-height: 24px;
+            margin-left: 20px;
+            margin-top: -2px;
+        }
+        li i {
+            color: #777777;
+            float: left;
+            margin: 4px 0 0;
+        }        
+    }
+}
+
+.footer-bottom {
+    background: $very-dark;
+    color: #888;
+    line-height: 38px;
+    padding: 15px;
+    a {
+        color: #fff;
+    }
+    .our-clients ul {
+      list-style: none;
+    }
+
+    .social {
+      margin-right: 4px;
+      line-height: 44px;
+      li:last-child {
+        margin-right: 0 !important;
+      }
+      margin-right: 0 !important;
+      li {
+          background-color: transparent;
+          border: 2px solid #fafafa;
+          border-radius: 100% 100% 100% 100%;
+          display: inline-block;
+          height: 35px;
+          margin-right: 5px;
+          width: 35px;
+          line-height: 30px;
+          text-align: center;
+          background: transparent;
+          -webkit-transition: background .5s ease-in-out;
+          -moz-transition: background .5s ease-in-out;
+          -o-transition: background .5s ease-in-out;
+          -ms-transition: background .5s ease-in-out;
+          transition: background .5s ease-in-out;
+          padding: 1px;
+          cursor: pointer;
+        }
+    }
+
+    .social-icons-footer-bottom {
+      float: right;
+      margin: 6px 0 0;
+        li {
+            display: inline;
+            float: left;
+            margin-right: 7px !important;
+            list-style: none;
+            -webkit-transition: all .2s ease-in-out 0;
+            -moz-transition: all .2s ease-in-out 0;
+            -o-transition: all .2s ease-in-out 0;
+            -ms-transition: all .2s ease-in-out 0;
+            transition: all .2s ease-in-out 0;
+            i {
+                display: inline-block;
+                font-family: FontAwesome;
+                font-size: 13px;
+                font-style: normal;
+                font-variant: normal;
+                font-weight: 400;
+                line-height: 16px;
+                padding-top: 0;
+                text-align: center;
+                text-decoration: inherit;
+                text-transform: none;
+            }
+        }
+    }
+}
+
+.social {
+    margin-right: 4px;
+    line-height: 44px;   
+    li {
+        background-color: transparent;
+        border: 2px solid #fafafa;
+        border-radius: 100% 100% 100% 100%;
+        display: inline-block;
+        height: 35px;
+        margin-right: 5px;
+        width: 35px;
+        line-height: 30px;
+        text-align: center;
+        background: transparent;
+        -webkit-transition: background .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out;
+        -o-transition: background .5s ease-in-out;
+        -ms-transition: background .5s ease-in-out;
+        transition: background .5s ease-in-out;
+        padding: 1px;
+        cursor: pointer;
+    }
+}

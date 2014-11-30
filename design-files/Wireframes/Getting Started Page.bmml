@@ -1,0 +1,243 @@
+<mockup version="1.0" skin="sketch" measuredW="1303" measuredH="1324" mockupW="1257" mockupH="1324">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="46" y="0" w="1024" h="1324" measuredW="450" measuredH="400" zOrder="0" locked="true" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//www.crossfitadaptation.com</text>
+        <verticalScrollbar>true</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="76" y="125" w="-1" h="-1" measuredW="188" measuredH="40" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>http%3A//corporate.crossfitadaptation.com/media/logo.jpg</src>
+        <text>Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::LinkBar" x="307" y="135" w="-1" h="-1" measuredW="429" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Home%20Page%20Large%20Screen%26bm%3BHome%20Page%20Large%20Screen.bmml%26bm%3BHome%20Page%20Large%20Screen.bmml%26bm%3BHome%20Page%20Large%20Screen.bmml%2CAbout%20Us%20Page%26bm%3BAbout%20Us%20Page.bmml%26bm%3BAbout%20Us%20Page.bmml%26bm%3BAbout%20Us%20Page.bmml%2CGetting%20Started%20Page%26bm%3BGetting%20Started%20Page.bmml%26bm%3BGetting%20Started%20Page.bmml%26bm%3BGetting%20Started%20Page.bmml%2COur%20Prorams%20Page%26bm%3BOur%20Prorams%20Page.bmml%26bm%3BOur%20Prorams%20Page.bmml%26bm%3BOur%20Prorams%20Page.bmml%2COur%20Coaches%20Page%26bm%3BOur%20Coaches%20Page.bmml%26bm%3BOur%20Coaches%20Page.bmml%26bm%3BOur%20Coaches%20Page.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22261%2C135%2C299%2C156%22%20href%3D%22Home%2520Page%2520Large%2520Screen.bmml%22%20alt%3D%22Home%20Page%20Large%20Screen%22%20id%3D%222_0%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22317%2C135%2C375%2C156%22%20href%3D%22About%2520Us%2520Page.bmml%22%20alt%3D%22About%20Us%20Page%22%20id%3D%222_1%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22393%2C135%2C488%2C156%22%20href%3D%22Getting%2520Started%2520Page.bmml%22%20alt%3D%22Getting%20Started%20Page%22%20id%3D%222_2%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22506%2C135%2C592%2C156%22%20href%3D%22Our%2520Prorams%2520Page.bmml%22%20alt%3D%22Our%20Prorams%20Page%22%20id%3D%222_3%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22610%2C135%2C690%2C156%22%20href%3D%22Our%2520Coaches%2520Page.bmml%22%20alt%3D%22Our%20Coaches%20Page%22%20id%3D%222_4%22/%3E%0A</map>
+        <selectedIndex>2</selectedIndex>
+        <text>Home%2C%20About%20Us%2C%20Getting%20Started%2C%20Our%20Programs%2C%20Our%20Coaches</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="__group__" x="416" y="84" w="285" h="24" measuredW="285" measuredH="24" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="0" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="0" locked="false" isInGroup="3">
+          <controlProperties>
+            <icon>WorldIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="31" y="2" w="-1" h="-1" measuredW="254" measuredH="21" zOrder="1" locked="false" isInGroup="3">
+          <controlProperties>
+            <text>4144%20S%204%20Mile%20Run%20Dr%2C%20Arlington%2C%20VA%2022206</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::LinkBar" x="709" y="86" w="-1" h="-1" measuredW="257" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hrefs>Work%20Out%20Schedule%20Page%26bm%3BWork%20Out%20Schedule%20Page.bmml%26bm%3BWork%20Out%20Schedule%20Page.bmml%26bm%3BWork%20Out%20Schedule%20Page.bmml%2CUpcoming%20Events%20Page%26bm%3BUpcoming%20Events%20Page.bmml%26bm%3BUpcoming%20Events%20Page.bmml%26bm%3BUpcoming%20Events%20Page.bmml%2CContact%20Info%20Page%26bm%3BContact%20Info%20Page.bmml%26bm%3BContact%20Info%20Page.bmml%26bm%3BContact%20Info%20Page.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22663%2C86%2C775%2C107%22%20href%3D%22Work%2520Out%2520Schedule%2520Page.bmml%22%20alt%3D%22Work%20Out%20Schedule%20Page%22%20id%3D%224_0%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22793%2C86%2C828%2C107%22%20href%3D%22Upcoming%2520Events%2520Page.bmml%22%20alt%3D%22Upcoming%20Events%20Page%22%20id%3D%224_1%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22846%2C86%2C920%2C107%22%20href%3D%22Contact%2520Info%2520Page.bmml%22%20alt%3D%22Contact%20Info%20Page%22%20id%3D%224_2%22/%3E%0A</map>
+        <text>Work%20out%20Schedule%2C%20WOD%2C%20Contact%20Info</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="__group__" x="815" y="223" w="220" h="123" measuredW="220" measuredH="123" zOrder="6" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="199" h="-1" measuredW="185" measuredH="33" zOrder="0" locked="false" isInGroup="5">
+          <controlProperties>
+            <text>Upcoming%20Events</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="40" w="220" h="83" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="5">
+          <controlProperties>
+            <text>*%5BHandstand%20Walks%20Workshop%5D*%0A%20%0A*When*%3A%20November%2015th%20from%201-2pm%0A*Where*%3A%20CFFC</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="6" controlTypeID="__group__" x="815" y="380" w="220" h="256" measuredW="220" measuredH="256" zOrder="7" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="199" h="-1" measuredW="148" measuredH="33" zOrder="0" locked="false" isInGroup="6">
+          <controlProperties>
+            <text>Recent%20News</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="__group__" x="0" y="46" w="220" h="210" measuredW="220" measuredH="210" zOrder="1" locked="false" isInGroup="6">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="69" w="220" h="141" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="5">
+              <controlProperties>
+                <text>Now%20available%20in%20the%20fridge%21%0A%20%0ASingle%20Bar%20%3D%20%244.00%0ABox%20of%20Bars%20%3D%20%2422.00%0A%20%0AReally%20tasty%21%0A%20%0A%5BFind%20out%20more%5D</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="2" y="0" w="188" h="60" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="5">
+              <controlProperties>
+                <text>Best%20bar%20ever</text>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="86" y="184" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="2" locked="false" isInGroup="5">
+              <controlProperties>
+                <icon>JumpOutIcon%7Cxsmall</icon>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Title" x="87" y="227" w="-1" h="-1" measuredW="280" measuredH="50" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Getting%20Started</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Paragraph" x="92" y="285" w="644" h="61" measuredW="200" measuredH="80" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>In%20order%20to%20sign-up%20for%20any%20membership%2C%20our%20Elements%20program%20or%20a%20skills%20test-in%20must%20have%20been%20completed.</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Paragraph" x="235" y="394" w="516" h="80" measuredW="200" measuredH="80" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Each%20Saturday%20at%20noon%2C%20CFA%20provides%20a%20free%20workout%20for%20non-members%20that%20are%20interested%20in%20checking%20us%20out.%20All%20you%20need%20to%20do%20is%20show%20up%20and%20be%20ready%20to%20workout%21%20We%20will%20be%20happy%20to%20explain%20the%20program%20and%20answer%20any%20questions%20that%20you%20may%20have.</text>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Image" x="93" y="388" w="127" h="130" measuredW="77" measuredH="79" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::PointyButton" x="234" y="460" w="-1" h="-1" measuredW="127" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>View%20our%20Schedule</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::SubTitle" x="93" y="346" w="-1" h="-1" measuredW="154" measuredH="33" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Free%20Workout</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Paragraph" x="235" y="629" w="531" h="138" measuredW="200" measuredH="80" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>These%20classes%20last%20about%20one%20hour%20and%20are%20made%20up%20of%20two%20to%20three%20new%20skills%20that%20will%20be%20focused%20on%20each%20session.%20There%20will%20also%20be%20a%20%5BWOD%5D%20for%20the%20second%20portion%20of%20the%20class.%20We%20need%20to%20know%20that%20you%20can%20demonstrate%20a%20basic%20level%20of%20technical%20proficiency%20in%20these%20movements%2C%20before%20moving%20on%20to%20our%20membership%20status.%20This%20designed%20curriculum%20is%20necessary%20for%20all%20new%20members%20to%20our%20program.%20Mandatory%20completion%20is%20required%2C%20before%20signing%20up%20for%20a%20membership.%20These%20classes%20teach%20movements%20for%20optimal%20safety%20and%20performance%20in%20our%20program.</text>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="__group__" x="309" y="803" w="235" h="148" measuredW="235" measuredH="148" zOrder="15" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="76" y="36" w="66" h="-1" measuredW="67" measuredH="33" zOrder="0" locked="false" isInGroup="57">
+          <controlProperties>
+            <text>%24330</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="77" w="235" h="71" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="57">
+          <controlProperties>
+            <text>-%20Small%20Group%20Setting%20%282-3%29%20participants%0A-%20Eight%20total%20classes%20%0A-%20Twice%20per%20week%2C%20for%20one%20month.%20</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::SubTitle" x="53" y="0" w="-1" h="-1" measuredW="112" measuredH="28" zOrder="2" locked="false" isInGroup="57">
+          <controlProperties>
+            <size>20</size>
+            <text>Small%20Group</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Image" x="87" y="622" w="127" h="130" measuredW="77" measuredH="79" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="__group__" x="72" y="801" w="235" h="133" measuredW="235" measuredH="133" zOrder="16" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="63" y="36" w="-1" h="-1" measuredW="79" measuredH="33" zOrder="0" locked="false" isInGroup="59">
+          <controlProperties>
+            <text>%24190%20*</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="77" w="235" h="56" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="59">
+          <controlProperties>
+            <text>-%20Group%20Setting%0A-%20Eight%20total%20classes%20%0A-%20Twice%20per%20week%2C%20for%20one%20month.%20</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::SubTitle" x="43" y="0" w="-1" h="-1" measuredW="118" measuredH="28" zOrder="2" locked="false" isInGroup="59">
+          <controlProperties>
+            <size>20</size>
+            <text>Large%20Group</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="60" controlTypeID="__group__" x="546" y="803" w="235" h="135" measuredW="235" measuredH="135" zOrder="17" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="64" y="36" w="70" h="-1" measuredW="67" measuredH="33" zOrder="0" locked="false" isInGroup="60">
+          <controlProperties>
+            <text>%24450</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Paragraph" x="0" y="77" w="235" h="58" measuredW="200" measuredH="80" zOrder="1" locked="false" isInGroup="60">
+          <controlProperties>
+            <text>-%20Individual%20one%20on%20one%0A-%20Eight%20total%20classes%20%0A-%20Twice%20per%20week%2C%20for%20one%20month.%20</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::SubTitle" x="64" y="0" w="69" h="-1" measuredW="68" measuredH="28" zOrder="2" locked="false" isInGroup="60">
+          <controlProperties>
+            <size>20</size>
+            <text>Private</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="64" controlTypeID="__group__" x="87" y="975" w="411" h="48" measuredW="411" measuredH="48" zOrder="19" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Paragraph" x="22" y="0" w="389" h="48" measuredW="200" measuredH="80" zOrder="0" locked="false" isInGroup="64">
+          <controlProperties>
+            <text>15%25%20discount%20offered%20to%20Law%20Enforcement%20Officers%20%28LEO%29%2C%20Active%20Military%20%28MIL%29%2C%20Firefighters%20%28FF%29%2C%20and%20Full-time%20Teachers%20%28FTT%29.</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="0" y="0" w="-1" h="-1" measuredW="18" measuredH="37" zOrder="1" locked="false" isInGroup="64">
+          <controlProperties>
+            <size>28</size>
+            <text>*</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="65" controlTypeID="__group__" x="1101" y="651" w="202" h="186" measuredW="202" measuredH="186" zOrder="20" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::SubTitle" x="35" y="0" w="-1" h="-1" measuredW="135" measuredH="33" zOrder="0" locked="false" isInGroup="65">
+          <controlProperties>
+            <text>Drop%20In%20Fee</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::SubTitle" x="59" y="39" w="-1" h="-1" measuredW="86" measuredH="28" zOrder="1" locked="false" isInGroup="65">
+          <controlProperties>
+            <size>20</size>
+            <text>%2420%20Fee</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Paragraph" x="2" y="106" w="-1" h="-1" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="65">
+          <controlProperties>
+            <align>center</align>
+            <text>We%20always%20welcome%20drop-ins%20from%20other%20affiliates%21</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::SubTitle" x="16" y="66" w="-1" h="-1" measuredW="173" measuredH="28" zOrder="3" locked="false" isInGroup="65">
+          <controlProperties>
+            <size>20</size>
+            <text>%2430%20w/shirt%20or%20tank</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::TabBar" x="86" y="579" w="689" h="474" measuredW="335" measuredH="100" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <hrefs>%2CGetting%20Started%20-%20Membership%20Page%26bm%3BGetting%20Started%20-%20Membership%20Page.bmml%26bm%3BGetting%20Started%20-%20Membership%20Page.bmml%26bm%3BGetting%20Started%20-%20Membership%20Page.bmml%2C</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22131%2C579%2C216%2C604%22%20href%3D%22Getting%2520Started%2520-%2520Membership%2520Page.bmml%22%20alt%3D%22Getting%20Started%20-%20Membership%20Page%22%20id%3D%2267_0%22/%3E%0A</map>
+        <selectedIndex>0</selectedIndex>
+        <text>Elements%2C%20Membership%2C%20Skills%20Test/Drop%20In</text>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::PointyButton" x="378" y="1048" w="-1" h="-1" measuredW="97" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sign%20up%20today</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
