@@ -4979,31 +4979,57 @@ tbody.collapse.in {
 
 /* line 76, sass/bootstrap/_navs.scss */
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  background: #d8dad9;
 }
 /* line 78, sass/bootstrap/_navs.scss */
 .nav-tabs > li {
   float: left;
-  margin-bottom: -1px;
 }
 /* line 84, sass/bootstrap/_navs.scss */
 .nav-tabs > li > a {
   margin-right: 2px;
   line-height: 1.428571429;
-  border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
+  color: #333;
 }
 /* line 89, sass/bootstrap/_navs.scss */
 .nav-tabs > li > a:hover {
   border-color: #eeeeee #eeeeee #ddd;
 }
+/* NEED TO ADD AROUND LINE 89 sass/bootstrap/_navs.scss */
 /* line 96, sass/bootstrap/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  color: #555555;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-bottom-color: transparent;
+  background-color: #c91e20;
+  color: #fff;
   cursor: default;
+}
+
+.nav-tabs li {
+	position: relative;
+}
+.nav-tabs > li.active:after, .nav-tabs > li.active :before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.nav-tabs > li.active:after {
+top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(201, 30, 32, 0);
+	border-top-color: #c91e20;
+	border-width: 8px;
+	margin-left: -8px;
 }
 
 /* line 118, sass/bootstrap/_navs.scss */
@@ -5105,6 +5131,9 @@ tbody.collapse.in {
 /* line 228, sass/bootstrap/_navs.scss */
 .tab-content > .active {
   display: block;
+  background: #fff; /* non-supportive browsers get white */
+  background: rgba(255,255,255, .75);
+  padding: 1.5em 1em;
   visibility: visible;
 }
 
