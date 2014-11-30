@@ -128,8 +128,8 @@
                   <h4>Drop-In fee w/ shirt or tank: $30</h4>
                 </div>
               </div>
-
             </div>
+            <h3 class="text-center"><a class="btn btn-primary btn-lg" href="https://crossfit-adaptation.zenplanner.com/zenplanner/portal/sign-up-now.cfm">Sign up today</a>
         <!-- /end custom getting started content -->
 		<div class="clearfix"></div>
 		<?php
