@@ -34,13 +34,14 @@ $font-on_dark: #A1A1A1;
 
 /* @import "compass/reset"; */
 @import "bootstrap-compass";
-@import "bootstrap-variables";
+//@import "bootstrap-variables";
 @import "bootstrap";
 
 @import "font-awesome-compass";
 @import "font-awesome";
 @import "_partials/_from_carousel";
 @import "_partials/_header_and_footer";
+@import "_partials/_schedule";
 
 body {    
     font-family: $body-font;
