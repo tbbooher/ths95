@@ -1,5 +1,9 @@
 /* %%%%% FOOTER WORK %%%%% */
 
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
 
 .top-bar {
     width: 100%;
@@ -51,38 +55,25 @@
     margin-left: 0;
 }
 
-/* line 54, sass/_partials/_header_and_footer.scss */
-@media(min-width: 1000px) {
-  #menu-primary {
-     margin-top: .5em;
-  }
 
-  #menu-primary li {
-    width: 24%;
-  }
 
-  #menu-primary a {
-    padding: .75em 1em;
-  }
-}
-
-#menu-mainmenu {
-    float: right !important;
-    a {
-        color: $very-dark;
-        font-weight: 300;
-        border-top: 3px solid transparent;
-        display: block;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;        
-    }
-    a:hover {
-     background-color: transparent;
-     border-bottom: 2px solid $red;
-     color: $red;
-    }
-}
+//#menu-mainmenu {
+//    float: right !important;
+//    a {
+//        color: $very-dark;
+//        font-weight: 300;
+//        border-top: 3px solid transparent;
+//        display: block;
+//        text-align: center;
+//        text-decoration: none;
+//        text-transform: uppercase;        
+//    }
+//    a:hover {
+//     background-color: transparent;
+//     border-bottom: 2px solid $red;
+//     color: $red;
+//    }
+//}
 
 // end menu styling
 
