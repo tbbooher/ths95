@@ -38,17 +38,17 @@
 
 <!-- Header Top Bar Start -->
     <div class="top-bar">
-       <div class="slidedown">
-          <div class="container">
-             <div class="phone-email pull-left">
-                <a><i class="fa fa-phone"></i> Call Us : 703.123.1234</a>
-                <a href="info@crossfitadaptation.com"><i class="fa fa-envelope"></i> Email : info@crossfitadaptation.com</a>
-             </div>
-             <div class="follow-us pull-right">
-                 <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
-             </div>
+      <div class="container">
+        <div class="row">
+          <div class="left-col pull-left">
+            <a><i class="fa fa-phone"></i> Call Us : 703.123.1234</a>
+            <a href="info@crossfitadaptation.com"><i class="fa fa-envelope"></i> Email : info@crossfitadaptation.com</a>
           </div>
-       </div>
+          <div class="right-col pull-right">
+           <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
+          </div>
+        </div>
+      </div>
     </div>
 <!-- Header Top Bar End -->       
     <div class="container page-container sticky-wrapper">

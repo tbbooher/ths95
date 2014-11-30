@@ -4118,14 +4118,14 @@ select[multiple].input-lg,
 /* line 63, sass/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #c91e20;
+  border-color: #a1181a;
 }
 /* line 11, sass/bootstrap/mixins/_buttons.scss */
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  color: #c91e20;
+  background-color: #fff;
+  border-color: #c91e20;
 }
 /* line 21, sass/bootstrap/mixins/_buttons.scss */
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
@@ -10964,26 +10964,36 @@ button.close {
   width: 100%;
   min-height: 30px;
   background: #c91e20;
-  border-bottom: 1px solid #414f5a;
-  padding: 3px 0;
-  line-height: 38px;
   font-size: 14px;
+}
+
+.top-bar .container {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.top-bar .nav a {
+  padding-top: 0;
 }
 /* line 12, sass/_partials/_header_and_footer.scss */
 .top-bar .navbar {
   display: none;
 }
 /* line 15, sass/_partials/_header_and_footer.scss */
-.top-bar .phone-email {
-  padding: 3px 0;
+.top-bar .left-col {
+  /* padding: 3px 0; */
 }
 /* line 17, sass/_partials/_header_and_footer.scss */
-.top-bar .phone-email i {
+.top-bar .left-col i {
   margin-right: 7px;
 }
 /* line 20, sass/_partials/_header_and_footer.scss */
-.top-bar .phone-email a {
+.top-bar .left-col a {
   margin-right: 20px;
+}
+.top-bar .nav a:hover {
+  text-decoration: underline;
+  color: inherit;
 }
 
 /* line 28, sass/_partials/_header_and_footer.scss */
@@ -10996,7 +11006,7 @@ button.close {
 
 /* formatting for menu nav */
 /* line 37, sass/_partials/_header_and_footer.scss */
-header {
+header.navbar {
   margin: 2em 0;
 }
 
@@ -11111,7 +11121,7 @@ header {
 /* line 97, sass/_partials/_header_and_footer.scss */
 .footer-top .nav > li > a:hover, .footer-top .nav > li > a:focus, .top-bar .nav > li > a:hover, .top-bar .nav > li > a:focus {
   background-color: transparent;
-  color: #CCD6D9;
+  color: #fff;
 }
 
 /* line 104, sass/_partials/_header_and_footer.scss */
