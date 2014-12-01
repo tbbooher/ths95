@@ -228,6 +228,10 @@
   > .active {
     display: block;
     visibility: visible;
+    // added by derick
+    background: #fff; /* non-supportive browsers get white */
+    background: rgba(255,255,255, .75);
+    padding: 1.5em 1em;      
   }
 }
 
