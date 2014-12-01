@@ -6,7 +6,6 @@
             </div>
                <div class="col-md-7 coachName">
                  	<h2 class="entry-title">
-                    foo!
                     <?php the_title(); ?>
                   </h2>
                     Email <a href="<?php get_post_meta(get_the_ID(), 'email', true) ?>">

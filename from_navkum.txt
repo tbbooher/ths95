@@ -1,0 +1,44 @@
+<!-- this is how he suggests formatting coaches -->
+<h1 class="entry-title">Our Coaches</h1>
+          <div class="col-md-6 coach">
+            <div class=" col-md-5">
+                <img src="http://localhost/gym/wp-content/themes/new_cfa/img/torpy-300x199.jpg" alt="Dave Torpy" class="img-responsive">
+            </div>
+            <div class="col-md-7 coachName">
+                <h2 class="entry-title">Dave Torpy</h2>
+                <h3>CFA Manager</h3>
+                <a href="mailto:"><i class="fa fa-mail-reply"></i></a>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-12">
+              <p>
+                CrossFit was introduced to me in 2010 and immediately changed my outlook 
+                on my fitness and health. The methodology, challenges, and dedication that 
+                it promotes allowed me to start out as a beginner, and work towards attainable goals 
+                within my abilities.</p> 
+                <p>
+                Learning specific Olympic lifts or trying to master some other 
+                movement, became a great drive for me. Although my athletic career only stemmed from a 
+                few years of high school sports, I have never felt this good, fit, or healthy.</p> 
+                <p>
+                I’m CrossFit L1 certified, CrossFit Kids certified, and have attended various related seminars. I’m always thrilled when new and veteran athletes make meaningful gains or accomplish new goals</p>
+            </div>
+          </div> 
+          <!-- right side -->
+          <div class="col-md-4 content-area" id="main-column">
+                    <h3>Upcoming Events</h3>
+                      <a href="#"><h4>Handstand Walks Workshop</h4></a>
+                        <div class="entry-content">
+                          <p><strong>When:</strong> November 15th from 1-2pm<br>
+                          <strong>Where:</strong> CFFC</p>
+                          </div>  
+                      <h3>Recent News</h3>      
+                        <img src="#" alt="Best Bar Ever" class="img-responsive"><br>
+                        <p>Now available in fridge!</p>
+                        <div class="entry-content">
+                          <p><strong>Single Bar=</strong> $4.00<br>
+                          <strong>Box of Bar=</strong> $22.00</p>
+                          <p>Really Tasty!</p>
+                          <a href="#">Find our more</a>
+                          </div> 
+                    </div>
