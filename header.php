@@ -36,8 +36,8 @@
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
 
-<!-- Header Top Bar Start -->
-    <div class="top-bar">
+    <!-- Header Top Bar Start -->
+    <header class="top-bar">
       <div class="container">
         <div class="row">
           <div class="left-col pull-left">
@@ -49,13 +49,14 @@
           </div>
         </div>
       </div>
-    </div>
-<!-- Header Top Bar End -->       
+    </header>
+    <!-- Header Top Bar End -->       
     <div class="container page-container sticky-wrapper">
         <?php do_action('before'); ?>
 
         <header class="navbar navbar-static-top" id="top" role="banner">
-          <div class="row">           
+          <div class="row">   
+            <!-- this isn't working yet -->
             <div class="navbar-header">
               <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -64,12 +65,15 @@
                 <span class="icon-bar"></span>
               </button>
             </div>
+            
+            <!-- logo -->
             <h1 class="col-sm-3 col-md-3 col-lg-5 logo">
                 <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
                   <img src="<?php echo get_bloginfo('template_directory') ?>/img/logo.png" alt="Crossfit Adaptation">
                 </a>
             </h1>  
 
+            <!-- nav menu -->
             <nav class="col-sm-9 col-md-9 col-lg-7 collapse navbar-collapse navbar-primary-collapse" role="navigation">
               <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
               <?php dynamic_sidebar('navbar-right'); ?>
