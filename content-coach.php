@@ -18,7 +18,9 @@
 		<div class="clearfix"></div>
     <footer class="entry-meta">
       Email <a href="<?php get_post_meta(get_the_ID(), 'email', true) ?>"><?php the_title(); ?></a>
-      <?php bootstrapBasicEditPostLink(); ?>
+      <div id="edit_coach" style="padding:20px;">
+        <?php bootstrapBasicEditPostLink(); ?>
+      </div>
     </footer><!-- .entry-meta -->
 	</div><!-- .entry-content -->
 	
