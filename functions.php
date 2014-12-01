@@ -6,6 +6,8 @@
  */
 
 
+add_image_size( 'coach-thumb', 200, 200, true ); // (cropped)
+
 /**
  * Required WordPress variable.
  */

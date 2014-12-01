@@ -1,8 +1,7 @@
 - <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> class="col-md-6 coach">
   
   <div class="the_image img-responsive col-md-5">
-    <!-- are you here?? -->
-    <?php the_post_thumbnail('medium'); ?>
+    <?php the_post_thumbnail('coach-thumb'); ?>
   </div>
 	<header class="entry-header col-md-7 coachName">
 		<h2 class="entry-title">
