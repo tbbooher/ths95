@@ -1,0 +1,76 @@
+.workout-schedule {
+  border-collapse: collapse;
+  th, td {
+    padding: .75em .5em;
+    text-align: center;
+  }
+  th {
+    background: #d8dad9;
+    border: 1px solid #d8dad9;
+    &:first-child {
+      background: none;
+      border-width: 0;
+    }
+  }
+  td {
+    border: 1px solid #d8dad9;
+    border-width: 1px;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .workout_time {
+    text-align: right;
+    border-width: 0;
+  }
+}
+
+.pricing {
+  color: #333;
+  h3 {
+    font-size: 2em;
+  }
+  h4 {
+    font-size: 1.7em;
+  }
+  h5 {
+    margin-top: 2em;
+  }
+}
+
+.pricing-desc, .pricing-cost {
+  font-size: 2em;
+  text-align: center;
+}
+
+.pricing-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  li:before {
+    content: '-';
+    margin-right: 6px;
+  }
+}
+
+.pricing-cost.special:after {
+  color: #c91e20;
+  content: '*';
+  font-weight: bold;
+  margin-left: .25em;
+}
+
+.pricing-special {
+  font-size: 1.25em;
+  margin-top: 1.75em;
+  &:before {
+    color: #c91e20;
+    content: '*';
+    font-size: 2em;
+    float: left;
+    margin-right: .25em;
+  }
+}
