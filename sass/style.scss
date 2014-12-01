@@ -32,15 +32,13 @@ $red: #c91e20;
 $line: #CCD6D9;
 $font-on_dark: #A1A1A1;
 
-/* @import "compass/reset"; */
+@import "compass/reset";
 @import "bootstrap-compass";
-//@import "bootstrap-variables";
+@import "font-awesome-compass";
 @import "bootstrap";
 
-@import "font-awesome-compass";
-@import "font-awesome";
-@import "_partials/_from_carousel";
 @import "_partials/_header_and_footer";
+@import "_partials/_from_carousel";
 @import "_partials/_schedule";
 @import "_partials/_pricing";
 @import "_partials/_menu_primary";
