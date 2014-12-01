@@ -1,8 +1,9 @@
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+- <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<h2 class="entry-title"><?php the_title(); ?></h2>
 	</header><!-- .entry-header -->
 
+  <!-- this is what needs to be updated with the new styles you wrote -->
 	<div class="entry-content">
         <div class="the_image">
             <?php the_post_thumbnail('medium'); ?>
