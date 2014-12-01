@@ -1,19 +1,17 @@
-- <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header">
-		<h2 class="entry-title"><?php the_title(); ?></h2>
-	</header><!-- .entry-header -->
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-  <!-- this is what needs to be updated with the new styles you wrote -->
-	<div class="entry-content">
-        <div class="the_image">
-            <?php the_post_thumbnail('medium'); ?>
-        </div>
-		<?php the_content(bootstrapBasicMoreLinkText()); ?> 
-		<div class="clearfix"></div>
-	</div><!-- .entry-content -->
-	
-	<footer class="entry-meta">
-        Email <a href="<?php get_post_meta(get_the_ID(), 'email', true) ?>"><?php the_title(); ?></a>
+	<div class="entry-content col-md-6 coach">
+            <div class=" col-md-5">
+                 <?php the_post_thumbnail('medium'); ?>
+            </div>
+               <div class="col-md-7 coachName">
+                 	<h2 class="entry-title">      <?php the_title(); ?>    </h2>
+                    Email <a href="<?php get_post_meta(get_the_ID(), 'email', true) ?>"><?php the_title(); ?></a>
         <?php bootstrapBasicEditPostLink(); ?>
-	</footer><!-- .entry-meta -->
+       
+              </div>
+		<div class="clearfix"></div>
+           <?php the_content(bootstrapBasicMoreLinkText()); ?> 
+	</div><!-- .entry-content -->
+
 </article><!-- #post-## -->
