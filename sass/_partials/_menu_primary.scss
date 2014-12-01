@@ -1,4 +1,21 @@
+// logo image
+header#top .row {
+    margin: 2em 0;
+}
+
+
+.logo {
+    margin: 0px;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+}
+
+// menu primary
+
 #menu-primary {
+  background-color: blue;
   margin-top: .25em;
   li {
     margin-left: 1%;
@@ -17,21 +34,20 @@
   &.navbar-nav {
     .menu-item {
       border-bottom: 3px solid #d8dad9;
+      &:hover {
+        border-bottom-color: #c91e20;
+      }
     }
     .current-menu-item, .current_page_item, .active {
       border-bottom: 3px solid #c91e20;
+      & a {
+        cursor: default;
+      }
     }
   }
 }
 
-.current-menu-item a, .current-page-item a, .active a {
-  cursor: default;
-}
-
-#menu-primary.navbar-nav .menu-item:hover {
-  border-bottom-color: #c91e20;
-}
-
+/* line 54, sass/_partials/_header_and_footer.scss */
 @media (min-width: 1000px) {
   #menu-primary {
     margin-top: .5em;

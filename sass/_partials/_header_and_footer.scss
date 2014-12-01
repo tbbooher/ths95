@@ -1,27 +1,22 @@
-
-
 // the member menu (menu top)
 
 .top-bar {    
     .container {
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
+        padding: 0em;
     }
     .nav a {
-      padding: 0;
       &:hover {
-        text-decoration: underline;
-        color: inherit;
+          color: $dark;
       }
     }
     width: 100%;
-    min-height: 30px;
     background: $red;
     border-bottom: 1px solid $dark-blue;
-    padding: 3px 0;
-    line-height: 30px;
     font-size: 14px;
     .left-col {
+        position: relative;
+        display: block;
+        padding: $nav-link-padding;
         i {
             margin-right: 7px;
         }
@@ -40,75 +35,18 @@
     }
 }
 
-// logo image
-
-.logo {
-    margin: 0px;
-    img {
-      max-width: 100%;
-      height: auto;
-    }
-}
-
-// menu primary
-
-#menu-primary {
-  margin-top: .25em;
-  li {
-    margin-left: 1%;
-    width: auto;
-  }
-  a {
-    padding: .5em;
-    background: #fff;
-    color: #272727;
-    display: block;
-    padding: .5em 1em;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  &.navbar-nav {
-    .menu-item {
-      border-bottom: 3px solid #d8dad9;
-      &:hover {
-        border-bottom-color: #c91e20;
-      }
-    }
-    .current-menu-item, .current_page_item, .active {
-      border-bottom: 3px solid #c91e20;
-      & a {
-        cursor: default;
-      }
-    }
-  }
-}
-
-/* line 54, sass/_partials/_header_and_footer.scss */
-/* @media (min-width: 1000px) {
-  #menu-primary {
-    margin-top: .5em;
-    li {
-      width: 24%;
-    }
-    a {
-      padding: .75em 1em;
-    }
-  }
-} */
-
 // this is the user menu
 .footer-top, .top-bar {
     a {
         color: white;
         .fa {
-            display: inline-block;            
-            font-family: FontAwesome;
-            font-style: normal;
-            font-weight: normal;
-            line-height: 1;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
+          display: inline-block;
+          font-family: FontAwesome;
+          font-style: normal;
+          font-weight: normal;
+          line-height: 1;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
         }
         .fa-phone:before {
             content: "\f095";
@@ -241,26 +179,26 @@
     }
 }
 
-.social {
-    margin-right: 4px;
-    line-height: 44px;   
-    li {
-        background-color: transparent;
-        border: 2px solid #fafafa;
-        border-radius: 100% 100% 100% 100%;
-        display: inline-block;
-        height: 35px;
-        margin-right: 5px;
-        width: 35px;
-        line-height: 30px;
-        text-align: center;
-        background: transparent;
-        -webkit-transition: background .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out;
-        -o-transition: background .5s ease-in-out;
-        -ms-transition: background .5s ease-in-out;
-        transition: background .5s ease-in-out;
-        padding: 1px;
-        cursor: pointer;
-    }
-}
+//.social {
+//    margin-right: 4px;
+//    line-height: 44px;   
+//    li {
+//        background-color: transparent;
+//        border: 2px solid #fafafa;
+//        border-radius: 100% 100% 100% 100%;
+//        display: inline-block;
+//        height: 35px;
+//        margin-right: 5px;
+//        width: 35px;
+//        line-height: 30px;
+//        text-align: center;
+//        background: transparent;
+//        -webkit-transition: background .5s ease-in-out;
+//        -moz-transition: background .5s ease-in-out;
+//        -o-transition: background .5s ease-in-out;
+//        -ms-transition: background .5s ease-in-out;
+//        transition: background .5s ease-in-out;
+//        padding: 1px;
+//        cursor: pointer;
+//    }
+//}

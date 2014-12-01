@@ -45,7 +45,7 @@
             <a href="info@crossfitadaptation.com"><i class="fa fa-envelope"></i> Email : info@crossfitadaptation.com</a>
           </div>
           <div class="right-col pull-right">
-           <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
+           <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav nav-pills', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
         <?php do_action('before'); ?>
 
         <header class="navbar navbar-static-top" id="top" role="banner">
-          <div class="row">   
+          <div class="row" style="background-color:gray;">   
             <!-- this isn't working yet -->
             <div class="navbar-header">
               <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">

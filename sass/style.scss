@@ -32,16 +32,20 @@ $red: #c91e20;
 $line: #CCD6D9;
 $font-on_dark: #A1A1A1;
 
+@import "mixins";
+
 @import "compass/reset";
 @import "bootstrap-compass";
 @import "font-awesome-compass";
+
+@import "font-awesome";
 @import "bootstrap";
 
-@import "_partials/_header_and_footer";
-@import "_partials/_from_carousel";
-@import "_partials/_schedule";
-@import "_partials/_pricing";
-@import "_partials/_menu_primary";
+@import "_partials/header_and_footer";
+//@import "_partials/_from_carousel";
+@import "_partials/schedule";
+@import "_partials/pricing";
+@import "_partials/menu_primary";
 
 body {    
     font-family: $body-font;
