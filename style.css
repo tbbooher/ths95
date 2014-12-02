@@ -11357,6 +11357,9 @@ div.content-box .box_content {
 
 /* Custom CSS Navkum*/
 /* line 146, sass/style.scss */
+.coach{
+  margin-bottom: 25px;
+}
 .coachtitle {
   margin: 20px 0px;
 }
