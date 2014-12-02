@@ -11344,31 +11344,17 @@ div.content-box .box_content {
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
-
-/* line 136, sass/style.scss */
-.well {
-  background-color: white;
-}
-
-/* line 140, sass/style.scss */
-.wod-image {
-  padding: 2em;
-}
-
-/* Custom CSS Navkum*/
-/* line 146, sass/style.scss */
+/* Custum CSS*/
 .coach {
-  padding: 20px 0px;
+  padding: 15px 0px;
 }
-/* line 148, sass/style.scss */
 .coach img {
-  margin-bottom: 10px;
+  margin-bottom:10px;
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-/* line 157, sass/style.scss */
 .coachName h2 {
   margin-top: 0px;
 }

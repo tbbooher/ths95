@@ -1,0 +1,66 @@
+/*
+Error: Invalid CSS after "...4c6993e2a572ed1": expected "{", was ""
+        on line 161 of /Users/tim/Sites/wordpress_themes/new_cfa/sass/style.scss.BACKUP.75626.scss
+
+156:   h2{
+157:      margin-top:0px;
+158:   }
+159: }
+160: >>>>>>> c8f0037a0b7632470d70d0e264c6993e2a572ed1
+
+Backtrace:
+/Users/tim/Sites/wordpress_themes/new_cfa/sass/style.scss.BACKUP.75626.scss:161
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/scss/parser.rb:1163:in `expected'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/scss/parser.rb:1099:in `expected'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/scss/parser.rb:1094:in `tok!'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/scss/parser.rb:641:in `block'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/scss/parser.rb:635:in `ruleset'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/scss/parser.rb:660:in `block_child'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/scss/parser.rb:653:in `block_contents'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/scss/parser.rb:117:in `stylesheet'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/scss/parser.rb:42:in `parse'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/engine.rb:393:in `_to_tree'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/engine.rb:268:in `render'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/compass-1.0.1/lib/compass/sass_compiler.rb:40:in `compile!'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/compass-1.0.1/lib/compass/commands/update_project.rb:49:in `perform'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-compass-1.1.0/lib/guard/compass.rb:140:in `perform'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-compass-1.1.0/lib/guard/compass.rb:123:in `run_on_change'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:77:in `block in _supervise'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:74:in `catch'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:74:in `_supervise'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:57:in `block (2 levels) in run_on_changes'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:51:in `each'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:51:in `block in run_on_changes'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:135:in `block (3 levels) in _scoped_plugins'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:133:in `each'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:133:in `block (2 levels) in _scoped_plugins'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:132:in `catch'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:132:in `block in _scoped_plugins'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:129:in `each'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:129:in `_scoped_plugins'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/runner.rb:48:in `run_on_changes'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/setuper.rb:212:in `_process_queue'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/commander.rb:34:in `start'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/cli.rb:113:in `start'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/aruba_adapter.rb:32:in `execute'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/lib/guard/aruba_adapter.rb:19:in `execute!'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/gems/guard-2.8.2/bin/guard:11:in `<top (required)>'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/bin/guard:23:in `load'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/bin/guard:23:in `<main>'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/bin/ruby_executable_hooks:15:in `eval'
+/Users/tim/.rvm/gems/ruby-2.1.5@new_cfa/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...4c6993e2a572ed1\": expected \"{\", was \"\"\A         on line 161 of /Users/tim/Sites/wordpress_themes/new_cfa/sass/style.scss.BACKUP.75626.scss\A \A 156:   h2{\A 157:      margin-top:0px;\A 158:   }\A 159: }\A 160: >>>>>>> c8f0037a0b7632470d70d0e264c6993e2a572ed1"; }

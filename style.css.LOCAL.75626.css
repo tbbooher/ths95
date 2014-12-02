@@ -11354,21 +11354,3 @@ div.content-box .box_content {
 .wod-image {
   padding: 2em;
 }
-
-/* Custom CSS Navkum*/
-/* line 146, sass/style.scss */
-.coach {
-  padding: 20px 0px;
-}
-/* line 148, sass/style.scss */
-.coach img {
-  margin-bottom: 10px;
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* line 157, sass/style.scss */
-.coachName h2 {
-  margin-top: 0px;
-}
