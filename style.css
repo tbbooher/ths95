@@ -11344,3 +11344,17 @@ div.content-box .box_content {
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
+/* Custum CSS*/
+.coach {
+  padding: 15px 0px;
+}
+.coach img {
+  margin-bottom:10px;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.coachName h2 {
+  margin-top: 0px;
+}

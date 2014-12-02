@@ -27,6 +27,7 @@
     
 <link href='http://fonts.googleapis.com/css?family=Lato:400,900|Lora:400,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="http://localhost/gym/wp-content/themes/new_cfa/img/fav.png" type="image/x-icon" />
 
 <!--wordpress head-->
 <?php wp_head(); ?>
