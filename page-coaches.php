@@ -35,13 +35,26 @@ get_header();
           
                     <!-- now display coaches -->
                     
-                        <?php
-                        $args = array( 'post_type' => 'coach', 'posts_per_page' => 20 );
-                        $loop = new WP_Query( $args );
-                        while ( $loop->have_posts() ) : $loop->the_post();
-                            get_template_part('content', 'coach');
-                        endwhile;
-                        ?>
+<?php
+$i = 1;
+ $args = array( 'post_type' => 'coach', 'posts_per_page' => 20 );
+ $loop = new WP_Query( $args );
+
+//added before to ensure it gets opened
+echo '<div class="clearfix">';
+ while ( $loop->have_posts() ) : $loop->the_post();
+ get_template_part('content', 'coach');
+     // post stuff...
+
+     // if multiple of 3 close div and open a new div
+     if($i % 2 == 0) {echo '</div><div class="clearfix">';}
+
+$i++; endwhile;
+//make sure open div is closed
+echo '</div>';
+?>
+
+                    
                   
         </div>
 
