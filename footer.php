@@ -18,7 +18,8 @@
             <div class="container">
               <div class="row">
                 <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
-                    <h3>Footer Left??</h3>
+                    <h3>Footer Left</h3>
+                    <p>This should be social content, like a sample of flickr pictures</p>
                     <?php 
                         if (!dynamic_sidebar('footer-left')) {
                             printf(__('Powered by %s', 'bootstrap-basic'), 'WordPress');
@@ -29,14 +30,23 @@
                 </section>
                 <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
                   <h3>Partners</h3>
-                  <p>crossfit link</p>
+                  <p>Also give this major air time on the wod page</p>
+                  <ul>
+                    <li>Link to Power Supply</li>
+                    <li>Link to Custom Fit</li>
+                    <li>Link to Reebok Store</li>
+                    <li>Link to Jackson Clinics</li>
+                  </ul>
                 </section>
                 <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
                   <h3>Contact Us</h3>
                   <ul class="contact-us">
                     <li> <i class="fa fa-map-marker"></i>
-                      <p> <strong class="contact-pad">Address:</strong><br> xxx 4 Mile Run Drive<br>
-                        Arlington, VA xxxxx</p>
+                      <p>
+                        <strong class="contact-pad">Address:</strong>
+                        <br> xxx 4 Mile Run Drive<br>
+                        Arlington, VA xxxxx
+                      </p>
                     </li>
                     <li> <i class="fa fa-phone"></i>
                       <p><strong>Phone:</strong> +880 111-111-111</p>
@@ -47,7 +57,12 @@
                   </ul>
                 </section>
                 <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-four">
-                    <h3>Footer Right?</h3>
+                    <h3>CFA Community</h3>
+                    <ul>
+                      <li>Link to the crossfit journal</li>
+                      <li>Link to CFFC</li>
+                      <li>Link to Crossfit Corportate</li>
+                    </ul>
                     <?php dynamic_sidebar('footer-right'); ?> 
                 </section>
               </div>
