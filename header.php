@@ -41,8 +41,8 @@
       <div class="container">
         <div class="row">
           <div class="left-col pull-left">
-            <a><i class="fa fa-phone"></i> Call Us : 703.123.1234</a>
-            <a href="info@crossfitadaptation.com"><i class="fa fa-envelope"></i> Email : info@crossfitadaptation.com</a>
+            <span><i class="fa fa-phone"></i> Call Us : 703.123.1234</span>
+            <span href="info@crossfitadaptation.com"><i class="fa fa-envelope"></i> Email : info@crossfitadaptation.com</span>
           </div>
           <div class="right-col pull-right">
            <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav nav-pills', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
@@ -55,16 +55,7 @@
         <?php do_action('before'); ?>
 
         <header class="navbar navbar-static-top" id="top" role="banner">
-          <div class="row" style="background-color:gray;">   
-            <!-- this isn't working yet -->
-            <div class="navbar-header">
-              <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
+          <div class="row">
             
             <!-- logo -->
             <h1 class="col-sm-3 col-md-3 col-lg-5 logo">
@@ -74,8 +65,8 @@
             </h1>  
 
             <!-- nav menu -->
-            <nav class="col-sm-9 col-md-9 col-lg-7 collapse navbar-collapse navbar-primary-collapse" role="navigation">
-              <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
+            <nav class="col-sm-9 col-md-9 col-lg-7" role="navigation">
+              <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav nav-justified', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
               <?php dynamic_sidebar('navbar-right'); ?>
             </nav>
           </div>

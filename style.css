@@ -10935,27 +10935,28 @@ button.close {
   margin-right: 7px;
 }
 /* line 23, sass/_partials/_header_and_footer.scss */
-.top-bar .left-col a {
+.top-bar .left-col span {
+  color: white;
   margin-right: 20px;
 }
-/* line 27, sass/_partials/_header_and_footer.scss */
+/* line 28, sass/_partials/_header_and_footer.scss */
 .top-bar .phone-email {
   padding: 3px 0;
 }
-/* line 29, sass/_partials/_header_and_footer.scss */
+/* line 30, sass/_partials/_header_and_footer.scss */
 .top-bar .phone-email i {
   margin-right: 7px;
 }
-/* line 32, sass/_partials/_header_and_footer.scss */
+/* line 33, sass/_partials/_header_and_footer.scss */
 .top-bar .phone-email a {
   margin-right: 20px;
 }
 
-/* line 40, sass/_partials/_header_and_footer.scss */
+/* line 41, sass/_partials/_header_and_footer.scss */
 .footer-top a, .top-bar a {
   color: white;
 }
-/* line 42, sass/_partials/_header_and_footer.scss */
+/* line 43, sass/_partials/_header_and_footer.scss */
 .footer-top a .fa, .top-bar a .fa {
   display: inline-block;
   font-family: FontAwesome;
@@ -10965,20 +10966,20 @@ button.close {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* line 51, sass/_partials/_header_and_footer.scss */
+/* line 52, sass/_partials/_header_and_footer.scss */
 .footer-top a .fa-phone:before, .top-bar a .fa-phone:before {
   content: "\f095";
 }
-/* line 54, sass/_partials/_header_and_footer.scss */
+/* line 55, sass/_partials/_header_and_footer.scss */
 .footer-top a .fa-envelope:before, .top-bar a .fa-envelope:before {
   content: "\f0e0";
 }
-/* line 57, sass/_partials/_header_and_footer.scss */
+/* line 58, sass/_partials/_header_and_footer.scss */
 .footer-top a .fa-map-marker:before, .top-bar a .fa-map-marker:before {
   content: "\f041";
 }
 
-/* line 63, sass/_partials/_header_and_footer.scss */
+/* line 64, sass/_partials/_header_and_footer.scss */
 .contact-us li i {
   color: #A1A1A1;
   float: left;
@@ -10986,79 +10987,79 @@ button.close {
 }
 
 /* %%%%% FOOTER WORK %%%%% */
-/* line 72, sass/_partials/_header_and_footer.scss */
+/* line 73, sass/_partials/_header_and_footer.scss */
 #footer ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 77, sass/_partials/_header_and_footer.scss */
+/* line 78, sass/_partials/_header_and_footer.scss */
 #footer li {
   padding: 0;
   margin: 0;
 }
 
-/* line 83, sass/_partials/_header_and_footer.scss */
+/* line 84, sass/_partials/_header_and_footer.scss */
 .footer-top {
   background: #213440;
   border-bottom: 1px solid #CCD6D9;
   color: #A1A1A1;
   padding: 50px 0;
 }
-/* line 88, sass/_partials/_header_and_footer.scss */
+/* line 89, sass/_partials/_header_and_footer.scss */
 .footer-top h3, .footer-top a {
   color: white;
 }
-/* line 91, sass/_partials/_header_and_footer.scss */
+/* line 92, sass/_partials/_header_and_footer.scss */
 .footer-top ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 96, sass/_partials/_header_and_footer.scss */
+/* line 97, sass/_partials/_header_and_footer.scss */
 .footer-top .contact-us {
   margin: 15px 0 0;
   background: url("img/contact-map.png") no-repeat center bottom;
 }
-/* line 99, sass/_partials/_header_and_footer.scss */
+/* line 100, sass/_partials/_header_and_footer.scss */
 .footer-top .contact-us p {
   line-height: 24px;
   margin-left: 20px;
   margin-top: -2px;
 }
-/* line 104, sass/_partials/_header_and_footer.scss */
+/* line 105, sass/_partials/_header_and_footer.scss */
 .footer-top .contact-us li i {
   color: #777777;
   float: left;
   margin: 4px 0 0;
 }
 
-/* line 112, sass/_partials/_header_and_footer.scss */
+/* line 113, sass/_partials/_header_and_footer.scss */
 .footer-bottom {
   background: #272727;
   color: #888;
   line-height: 38px;
   padding: 15px;
 }
-/* line 117, sass/_partials/_header_and_footer.scss */
+/* line 118, sass/_partials/_header_and_footer.scss */
 .footer-bottom a {
   color: #fff;
 }
-/* line 120, sass/_partials/_header_and_footer.scss */
+/* line 121, sass/_partials/_header_and_footer.scss */
 .footer-bottom .our-clients ul {
   list-style: none;
 }
-/* line 124, sass/_partials/_header_and_footer.scss */
+/* line 125, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social {
   margin-right: 4px;
   line-height: 44px;
   margin-right: 0 !important;
 }
-/* line 127, sass/_partials/_header_and_footer.scss */
+/* line 128, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social li:last-child {
   margin-right: 0 !important;
 }
-/* line 131, sass/_partials/_header_and_footer.scss */
+/* line 132, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social li {
   background-color: transparent;
   border: 2px solid #fafafa;
@@ -11078,12 +11079,12 @@ button.close {
   padding: 1px;
   cursor: pointer;
 }
-/* line 152, sass/_partials/_header_and_footer.scss */
+/* line 153, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social-icons-footer-bottom {
   float: right;
   margin: 6px 0 0;
 }
-/* line 155, sass/_partials/_header_and_footer.scss */
+/* line 156, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social-icons-footer-bottom li {
   display: inline;
   float: left;
@@ -11095,7 +11096,7 @@ button.close {
   -ms-transition: all .2s ease-in-out 0;
   transition: all .2s ease-in-out 0;
 }
-/* line 165, sass/_partials/_header_and_footer.scss */
+/* line 166, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social-icons-footer-bottom li i {
   display: inline-block;
   font-family: FontAwesome;
@@ -11108,101 +11109,6 @@ button.close {
   text-align: center;
   text-decoration: inherit;
   text-transform: none;
-}
-
-/* line 1, sass/_partials/_schedule.scss */
-.workout-schedule {
-  border-collapse: collapse;
-}
-/* line 3, sass/_partials/_schedule.scss */
-.workout-schedule th, .workout-schedule td {
-  padding: .75em .5em;
-  text-align: center;
-}
-/* line 7, sass/_partials/_schedule.scss */
-.workout-schedule th {
-  background: #d8dad9;
-  border: 1px solid #d8dad9;
-}
-/* line 10, sass/_partials/_schedule.scss */
-.workout-schedule th:first-child {
-  background: none;
-  border-width: 0;
-}
-/* line 15, sass/_partials/_schedule.scss */
-.workout-schedule td {
-  border: 1px solid #d8dad9;
-  border-width: 1px;
-}
-/* line 19, sass/_partials/_schedule.scss */
-.workout-schedule ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-/* line 24, sass/_partials/_schedule.scss */
-.workout-schedule .workout_time {
-  text-align: right;
-  border-width: 0;
-}
-
-/* Pricing Styles */
-/* line 32, sass/_partials/_schedule.scss */
-.pricing {
-  color: #333;
-}
-/* line 34, sass/_partials/_schedule.scss */
-.pricing h3 {
-  font-size: 2em;
-}
-/* line 37, sass/_partials/_schedule.scss */
-.pricing h4 {
-  font-size: 1.7em;
-}
-/* line 40, sass/_partials/_schedule.scss */
-.pricing h5 {
-  margin-top: 2em;
-}
-
-/* line 45, sass/_partials/_schedule.scss */
-.pricing-desc, .pricing-cost {
-  font-size: 2em;
-  text-align: center;
-}
-
-/* line 50, sass/_partials/_schedule.scss */
-.pricing-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-/* line 55, sass/_partials/_schedule.scss */
-.pricing-list li:before {
-  content: '-';
-  margin-right: 6px;
-}
-
-/* line 61, sass/_partials/_schedule.scss */
-.pricing-cost.special:after {
-  color: #c91e20;
-  content: '*';
-  font-weight: bold;
-  margin-left: .25em;
-}
-
-/* line 68, sass/_partials/_schedule.scss */
-.pricing-special {
-  font-size: 1.25em;
-  margin-top: 1.75em;
-}
-/* line 71, sass/_partials/_schedule.scss */
-.pricing-special:before {
-  color: #c91e20;
-  content: '*';
-  font-size: 2em;
-  float: left;
-  margin-right: .25em;
 }
 
 /* line 1, sass/_partials/_pricing.scss */
@@ -11314,59 +11220,32 @@ header#top .row {
   height: auto;
 }
 
-/* line 17, sass/_partials/_menu_primary.scss */
-#menu-primary {
-  background-color: blue;
-  margin-top: .25em;
-}
-/* line 20, sass/_partials/_menu_primary.scss */
-#menu-primary li {
-  margin-left: 1%;
-  width: auto;
-}
-/* line 24, sass/_partials/_menu_primary.scss */
+/* line 18, sass/_partials/_menu_primary.scss */
 #menu-primary a {
-  padding: .5em;
-  background: #fff;
   color: #272727;
-  display: block;
-  padding: .5em 1em;
-  text-align: center;
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 35, sass/_partials/_menu_primary.scss */
-#menu-primary.navbar-nav .menu-item {
-  border-bottom: 3px solid #d8dad9;
+/* line 27, sass/_partials/_menu_primary.scss */
+#menu-primary.nav-justified li {
+  padding-left: 1%;
 }
-/* line 37, sass/_partials/_menu_primary.scss */
-#menu-primary.navbar-nav .menu-item:hover {
-  border-bottom-color: #c91e20;
+/* line 29, sass/_partials/_menu_primary.scss */
+#menu-primary.nav-justified li a {
+  float: none;
 }
-/* line 41, sass/_partials/_menu_primary.scss */
-#menu-primary.navbar-nav .current-menu-item, #menu-primary.navbar-nav .current_page_item, #menu-primary.navbar-nav .active {
+/* line 32, sass/_partials/_menu_primary.scss */
+#menu-primary.nav-justified li a:hover {
   border-bottom: 3px solid #c91e20;
+  background-color: inherit;
 }
-/* line 43, sass/_partials/_menu_primary.scss */
-#menu-primary.navbar-nav .current-menu-item a, #menu-primary.navbar-nav .current_page_item a, #menu-primary.navbar-nav .active a {
+/* line 38, sass/_partials/_menu_primary.scss */
+#menu-primary.nav-justified .current-menu-item a, #menu-primary.nav-justified .current_page_item a, #menu-primary.nav-justified .active a {
+  border-bottom: 3px solid #c91e20;
   cursor: default;
 }
 
 /* line 54, sass/_partials/_header_and_footer.scss */
-@media (min-width: 1000px) {
-  /* line 52, sass/_partials/_menu_primary.scss */
-  #menu-primary {
-    margin-top: .5em;
-  }
-  /* line 54, sass/_partials/_menu_primary.scss */
-  #menu-primary li {
-    width: 24%;
-  }
-  /* line 57, sass/_partials/_menu_primary.scss */
-  #menu-primary a {
-    padding: .75em 1em;
-  }
-}
 /* line 50, sass/style.scss */
 body {
   font-family: "Lato", sans-serif;
