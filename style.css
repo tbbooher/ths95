@@ -11344,3 +11344,13 @@ div.content-box .box_content {
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
+
+/* line 136, sass/style.scss */
+.well {
+  background-color: white;
+}
+
+/* line 140, sass/style.scss */
+.wod-image {
+  padding: 2em;
+}

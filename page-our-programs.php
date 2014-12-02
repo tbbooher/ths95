@@ -37,9 +37,10 @@ get_header();
                                 while ( $query->have_posts() ) {
                                     $query->the_post();
                                     ?>
-                                        <div class="row">
+                                        <div class="row well">
+                                            
                                             <div class="col-md-4">
-                                               <?php the_post_thumbnail( 'thumbnail' ); ?>
+                                               <?php the_post_thumbnail( 'thumbnail', array( 'class' => 'img-thumbnail' ) ); ?>
                                             </div>                                                
                                             <div class="col-md-8">
                                                 <h4><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></h4>
@@ -64,7 +65,7 @@ get_header();
 				</div>
                 <aside class="col-md-3 content-area" id="main-column">
                     <div class="the_image">
-                        <?php the_post_thumbnail('medium'); ?>
+                        <?php the_post_thumbnail('medium', array( 'class' => 'img-thumbnail' )); ?>
                     </div>
                     <h3>Upcoming Events</h3>
                     <div class="content-box big ch-item bottom-pad-small">

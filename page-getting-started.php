@@ -12,21 +12,21 @@ get_header();
  */
 //$main_column_size = bootstrapBasicGetMainColumnSize();
 ?> 
-				<div class="col-md-9 content-area" id="main-column">
-					<main id="main" class="site-main" role="main">
-						<?php 
-						while (have_posts()) {
-							the_post();
+        <div class="col-md-9 content-area" id="main-column">
+            <main id="main" class="site-main" role="main">
+                <?php 
+                while (have_posts()) {
+                    the_post();
 
-							get_template_part('content', 'start');
+                    get_template_part('content', 'start');
 
-						} //endwhile;
-						?> 
-					</main>
-				</div>
+                } //endwhile;
+                ?> 
+            </main>
+        </div>
         <aside class="col-md-3 content-area" id="main-column">
           <div class="the_image">
-            <?php the_post_thumbnail('medium'); ?>
+            <?php the_post_thumbnail('medium', array( 'class' => 'img-thumbnail' )); ?>
           </div>
           <h3>Upcoming Events</h3>
           <div class="content-box big ch-item bottom-pad-small">
