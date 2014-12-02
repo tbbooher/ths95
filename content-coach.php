@@ -1,5 +1,5 @@
 
-  <div  id="post-<?php the_ID(); ?>" <?php post_class('col-md-6 '); ?>>
+  <div  id="post-<?php the_ID(); ?>" <?php post_class('col-md-6 col-sm-6'); ?>>
             <div class="row col-md-5">
                  <?php the_post_thumbnail('medium'); ?>
             </div>
