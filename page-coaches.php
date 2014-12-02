@@ -12,8 +12,8 @@ get_header();
  */
 //$main_column_size = bootstrapBasicGetMainColumnSize();
 ?> 
-        <div class="col-md-9 content-area" id="main-column">
-        
+        <div class="row col-md-9 content-area" id="main-column">
+        <div class="col-md-12 coachtitle">
             <?php 
             while (have_posts()) {
               the_post();
@@ -32,7 +32,7 @@ get_header();
 
             } //endwhile;
             ?> 
-          
+        </div>  
                     <!-- now display coaches -->
                     
 <?php

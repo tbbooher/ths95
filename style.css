@@ -11357,8 +11357,11 @@ div.content-box .box_content {
 
 /* Custom CSS Navkum*/
 /* line 146, sass/style.scss */
-.coach {
-  padding: 20px 0px;
+.coachtitle {
+  margin: 20px 0px;
+}
+.type-coach p{
+margin: 10px 0px;
 }
 /* line 148, sass/style.scss */
 .coach img {
@@ -11371,4 +11374,10 @@ div.content-box .box_content {
 /* line 157, sass/style.scss */
 .coachName h2 {
   margin-top: 0px;
+}
+@media (max-width:768px) {
+  /* line 62, sass/bootstrap/_type.scss */
+  .coachName {
+    padding: 0px;
+  }
 }
