@@ -1,21 +1,22 @@
 
-  <div  id="post-<?php the_ID(); ?>" <?php post_class('coach_float'); ?>>
-    <div class="row col-md-5">
-         <?php the_post_thumbnail('medium', array('class' => 'img-rounded')); ?>
-    </div>
-    <div class="col-md-7 coachName">
-      <h2 class="entry-title">
-          <?php the_title(); ?>
-      </h2>
-      <div class="email">
-        Email <a href="<?php get_post_meta(get_the_ID(), 'email', true) ?>"><?php the_title(); ?></a>                    
-        <?php bootstrapBasicEditPostLink(); ?>
+  <div  id="post-<?php the_ID(); ?>" class="col-md-6">
+
+    <div class="row">
+      <div class="col-md-4">
+           <?php the_post_thumbnail('medium', array('class' => 'img-rounded img-responsive')); ?>
       </div>
-    </div>                                                                                       
-    <div class="clearfix"></div>
-    <div class="coach_desc text-justify">
-        <hr>                                            
+      <div class="col-md-8">
+        <h2 class="entry-title">
+            <?php the_title(); ?>
+        </h2>
+        <div>
+          <a href="<?php get_post_meta(get_the_ID(), 'email', true) ?>"> <i class="fa fa-envelope"></i> <?php the_title(); ?></a>                    
+          <?php bootstrapBasicEditPostLink(); ?>
+        </div>
+      </div>
+    </div>                                                                                  
+    <p class="row">                                    
         <?php the_content(bootstrapBasicMoreLinkText()); ?> 
-        <hr>
-    </div>
+        <!--<hr /> -->
+    </p>
   </div>

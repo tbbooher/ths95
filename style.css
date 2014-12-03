@@ -11358,32 +11358,20 @@ div.content-box .box_content {
 
 /* Custom CSS Navkum*/
 /* line 146, sass/style.scss */
-.coach {
-  padding: 20px 0px;
-}
-/* line 148, sass/style.scss */
-.coach img {
-  margin-bottom: 10px;
-  display: block;
-  max-width: 100%;
-  height: auto;
+.coach.row {
+  margin-top: 2em;
 }
 
+.coach.row:first-child {
+  margin-top: 0;
+}
 /* line 157, sass/style.scss */
-.coachName h2 {
+.coach h2 {
   margin-top: 0px;
 }
 
 /* line 162, sass/style.scss */
-.coach_desc hr {
+.coach hr {
   background-color: #c91e20;
   height: 1px;
-}
-
-/* line 167, sass/style.scss */
-.coach_float {
-  width: 45%;
-  float: left;
-  margin-right: 5%;
-  padding: 1em;
 }

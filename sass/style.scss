@@ -1,4 +1,4 @@
-/*
+  /*
 Theme Name: CFA Theme
 Theme URI: 
 Author: Tim Booher and Derick Montague
@@ -141,32 +141,25 @@ div.content-box {
  padding:2em;
 }
 
-/* Custom CSS Navkum*/
+/* Custom CSS Navkum - Edited by Derick */
 
-.coach{
-  padding:20px 0px;
-  img{
-  margin-bottom:10px;
-  display: block;
-  max-width: 100%;
-  height: auto;
+.coach {
+
+  &.row {
+    margin-top: 2em;
+  } 
+
+  &.row:first-child {
+    margin-top: 0;
   }
-}
 
-.coachName{
-  h2{
-     margin-top:0px;
+  h2 {
+    margin-top: 0px;
   }
-}
 
-.coach_desc hr {
+  hr {
     background-color: $red;
-    height:1px;
+    height: 1px;
+  } 
 }
 
-.coach_float {
-    width: 45%;
-    float: left;
-    margin-right: 5%;
-    padding: 1em;
-}
