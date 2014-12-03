@@ -11233,13 +11233,14 @@ header#top .row {
 /* line 29, sass/_partials/_menu_primary.scss */
 #menu-primary.nav-justified li a {
   float: none;
+  border-bottom: 3px solid #F1F2F7;
+  background-color: #fff;
 }
-/* line 32, sass/_partials/_menu_primary.scss */
+/* line 34, sass/_partials/_menu_primary.scss */
 #menu-primary.nav-justified li a:hover {
   border-bottom: 3px solid #c91e20;
-  background-color: inherit;
 }
-/* line 38, sass/_partials/_menu_primary.scss */
+/* line 40, sass/_partials/_menu_primary.scss */
 #menu-primary.nav-justified .current-menu-item a, #menu-primary.nav-justified .current_page_item a, #menu-primary.nav-justified .active a {
   border-bottom: 3px solid #c91e20;
   cursor: default;
