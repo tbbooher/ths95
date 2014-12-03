@@ -39,8 +39,7 @@
 
     <!-- Header Top Bar Start -->
     <header class="top-bar">
-      <div class="container">
-        <div class="row">
+      <div class="container clearfix">
           <div class="left-col pull-left">
             <span><i class="fa fa-phone"></i> Call Us : 703.123.1234</span>
             <span href="info@crossfitadaptation.com"><i class="fa fa-envelope"></i> Email : info@crossfitadaptation.com</span>
@@ -48,7 +47,6 @@
           <div class="right-col pull-right">
            <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav nav-pills', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
           </div>
-        </div>
       </div>
     </header>
     <!-- Header Top Bar End -->       
