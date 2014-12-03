@@ -158,3 +158,15 @@ div.content-box {
      margin-top:0px;
   }
 }
+
+.coach_desc hr {
+    background-color: $red;
+    height:1px;
+}
+
+.coach_float {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+    padding: 1em;
+}

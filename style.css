@@ -11357,14 +11357,8 @@ div.content-box .box_content {
 
 /* Custom CSS Navkum*/
 /* line 146, sass/style.scss */
-.coach{
-  margin-bottom: 25px;
-}
-.coachtitle {
-  margin-bottom: 20px;
-}
-.type-coach p{
-margin: 10px 0px;
+.coach {
+  padding: 20px 0px;
 }
 /* line 148, sass/style.scss */
 .coach img {
@@ -11378,9 +11372,17 @@ margin: 10px 0px;
 .coachName h2 {
   margin-top: 0px;
 }
-@media (max-width:768px) {
-  /* line 62, sass/bootstrap/_type.scss */
-  .coachName {
-    padding: 0px;
-  }
+
+/* line 162, sass/style.scss */
+.coach_desc hr {
+  background-color: #c91e20;
+  height: 1px;
+}
+
+/* line 167, sass/style.scss */
+.coach_float {
+  width: 45%;
+  float: left;
+  margin-right: 5%;
+  padding: 1em;
 }
