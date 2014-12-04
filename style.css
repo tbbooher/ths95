@@ -11238,7 +11238,7 @@ header#top .row {
   border-bottom: 3px solid gray;
 }
 /* line 35, sass/_partials/_menu_primary.scss */
-#menu-primary.nav-justified li a:hover {
+#menu-primary.nav-justified li a:hover, #menu-primary.nav-justified li a:active {
   border-bottom: 3px solid #c91e20;
 }
 /* line 41, sass/_partials/_menu_primary.scss */

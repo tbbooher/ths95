@@ -32,7 +32,7 @@ header#top .row {
           background-color: #fff;
           border-bottom: 3px solid gray;
 //          border-bottom: 3px solid #d8dad9;
-          &:hover {
+          &:hover, &:active {
            border-bottom: 3px solid $red;
 //           background-color: inherit;
           }
