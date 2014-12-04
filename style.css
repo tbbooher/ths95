@@ -11375,3 +11375,14 @@ div.content-box .box_content {
   background-color: #c91e20;
   height: 1px;
 }
+
+/* line 166, sass/style.scss */
+ul.community {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+/* line 170, sass/style.scss */
+ul.community li {
+  margin-bottom: 20px;
+}

@@ -58,10 +58,9 @@
                 </section>
                 <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-four">
                     <h3>CFA Community</h3>
-                    <ul>
-                      <li>Link to the crossfit journal</li>
-                      <li>Link to CFFC</li>
-                      <li>Link to Crossfit Corportate</li>
+                    <ul class="community">
+                      <li><a href="http://journal.crossfit.com/start.tpl?version=CFJ-graphic123x63" target="_blank" title="CrossFit Journal: The Performance-Based Lifestyle Resource"><img src="http://journal.crossfit.com/templates/images/graphic-125x63.jpg" width="125px" height="63px" alt="CrossFit Journal: The Performance-Based Lifestyle Resource"></a></li>
+                      <li><a href="http://www.crossfitfallschurch.com/"><img src="<?php echo get_bloginfo('template_directory').'/img/cffc.png' ?>"></a></li>
                     </ul>
                     <?php dynamic_sidebar('footer-right'); ?> 
                 </section>
