@@ -164,11 +164,11 @@ div.content-box {
 }
 
 ul.community {
-    padding: 0;
+    height:100%;
+    white-space: nowrap;
     margin: 0;
-    list-style-type: none;
     li {
-        margin-bottom: 20px;   
+        margin-bottom: 0.7em !important;   
     }
 }
 

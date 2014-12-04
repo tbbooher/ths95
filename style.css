@@ -11378,11 +11378,11 @@ div.content-box .box_content {
 
 /* line 166, sass/style.scss */
 ul.community {
-  padding: 0;
+  height: 100%;
+  white-space: nowrap;
   margin: 0;
-  list-style-type: none;
 }
 /* line 170, sass/style.scss */
 ul.community li {
-  margin-bottom: 20px;
+  margin-bottom: 0.7em !important;
 }
