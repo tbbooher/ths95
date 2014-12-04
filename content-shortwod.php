@@ -13,10 +13,10 @@
 	</div><!-- .entry-summary -->
 	<?php } else { ?>
 	<div class="entry-content row">
-        <div class="col-md-4 text-center wod-image">
-          <?php the_post_thumbnail('medium', array('class'=>'img-rounded')); ?>
+        <div class="col-md-6 hidden-xs text-center wod-image">
+          <?php the_post_thumbnail('medium', array('class'=>'img-rounded img-responsive')); ?>
         </div>
-        <div class="col-md-offset-2 col-md-6 well">
+        <div class="col-md-6 col-xs-12 well">
 		  <?php the_content(bootstrapBasicMoreLinkText()); ?> 
         </div>
 		<div class="clearfix"></div>

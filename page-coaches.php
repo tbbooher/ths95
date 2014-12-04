@@ -12,7 +12,7 @@ get_header();
  */
 //$main_column_size = bootstrapBasicGetMainColumnSize();
 ?> 
-        <div class="col-md-9 content-area" id="main-column">
+        <div class="col-md-12 content-area" id="main-column">
             <div class="row">
                 <?php 
                 while (have_posts()) {
@@ -40,10 +40,6 @@ get_header();
                 //make sure open div is closed
                 echo '</div>';
             ?>                                  
-        </div>
-
-        <div class="col-md-3 content-area" id="main-column">
-            <?php get_template_part('sidebar','right'); ?>
         </div>
 
 

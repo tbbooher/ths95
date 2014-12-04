@@ -17,7 +17,7 @@
           <div class="footer-top">
             <div class="container">
               <div class="row">
-                <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-one">
+                <section class="col-lg-3 col-md-3 hidden-sm hidden-xs footer-one">
                     <h3>Footer Left</h3>
                     <p>This should be social content, like a sample of flickr pictures</p>
                     <?php 
@@ -28,17 +28,17 @@
                         } 
                     ?> 
                 </section>
-                <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
+                <section class="col-lg-3 col-md-3 hidden-sm hidden-xs footer-two">
                     <?php get_template_part('sidebar','community'); ?>
                 </section>
-                <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
+                <section class="col-lg-3 col-md-3 col-xs-12 col-sm-12 footer-three">
                   <h3>Contact Us</h3>
                   <ul class="contact-us">
                     <li> <i class="fa fa-map-marker"></i>
                       <p>
                         <strong class="contact-pad">Address:</strong>
-                        <br> xxx 4 Mile Run Drive<br>
-                        Arlington, VA xxxxx
+                        <br>4144 S 4 Mile Run Dr<br> 
+                        Arlington, VA 22206
                       </p>
                     </li>
                     <li> <i class="fa fa-phone"></i>
@@ -49,7 +49,7 @@
                     </li>
                   </ul>
                 </section>
-                <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-four">
+                <section class="col-lg-3 col-md-3 hidden-sm hidden-xs footer-four">
                     <h3>CFA Community</h3>
                     <ul class="community">
                       <li><a href="http://journal.crossfit.com/start.tpl?version=CFJ-graphic123x63" target="_blank" title="CrossFit Journal: The Performance-Based Lifestyle Resource"><img src="http://journal.crossfit.com/templates/images/graphic-125x63.jpg" width="125px" height="63px" alt="CrossFit Journal: The Performance-Based Lifestyle Resource"></a></li>
@@ -66,7 +66,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">
-                    © Copyright 2014 by <a style="cursor: pointer;">CFA</a>. All Rights Reserved.
+                    © Copyright <?php echo date('F Y') ?> by <a style="cursor: pointer;">CFA</a>. All Rights Reserved.
                 </div>
                 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">
                   <ul class="social social-icons-footer-bottom">

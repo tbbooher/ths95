@@ -17,6 +17,14 @@ if (!isset($content_width)) {
 
 
 /**
+ * a basic function to display posts
+ */
+function partnerUrl($link_url, $img_name)
+{
+echo '<a href="' . $link_url . '"><img src="' . get_bloginfo('template_directory') . '/img/partners/'. $img_name . '"></a>';                     
+}
+
+/**
  * Setup theme and register support wp features.
  */
 function bootstrapBasicSetup() 

@@ -1,5 +1,6 @@
-<h3>Community Links</h3>
-<ul>
-    <li>Power Supply, etc</li>
-    <li>Another, etc</li>
+<h3>Partners</h3>
+<ul class="community">
+    <li><?php partnerUrl('http://dc.mypowersupply.com/','powersupply-crest.png'); ?></li>
+    <li><?php partnerUrl('http://www.thejacksonclinics.com/services/health/crossfit-program','jackson-clincs.jpg'); ?></li>
+    <li><?php partnerUrl('https://www.customfitmeals.com/order-meals','custom-fit-meals.gif'); ?></li>
 </ul>
