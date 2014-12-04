@@ -29,14 +29,7 @@
                     ?> 
                 </section>
                 <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-two">
-                  <h3>Partners</h3>
-                  <p>Also give this major air time on the wod page</p>
-                  <ul>
-                    <li>Link to Power Supply</li>
-                    <li>Link to Custom Fit</li>
-                    <li>Link to Reebok Store</li>
-                    <li>Link to Jackson Clinics</li>
-                  </ul>
+                    <?php get_template_part('sidebar','community'); ?>
                 </section>
                 <section class="col-lg-3 col-md-3 col-xs-12 col-sm-3 footer-three">
                   <h3>Contact Us</h3>
