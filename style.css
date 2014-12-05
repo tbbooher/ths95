@@ -90,8 +90,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(fonts/font-awesome/fontawesome-webfont.eot?1415370859);
-  src: url(fonts/font-awesome/fontawesome-webfont.eot?&1415370859#iefix) format("embedded-opentype"), url(fonts/font-awesome/fontawesome-webfont.woff?1415370859) format("woff"), url(fonts/font-awesome/fontawesome-webfont.ttf?1415370859) format("truetype"), url(fonts/font-awesome/fontawesome-webfont.svg?1415370859#fontawesomeregular) format("svg");
+  src: url(fonts/font-awesome/fontawesome-webfont.eot?1417763513);
+  src: url(fonts/font-awesome/fontawesome-webfont.eot?&1417763513#iefix) format("embedded-opentype"), url(fonts/font-awesome/fontawesome-webfont.woff?1417763513) format("woff"), url(fonts/font-awesome/fontawesome-webfont.ttf?1417763513) format("truetype"), url(fonts/font-awesome/fontawesome-webfont.svg?1417763513#fontawesomeregular) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -3135,8 +3135,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?1415370859);
-  src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?&1415370859#iefix) format("embedded-opentype"), url(fonts/bootstrap/glyphicons-halflings-regular.woff?1415370859) format("woff"), url(fonts/bootstrap/glyphicons-halflings-regular.ttf?1415370859) format("truetype"), url(fonts/bootstrap/glyphicons-halflings-regular.svg?1415370859#glyphicons_halflingsregular) format("svg");
+  src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?1417763513);
+  src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?&1417763513#iefix) format("embedded-opentype"), url(fonts/bootstrap/glyphicons-halflings-regular.woff?1417763513) format("woff"), url(fonts/bootstrap/glyphicons-halflings-regular.ttf?1417763513) format("truetype"), url(fonts/bootstrap/glyphicons-halflings-regular.svg?1417763513#glyphicons_halflingsregular) format("svg");
 }
 /* line 21, sass/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -11226,28 +11226,40 @@ header#top .row {
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 27, sass/_partials/_menu_primary.scss */
+/* line 24, sass/_partials/_menu_primary.scss */
 #menu-primary.nav-justified li {
   padding-left: 1%;
 }
-/* line 29, sass/_partials/_menu_primary.scss */
+/* line 26, sass/_partials/_menu_primary.scss */
 #menu-primary.nav-justified li a {
   float: none;
   border-bottom: 3px solid #F1F2F7;
   background-color: #fff;
   border-bottom: 3px solid gray;
 }
-/* line 35, sass/_partials/_menu_primary.scss */
+/* line 31, sass/_partials/_menu_primary.scss */
 #menu-primary.nav-justified li a:hover, #menu-primary.nav-justified li a:active {
   border-bottom: 3px solid #c91e20;
 }
-/* line 41, sass/_partials/_menu_primary.scss */
+/* line 36, sass/_partials/_menu_primary.scss */
 #menu-primary.nav-justified .current-menu-item a, #menu-primary.nav-justified .current_page_item a, #menu-primary.nav-justified .active a {
   border-bottom: 3px solid #c91e20;
   cursor: default;
 }
 
-/* line 54, sass/_partials/_header_and_footer.scss */
+@media (min-width: 768px) {
+  /* line 45, sass/_partials/_menu_primary.scss */
+  .navbar-default-hide {
+    background-color: transparent;
+    border-color: transparent;
+  }
+}
+@media (max-width: 992px) {
+  /* line 52, sass/_partials/_menu_primary.scss */
+  .logo {
+    text-align: center;
+  }
+}
 /* line 50, sass/style.scss */
 body {
   font-family: "Lato", sans-serif;

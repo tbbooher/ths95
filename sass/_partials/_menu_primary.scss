@@ -17,9 +17,6 @@ header#top .row {
 #menu-primary {
   a {
     color: $very-dark;
-//    display: block;
-//    padding: .5em 1em;
-//    text-align: center;
     text-decoration: none;
     text-transform: uppercase;
   }
@@ -31,10 +28,8 @@ header#top .row {
           border-bottom: 3px solid $background-color;
           background-color: #fff;
           border-bottom: 3px solid gray;
-//          border-bottom: 3px solid #d8dad9;
           &:hover, &:active {
            border-bottom: 3px solid $red;
-//           background-color: inherit;
           }
         }
     }
@@ -45,15 +40,16 @@ header#top .row {
   }
 }
 
-/* line 54, sass/_partials/_header_and_footer.scss */
-//@media (min-width: 1000px) {
-//  #menu-primary {
-//    margin-top: .5em;
-//    li {
-//      width: 24%;
-//    }
-//    a {
-//      padding: .75em 1em;
-//    }
-//  }
-//}
+// anything less than md, center the logo and display
+@media (min-width: $screen-sm) {
+    .navbar-default-hide {
+        background-color: transparent;
+        border-color: transparent;
+    }
+}
+
+@media (max-width: $screen-md) {
+    .logo {
+        text-align: center;        
+    }
+}

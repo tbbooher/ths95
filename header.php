@@ -40,9 +40,9 @@
     <!-- Header Top Bar Start -->
     <header class="top-bar">
       <div class="container clearfix">
-          <div class="left-col pull-left">
+          <div class="left-col pull-left hidden-xs">
             <span><i class="fa fa-phone"></i> Call Us : 703.123.1234</span>
-            <span href="info@crossfitadaptation.com"><i class="fa fa-envelope"></i> Email : info@crossfitadaptation.com</span>
+            <span><i class="fa fa-envelope"></i> Email : info@crossfitadaptation.com</span>
           </div>
           <div class="right-col pull-right">
            <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav nav-pills', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
@@ -53,22 +53,33 @@
     <div class="container page-container sticky-wrapper">
         <?php do_action('before'); ?>
 
-        <header class="navbar navbar-static-top" id="top" role="banner">
-          <div class="row">
-            
-            <!-- logo -->
-            <h1 class="col-sm-3 col-md-3 col-lg-5 logo">
-                <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
-                  <img src="<?php echo get_bloginfo('template_directory') ?>/img/logo.png" alt="Crossfit Adaptation">
-                </a>
-            </h1>  
-
-            <!-- nav menu -->
-            <nav class="col-sm-9 col-md-9 col-lg-7" role="navigation">
-              <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav nav-justified', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
-              <?php dynamic_sidebar('navbar-right'); ?>
-            </nav>
-          </div>
+        <header id="top" role="banner">
+                <div class="row">
+                    <!-- logo -->
+                    <h1 class="col-sm-12 col-md-3 col-lg-5 logo">
+                        <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
+                          <img src="<?php echo get_bloginfo('template_directory') ?>/img/logo.png" alt="Crossfit Adaptation">
+                        </a>
+                    </h1>
+                    <!-- nav menu -->
+                    <div class="col-sm-12 col-md-9 col-lg-7" role="navigation">
+                        <nav class="navbar navbar-default navbar-default-hide" role="navigation"> 
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary-collapse">
+                                    <span class="sr-only"><?php _e('Toggle navigation', 'bootstrap-basic'); ?></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse navbar-primary-collapse">
+                                <div style="height:2em;" class="visible-sm-block"></div>
+                                <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav nav-justified', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
+                                <?php dynamic_sidebar('navbar-right'); ?>
+                            </div><!--.navbar-collapse-->
+                        </nav>                  
+                    </div><!-- navigation -->
+                </div>
         </header>    
 
         <div id="content" class="container">
