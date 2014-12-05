@@ -38,19 +38,20 @@
 		<![endif]-->
 
     <!-- Header Top Bar Start -->
-    <header class="top-bar">
+    <header class="top-bar center-header-sm">
       <div class="container clearfix">
           <div class="left-col pull-left hidden-xs">
             <span><i class="fa fa-phone"></i> Call Us : 703.123.1234</span>
             <span><i class="fa fa-envelope"></i> Email : info@crossfitadaptation.com</span>
           </div>
           <div class="right-col pull-right">
-           <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav nav-pills', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
+            <?php wp_nav_menu(array('theme_location' => 'member_menu', 'container' => false, 'menu_class' => 'nav nav-pills', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
           </div>
       </div>
     </header>
     <!-- Header Top Bar End -->       
     <div class="container page-container sticky-wrapper">
+        
         <?php do_action('before'); ?>
 
         <header id="top" role="banner">

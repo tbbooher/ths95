@@ -40,16 +40,24 @@ header#top .row {
   }
 }
 
-// anything less than md, center the logo and display
+// anything bigger than small . . .
 @media (min-width: $screen-sm) {
     .navbar-default-hide {
         background-color: transparent;
         border-color: transparent;
     }
+
 }
 
+// anything less than screen-md
 @media (max-width: $screen-md) {
     .logo {
         text-align: center;        
+    }
+    .center-header-sm {
+        display: none !important;
+        text-align: center;
+        float: none;
+        background-color: blue;
     }
 }
