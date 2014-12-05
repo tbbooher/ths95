@@ -55,9 +55,10 @@ header#top .row {
         text-align: center;        
     }
     .center-header-sm {
-        display: none !important;
         text-align: center;
-        float: none;
-        background-color: blue;
+    }
+    .pull-right {
+        float: none !important;
+        display: inline-block;
     }
 }

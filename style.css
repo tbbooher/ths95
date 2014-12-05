@@ -11255,9 +11255,20 @@ header#top .row {
   }
 }
 @media (max-width: 992px) {
-  /* line 52, sass/_partials/_menu_primary.scss */
+  /* line 54, sass/_partials/_menu_primary.scss */
   .logo {
     text-align: center;
+  }
+
+  /* line 57, sass/_partials/_menu_primary.scss */
+  .center-header-sm {
+    text-align: center;
+  }
+
+  /* line 60, sass/_partials/_menu_primary.scss */
+  .pull-right {
+    float: none !important;
+    display: inline-block;
   }
 }
 /* line 50, sass/style.scss */
