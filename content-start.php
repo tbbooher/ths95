@@ -18,7 +18,7 @@
               </ul>
 
               <!-- Tab panes -->
-              <div class="pricing tab-content well">
+              <div class="pricing tab-content tab-content-custom well">
                 <div role="tabpanel" class="tab-pane fade in active" id="elements">
                   <p>
                       These classes last about one hour and are made up of two to three

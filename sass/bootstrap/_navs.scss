@@ -91,15 +91,13 @@
 
     // Active state, and its :hover to override normal :hover
     &.active > a {
-      color: #fff; 
-
       &,
       &:hover,
       &:focus {
-        // $nav-tabs-active-link-hover-color;
+        color: $nav-tabs-active-link-hover-color;
         background-color: $nav-tabs-active-link-hover-bg;
-        // border: 1px solid $nav-tabs-active-link-hover-border-color;
-        // border-bottom-color: transparent;
+        border: 1px solid $nav-tabs-active-link-hover-border-color;
+        border-bottom-color: transparent;
         cursor: default;
       }
     }
@@ -127,6 +125,20 @@
         border-top-color: $nav-tabs-active-pointer;
         border-width: 8px;
         margin-left: -8px;
+      }
+
+      &.active > a {
+        color: #fff;
+
+        &,
+        &:hover,
+        &:focus {
+          color: #fff;
+          background-color: $nav-tabs-active-link-hover-bg;
+          border: 1px solid $nav-tabs-active-link-hover-border-color;
+          border-bottom-color: transparent;
+          cursor: default;
+        }
       }
 
       // Make the list-items overlay the bottom border
@@ -241,10 +253,6 @@
     li > a {
       margin-bottom: 0;
     }
-
-    .well {
-      border-radius: 0;
-    }
   }
 
   @media (min-width: $screen-sm-min) {
@@ -266,6 +274,12 @@
 
 // Hide tabbable panes to start, show them when `.active`
 .tab-content {
+  
+  &.well {
+    border-radius: 0;
+    border: none;
+  }
+  
   > .tab-pane {
     display: none;
     visibility: hidden;
