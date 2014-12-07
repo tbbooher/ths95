@@ -132,10 +132,10 @@
         margin-right: 0 !important;
       }
       margin-right: 0 !important;
+
       li {
           background-color: transparent;
-          border: 2px solid #fafafa;
-          border-radius: 100% 100% 100% 100%;
+          border: 1px solid #fff;
           display: inline-block;
           height: 35px;
           margin-right: 5px;
@@ -166,6 +166,11 @@
             -o-transition: all .2s ease-in-out 0;
             -ms-transition: all .2s ease-in-out 0;
             transition: all .2s ease-in-out 0;
+
+            a:hover {
+              text-decoration: none;
+            }
+
             i {
                 display: inline-block;
                 font-family: FontAwesome;
@@ -178,6 +183,22 @@
                 text-align: center;
                 text-decoration: inherit;
                 text-transform: none;
+            }
+
+            &.facebook {
+              background: #507cbe;
+            }
+
+            &.youtube {
+              background: #ef6c53;
+            }
+
+            &.flickr {
+              background: #fff;
+            }
+
+            &.rss {
+              background: #f7941e;
             }
         }
     }
