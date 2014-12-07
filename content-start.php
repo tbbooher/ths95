@@ -10,7 +10,7 @@
             <div role="tabpanel">
 
               <!-- Nav tabs -->
-              <ul class="nav nav-tabs" role="tablist" id="getting_started_tabs">
+              <ul class="nav nav-tabs nav-justified nav-tabs-custom" role="tablist" id="getting_started_tabs">
                 <li role="presentation" class="active"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab">Elements</a></li>
                 <li role="presentation"><a href="#membership" aria-controls="membership" role="tab" data-toggle="tab">Membership</a></li>
                 <li role="presentation"><a href="#barbell_club" aria-controls="barbell_club" role="tab" data-toggle="tab">Barbell Club</a></li>
