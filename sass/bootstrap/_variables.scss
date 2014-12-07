@@ -376,7 +376,7 @@ $navbar-default-link-disabled-color:       #ccc !default;
 $navbar-default-link-disabled-bg:          transparent !default;
 
 // Navbar brand label
-$navbar-default-brand-color:               $navbar-default-link-color !default;
+$navbar-default-brand-color:               #fff; //$navbar-default-link-color !default;
 $navbar-default-brand-hover-color:         darken($navbar-default-brand-color, 10%) !default;
 $navbar-default-brand-hover-bg:            transparent !default;
 
@@ -425,12 +425,14 @@ $nav-disabled-link-hover-color:             $gray-light !default;
 
 //== Tabs
 $nav-tabs-border-color:                     #ddd !default;
+$nav-tabs-background-color:					#d8dad9 !default;
 
 $nav-tabs-link-hover-border-color:          $gray-lighter !default;
 
-$nav-tabs-active-link-hover-bg:             $body-bg !default;
+$nav-tabs-active-link-hover-bg:             $brand-primary !default; /* $body-bg !default; */
 $nav-tabs-active-link-hover-color:          $gray !default;
 $nav-tabs-active-link-hover-border-color:   #ddd !default;
+$nav-tabs-active-pointer:					$brand-primary;
 
 $nav-tabs-justified-link-border-color:            #ddd !default;
 $nav-tabs-justified-active-link-border-color:     $body-bg !default;
