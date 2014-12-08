@@ -57,13 +57,13 @@
         <header id="top" role="banner">
                 <div class="row">
                     <!-- logo -->
-                    <h1 class="col-sm-12 col-md-3 col-lg-5 logo">
+                    <h1 class="col-xs-8 col-sm-12 col-md-3 col-lg-5 logo">
                         <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
                           <img src="<?php echo get_bloginfo('template_directory') ?>/img/logo.png" alt="Crossfit Adaptation">
                         </a>
                     </h1>
                     <!-- nav menu -->
-                    <div class="col-sm-12 col-md-9 col-lg-7" role="navigation">
+                    <div class="col-xs-4 col-sm-12 col-md-9 col-lg-7" role="navigation">
                         <nav class="navbar navbar-default navbar-default-hide" role="navigation"> 
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary-collapse">
