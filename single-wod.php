@@ -38,7 +38,7 @@ get_header();
 						?> 
 					</main>
 				</div>
-                <aside class="col-md-4 content-area" id="main-column">
+                <aside class="col-md-4 content-area">
                     <h3>Leaderboard</h3>
                     <div class="content-box big ch-item bottom-pad-small well">
                         

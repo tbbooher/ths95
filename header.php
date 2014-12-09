@@ -25,8 +25,7 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     
-<link href='http://fonts.googleapis.com/css?family=Lato:400,900|Lora:400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,900|Lora:400,700|Jura' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="http://localhost/gym/wp-content/themes/new_cfa/img/fav.png" type="image/x-icon" />
 
 <!--wordpress head-->
@@ -57,29 +56,27 @@
         <header id="top" role="banner">
                 <div class="row">
                     <!-- logo -->
-                    <h1 class="col-xs-8 col-sm-12 col-md-3 col-lg-5 logo">
+                    <h1 class="logo">
                         <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
                           <img src="<?php echo get_bloginfo('template_directory') ?>/img/logo.png" alt="Crossfit Adaptation">
                         </a>
                     </h1>
                     <!-- nav menu -->
-                    <div class="col-xs-4 col-sm-12 col-md-9 col-lg-7" role="navigation">
-                        <nav class="navbar navbar-default navbar-default-hide" role="navigation"> 
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary-collapse">
-                                    <span class="sr-only"><?php _e('Toggle navigation', 'bootstrap-basic'); ?></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            <div class="collapse navbar-collapse navbar-primary-collapse">
-                                <div style="height:2em;" class="visible-sm-block"></div>
-                                <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav nav-justified', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
-                                <?php dynamic_sidebar('navbar-right'); ?>
-                            </div><!--.navbar-collapse-->
-                        </nav>                  
-                    </div><!-- navigation -->
+                    <nav class="navbar navbar-default navbar-default-hide navbar-right" role="navigation"> 
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary-collapse">
+                                <span class="sr-only"><?php _e('Toggle navigation', 'bootstrap-basic'); ?></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-primary-collapse">
+                            <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav nav-justified', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?>
+                           
+                        </div><!--.navbar-collapse-->
+                    </nav>                  
+                    <!-- navigation -->
                 </div>
         </header>    
 

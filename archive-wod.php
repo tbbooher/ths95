@@ -45,7 +45,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 						<?php } //endif; ?> 
 					</main>
 				</div>
-                <aside class="col-md-4 col-sm-12 content-area" id="main-column">
+                <aside class="col-md-4 col-sm-12 content-area">
                     <?php get_template_part('sidebar','community'); ?>
                     <?php get_template_part('sidebar','right'); ?>
                 </aside>

@@ -24,7 +24,7 @@ get_header();
                 ?> 
             </main>
         </div>
-        <aside class="col-md-3 content-area" id="main-column">
+        <aside class="col-md-3 content-area">
           <div class="the_image">
             <?php the_post_thumbnail('medium', array( 'class' => 'img-thumbnail' )); ?>
           </div>

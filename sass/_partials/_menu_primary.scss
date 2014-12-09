@@ -5,7 +5,9 @@ header#top .row {
 
 
 .logo {
+    float: left;
     margin: 0px;
+    width: 70%;
     img {
       max-width: 100%;
       height: auto;
@@ -13,6 +15,16 @@ header#top .row {
 }
 
 // menu primary
+
+nav.navbar.navbar-right .navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+  float: none;
+
+  .navbar-header {
+    margin-bottom: .5em;
+  }
+}
 
 #menu-primary {
   a {
@@ -22,7 +34,13 @@ header#top .row {
   }
   &.nav-justified {
     li {
-      padding-left:1%;
+
+        border-left: 2px solid $background-color;
+
+        &:first-child {
+          border-left: 0;
+        }
+
       a {
           float: none;
           border-bottom: 3px solid $background-color;
@@ -41,24 +59,35 @@ header#top .row {
 }
 
 // anything bigger than small . . .
-@media (min-width: $screen-sm) {
+@media (min-width: $screen-sm-min) {
+    nav.navbar.navbar-right {
+     width: 75%;
+     float: right;
+    }
     .navbar-default-hide {
         background-color: transparent;
         border-color: transparent;
     }
 
+    .logo {
+      width: 25%;
+    }
+
+}
+
+@media (min-width: $screen-md-min) {
+   nav.navbar.navbar-right {
+     width: 70%;
+  }
+
+  .logo {
+      width: 30%;
+    }
 }
 
 // anything less than screen-md
 @media (max-width: $screen-md) {
-    .logo {
-        text-align: center;        
-    }
     .center-header-sm {
         text-align: center;
-    }
-    .pull-right {
-        float: none !important;
-        display: inline-block;
     }
 }
