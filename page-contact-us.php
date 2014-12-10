@@ -12,7 +12,7 @@ get_header();
  */
 //$main_column_size = bootstrapBasicGetMainColumnSize();
 ?> 
-    <div class="col-md-9 content-area" id="main-column">
+    <div class="col-sm-7 col-md-9 col-lg-8 content-area" id="main-column">
         <main id="main" class="site-main" role="main">
             <?php 
                 while (have_posts()) {
@@ -40,7 +40,7 @@ get_header();
         </main>
     </div>
 
-	<aside class="col-md-3 content-area">
+	<aside class="col-sm-5 col-md-3 col-lg-4 content-area">
 		<div class="the_image">
 			<?php the_post_thumbnail('medium'); ?>
 		</div>

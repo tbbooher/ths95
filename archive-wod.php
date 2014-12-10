@@ -13,7 +13,7 @@ get_header();
 $main_column_size = bootstrapBasicGetMainColumnSize();
 ?> 
 <?php get_sidebar('left'); ?> 
-				<div class="col-md-8 col-sm-12 content-area" id="main-column">
+				<div class="col-sm-7 col-md-9 col-lg-8 content-area" id="main-column">
 					<main id="main" class="site-main" role="main">
                         <?php if (have_posts()) { ?> 
 
@@ -45,7 +45,7 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 						<?php } //endif; ?> 
 					</main>
 				</div>
-                <aside class="col-md-4 col-sm-12 content-area">
+                <aside class="col-sm-5 col-md-3 col-lg-4 content-area">
                     <?php get_template_part('sidebar','community'); ?>
                     <?php get_template_part('sidebar','right'); ?>
                 </aside>

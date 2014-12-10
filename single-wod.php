@@ -12,7 +12,7 @@ get_header();
  */
 ?> 
 <?php get_sidebar('left'); ?> 
-				<div class="col-md-8 content-area" id="main-column">
+				<div class="col-sm-7 col-md-9 col-lg-8 content-area" id="main-column">
 					<main id="main" class="site-main" role="main">
                         <h1>Workout of the Day</h1>
 						<?php 
@@ -38,7 +38,7 @@ get_header();
 						?> 
 					</main>
 				</div>
-                <aside class="col-md-4 content-area">
+                <aside class="col-sm-5 col-md-3 col-lg-4 content-area">
                     <h3>Leaderboard</h3>
                     <div class="content-box big ch-item bottom-pad-small well">
                         
