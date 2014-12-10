@@ -7,7 +7,7 @@
 		<?php the_content(); ?> 
         <!-- custom schedlue content -->
   <div role="tabpanel">
-    <ul class="nav nav-tabs nav-justified nav-tabs-custom" role="tablist" id="getting_started_tabs">
+    <ul class="nav nav-tabs nav-justified nav-tabs-custom" role="tablist">
       <li role="presentation" class="active"><a href="#sunday" aria-controls="sunday" role="tab" data-toggle="tab">Sunday</a></li>
       <li role="presentation"><a href="#monday" aria-controls="monday" role="tab" data-toggle="tab">Monday</a></li>
       <li role="presentation"><a href="#tuesday" aria-controls="tuesday" role="tab" data-toggle="tab">Tuesday</a></li>
@@ -18,7 +18,7 @@
     </ul>
 
     <!-- Tab panes -->
-    <div class="pricing tab-content tab-content-custom well">
+    <div class="tab-content tab-content-custom">
       <!-- Sunday -->
       <div role="tabpanel" class="tab-pane fade in active" id="sunday">
         <table class="table table-striped table-responsive workout-schedule">
