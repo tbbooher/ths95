@@ -1,0 +1,21 @@
+{
+  "name": "CrossfitAdaptation",
+  "version": "1.0.0",
+  "description": "cfa_redesign\r ============",
+  "main": "index.php",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tbbooher/new_cfa.git"
+  },
+  "author": "Derick Montague",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbbooher/new_cfa/issues"
+  },
+  "homepage": "https://github.com/tbbooher/new_cfa",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}
