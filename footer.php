@@ -20,13 +20,6 @@
                 <section class="col-lg-3 col-md-3 hidden-sm hidden-xs footer-one">
                     <h3>Footer Left</h3>
                     <p>This should be social content, like a sample of flickr pictures</p>
-                    <?php 
-                        if (!dynamic_sidebar('footer-left')) {
-                            printf(__('Powered by %s', 'bootstrap-basic'), 'WordPress');
-                            echo ' | ';
-                            printf(__('Theme: %s', 'bootstrap-basic'), '<a href="http://okvee.net">Bootstrap Basic</a>');
-                        } 
-                    ?> 
                 </section>
                 <section class="col-lg-3 col-md-3 hidden-sm hidden-xs footer-two">
                     <?php get_template_part('sidebar','community'); ?>
@@ -37,12 +30,12 @@
                     <li> <i class="fa fa-map-marker"></i>
                       <p>
                         <strong class="contact-pad">Address:</strong>
-                        <br>4144 S 4 Mile Run Dr<br> 
-                        Arlington, VA 22206
+                        <br>3623 Tupelo Place<br> 
+                        Alexandria, VA 22304
                       </p>
                     </li>
                     <li> <i class="fa fa-phone"></i>
-                      <p><strong>Phone:</strong> +880 111-111-111</p>
+                      <p><strong>Phone:</strong> 703.625.2672</p>
                     </li>
                     <li> <i class="fa fa-envelope"></i>
                       <p><strong>Email:</strong><a href="mailto:ths95@theboohers.org">ths95@theboohers.org</a></p>
@@ -50,11 +43,6 @@
                   </ul>
                 </section>
                 <section class="col-lg-3 col-md-3 hidden-sm hidden-xs footer-four">
-                    <h3>CFA Community</h3>
-                    <ul class="community">
-                      <li><a href="http://journal.crossfit.com/start.tpl?version=CFJ-graphic123x63" target="_blank" title="CrossFit Journal: The Performance-Based Lifestyle Resource"><img src="http://journal.crossfit.com/templates/images/graphic-125x63.jpg" width="125px" height="63px" alt="CrossFit Journal: The Performance-Based Lifestyle Resource"></a></li>
-                      <li><a href="http://www.crossfitfallschurch.com/"><img src="<?php echo get_bloginfo('template_directory').'/img/cffc.png' ?>"></a></li>
-                    </ul>
                     <?php dynamic_sidebar('footer-right'); ?> 
                 </section>
               </div>
@@ -66,12 +54,11 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">
-                    © Copyright <?php echo date('F Y') ?> by <a style="cursor: pointer;">CFA</a>. All Rights Reserved.
+                    © Copyright <?php echo date('F Y') ?> by <a style="cursor: pointer;">THS 95</a>. All Rights Reserved.
                 </div>
                 <div class="col-lg-6 col-md-6 col-xs-12 col-sm-6 ">
                   <ul class="social social-icons-footer-bottom">
                     <li class="facebook"><a data-toggle="tooltip" title="" style="cursor: pointer;" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li class="twitter"><a data-toggle="tooltip" title="" style="cursor: pointer;" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
                     <li class="rss"><a data-toggle="tooltip" title="" style="cursor: pointer;" data-original-title="Rss"><i class="fa fa-rss"></i></a></li>
                   </ul>
                 </div>

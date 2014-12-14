@@ -1,4 +1,4 @@
-<h3>Sponsor</h3>
+<h3>Sponsors</h3>
 <ul class="community">
-    <li>this is a sponsor</li>
+    <li>We are currently looking for sponsors</li>
 </ul>

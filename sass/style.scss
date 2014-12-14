@@ -20,8 +20,8 @@ Required WordPress CSS
 // fonts in logo: BITSUMISHI and MICROGRAMMA
 $background-color: #F1F2F7;
 $heading-font-color: #777777;
-$heading-font: 'Jura', sans-serif;
-$body-font: 'Lato', sans-serif;
+$heading-font: "freight-sans-pro", sans-serif;
+$body-font: "ff-tisa-web-pro",serif;
 $logo-red: #da1f26;
 $accent: #A99588;
 $cream: #F5F2ED;
@@ -50,15 +50,24 @@ $font-on_dark: #A1A1A1;
 body {    
     font-family: $body-font;
     background: $background-color;
+    font-size: 21px;
 }
 
-h1 {
-    font-size: 36px;
+h1 { 
+    font-weight: 900;
+//    text-transform: uppercase !important;
+    a:hover {
+        text-decoration: none;    
+    }
 }
 
 h1, h2, h3, h4, h5 {
     font-family: $heading-font;
     color: $heading-font-color;
+}
+
+h2, h3, h4 {
+    font-weight: 900;
 }
 
 .ch-item {
