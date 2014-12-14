@@ -45,7 +45,7 @@
                       <p><strong>Phone:</strong> +880 111-111-111</p>
                     </li>
                     <li> <i class="fa fa-envelope"></i>
-                      <p><strong>Email:</strong><a href="mailto:info@crossfitadaptation.com">info@crossfitadaptation.com</a></p>
+                      <p><strong>Email:</strong><a href="mailto:ths95@theboohers.org">ths95@theboohers.org</a></p>
                     </li>
                   </ul>
                 </section>
