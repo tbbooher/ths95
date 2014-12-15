@@ -11065,65 +11065,66 @@ button.close {
 
 /* line 87, sass/_partials/_header_and_footer.scss */
 .footer-top {
+  font-size: 17px;
   background: #213440;
   border-bottom: 1px solid #CCD6D9;
   color: #A1A1A1;
   padding: 50px 0;
 }
-/* line 92, sass/_partials/_header_and_footer.scss */
+/* line 93, sass/_partials/_header_and_footer.scss */
 .footer-top h3, .footer-top a {
   color: white;
 }
-/* line 95, sass/_partials/_header_and_footer.scss */
+/* line 96, sass/_partials/_header_and_footer.scss */
 .footer-top ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-/* line 100, sass/_partials/_header_and_footer.scss */
+/* line 101, sass/_partials/_header_and_footer.scss */
 .footer-top .contact-us {
   margin: 15px 0 0;
   background: url("img/contact-map.png") no-repeat center bottom;
 }
-/* line 103, sass/_partials/_header_and_footer.scss */
+/* line 104, sass/_partials/_header_and_footer.scss */
 .footer-top .contact-us p {
   line-height: 24px;
   margin-left: 20px;
   margin-top: -2px;
 }
-/* line 108, sass/_partials/_header_and_footer.scss */
+/* line 109, sass/_partials/_header_and_footer.scss */
 .footer-top .contact-us li i {
   color: #777777;
   float: left;
   margin: 4px 0 0;
 }
 
-/* line 116, sass/_partials/_header_and_footer.scss */
+/* line 117, sass/_partials/_header_and_footer.scss */
 .footer-bottom {
   background: #272727;
   color: #888;
   line-height: 38px;
   padding: 15px;
 }
-/* line 121, sass/_partials/_header_and_footer.scss */
+/* line 122, sass/_partials/_header_and_footer.scss */
 .footer-bottom a {
   color: #fff;
 }
-/* line 124, sass/_partials/_header_and_footer.scss */
+/* line 125, sass/_partials/_header_and_footer.scss */
 .footer-bottom .our-clients ul {
   list-style: none;
 }
-/* line 128, sass/_partials/_header_and_footer.scss */
+/* line 129, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social {
   margin-right: 4px;
   line-height: 44px;
   margin-right: 0 !important;
 }
-/* line 131, sass/_partials/_header_and_footer.scss */
+/* line 132, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social li:last-child {
   margin-right: 0 !important;
 }
-/* line 136, sass/_partials/_header_and_footer.scss */
+/* line 137, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social li {
   background-color: transparent;
   border: 1px solid #fff;
@@ -11142,12 +11143,12 @@ button.close {
   padding: 1px;
   cursor: pointer;
 }
-/* line 156, sass/_partials/_header_and_footer.scss */
+/* line 157, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social-icons-footer-bottom {
   float: right;
   margin: 6px 0 0;
 }
-/* line 159, sass/_partials/_header_and_footer.scss */
+/* line 160, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social-icons-footer-bottom li {
   display: inline;
   float: left;
@@ -11159,11 +11160,11 @@ button.close {
   -ms-transition: all .2s ease-in-out 0;
   transition: all .2s ease-in-out 0;
 }
-/* line 170, sass/_partials/_header_and_footer.scss */
+/* line 171, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social-icons-footer-bottom li a:hover {
   text-decoration: none;
 }
-/* line 174, sass/_partials/_header_and_footer.scss */
+/* line 175, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social-icons-footer-bottom li i {
   display: inline-block;
   font-family: FontAwesome;
@@ -11177,19 +11178,19 @@ button.close {
   text-decoration: inherit;
   text-transform: none;
 }
-/* line 188, sass/_partials/_header_and_footer.scss */
+/* line 189, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social-icons-footer-bottom li.facebook {
   background: #507cbe;
 }
-/* line 192, sass/_partials/_header_and_footer.scss */
+/* line 193, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social-icons-footer-bottom li.youtube {
   background: #ef6c53;
 }
-/* line 196, sass/_partials/_header_and_footer.scss */
+/* line 197, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social-icons-footer-bottom li.flickr {
   background: #fff;
 }
-/* line 200, sass/_partials/_header_and_footer.scss */
+/* line 201, sass/_partials/_header_and_footer.scss */
 .footer-bottom .social-icons-footer-bottom li.rss {
   background: #f7941e;
 }

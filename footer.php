@@ -18,13 +18,15 @@
             <div class="container">
               <div class="row">
                 <section class="col-lg-3 col-md-3 hidden-sm hidden-xs footer-one">
-                    <h3>Footer Left</h3>
-                    <p>This should be social content, like a sample of flickr pictures</p>
-                </section>
-                <section class="col-lg-3 col-md-3 hidden-sm hidden-xs footer-two">
                     <?php get_template_part('sidebar','community'); ?>
                 </section>
+                <section class="col-lg-3 col-md-3 hidden-sm hidden-xs footer-two">
+                    &nbsp;
+                </section>
                 <section class="col-lg-3 col-md-3 col-xs-12 col-sm-12 footer-three">
+                    &nbsp;
+                </section>
+                <section class="col-lg-3 col-md-3 hidden-sm hidden-xs footer-four">
                   <h3>Contact Us</h3>
                   <ul class="contact-us">
                     <li> <i class="fa fa-map-marker"></i>
@@ -40,10 +42,7 @@
                     <li> <i class="fa fa-envelope"></i>
                       <p><strong>Email:</strong><a href="mailto:ths95@theboohers.org">ths95@theboohers.org</a></p>
                     </li>
-                  </ul>
-                </section>
-                <section class="col-lg-3 col-md-3 hidden-sm hidden-xs footer-four">
-                    <?php dynamic_sidebar('footer-right'); ?> 
+                  </ul> 
                 </section>
               </div>
             </div>
