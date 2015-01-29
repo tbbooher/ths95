@@ -12,33 +12,32 @@ get_header();
  */
 $main_column_size = bootstrapBasicGetMainColumnSize();
 ?> 
-				<div class="col-md-12 content-area" id="main-column">
-                    <div class="the_image">
-                        <?php the_post_thumbnail('medium', array( 'class' => 'img-rounded' ) ); ?>
-                    </div>
-					<main id="main" class="site-main" role="main">
-						<?php 
-						while (have_posts()) {
-							the_post();
+<div class="col-md-12 content-area" id="main-column">
+    <div class="the_image">
+        <?php the_post_thumbnail('medium', array( 'class' => 'img-rounded' ) ); ?>
+    </div>
+    <main id="main" class="site-main" role="main">
+        <?php 
+        while (have_posts()) {
+            the_post();
 
-							get_template_part('content', get_post_format());
+            get_template_part('content', get_post_format());
 
-							echo "\n\n";
-							
-							bootstrapBasicPagination();
+            echo "\n\n";
 
-							echo "\n\n";
-							
-							// If comments are open or we have at least one comment, load up the comment template
-							if (comments_open() || '0' != get_comments_number()) {
-								comments_template();
-							}
+            bootstrapBasicPagination();
 
-							echo "\n\n";
+            echo "\n\n";
 
-						} //endwhile;
-						?> 
-					</main>
-				</div>
-<?php get_sidebar('right'); ?> 
+            // If comments are open or we have at least one comment, load up the comment template
+            if (comments_open() || '0' != get_comments_number()) {
+                comments_template();
+            }
+
+            echo "\n\n";
+
+        } //endwhile;
+        ?> 
+    </main>
+</div>
 <?php get_footer(); ?> 
