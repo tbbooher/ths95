@@ -12,9 +12,10 @@ get_header();
  */
 $main_column_size = bootstrapBasicGetMainColumnSize();
 ?> 
-<?php get_sidebar('left'); ?>
-
-				<div class="col-md-8 content-area" id="main-column">
+				<div class="col-md-12 content-area" id="main-column">
+                    <div class="the_image">
+                        <?php the_post_thumbnail('medium', array( 'class' => 'img-rounded' ) ); ?>
+                    </div>
 					<main id="main" class="site-main" role="main">
 						<?php 
 						while (have_posts()) {
@@ -39,11 +40,5 @@ $main_column_size = bootstrapBasicGetMainColumnSize();
 						?> 
 					</main>
 				</div>
-                <aside class="col-md-4 content-area">
-                    <div class="the_image">
-                        <?php the_post_thumbnail('medium', array( 'class' => 'img-rounded' ) ); ?>
-                    </div>
-                    <?php get_template_part('sidebar','right'); ?>
-                </aside>
 <?php get_sidebar('right'); ?> 
 <?php get_footer(); ?> 
