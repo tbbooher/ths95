@@ -26,7 +26,7 @@
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
     
 <!--<link href='http://fonts.googleapis.com/css?family=Lato:400,900|Lora:400,700|Jura' rel='stylesheet' type='text/css'>-->
-<link rel="shortcut icon" href="http://localhost/gym/wp-content/themes/new_cfa/img/fav.png" type="image/x-icon" />
+<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/img/fav.png" type="image/x-icon" />
 
 <script src="//use.typekit.net/dba7nyx.js"></script>
 <script>try{Typekit.load();}catch(e){}</script>
@@ -56,11 +56,12 @@
         <?php do_action('before'); ?>
 
         <header id="top" role="banner">
-                <div class="row">
+                <div class="row" style="margin:0px; padding: 0px;">
                     <!-- logo -->
                     <h1>
                         <a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
-                          Tippecanoe High School Class of 1995
+                          <img src="<?php bloginfo('template_url'); ?>/img/ths_logo.png">
+                          20 Year Reunion - 8 Aug 2015
                         </a>
                     </h1>
                 </div>
